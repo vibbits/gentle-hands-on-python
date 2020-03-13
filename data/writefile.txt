@@ -1,0 +1,2 @@
+Now we have a new file 
+Because Python automatically makes this file and writes some text to it.Btw, if you don't specify the newline characters, it will append the string at the end of the last line

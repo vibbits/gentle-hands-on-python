@@ -1,0 +1,2 @@
+Now we have a fourth line 
+Because Python always appends the string

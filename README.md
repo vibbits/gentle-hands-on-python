@@ -1,7 +1,8 @@
 # Gentle hands-on Python introduction
 This is the material for the 'Gentle hands-on Python introduction' course. 
 
-This course runs in Jupyter Notebooks. If you're not yet familiar with it, please follow the instructions here below: 
+## Installation & set-up
+This course runs in Jupyter Notebooks. If you're not yet familiar with Jupyter, please follow the instructions below to install: 
 
 1. Go to Anaconda, scroll a bit down and select the right distribution system (Windows, MacOS or Linux), and download the Python 3.7 version. Follow the installation instructions.
 2. You should be able to find Jupyter Notebooks within the installed apps now. Otherwise, open the Anaconda Navigator & launch a Jupyter Notebook

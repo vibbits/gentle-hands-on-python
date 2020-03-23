@@ -1,2 +1,3 @@
-Now we have a fourth line 
-Because Python always appends the string
+This is the first line.
+Here is a second one. 
+And there is also a third line. 

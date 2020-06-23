@@ -7,17 +7,18 @@ This course runs in Jupyter Notebooks. If you're not yet familiar with Jupyter, 
 1. Go to [Anaconda](https://www.anaconda.com/products/individual), scroll down to the Anaconda Installers section, select the right distribution system (Windows, MacOS or Linux) and download the latest Python version. Follow the installation instructions.
 
 2. Depending on your distribution system (Windows, MacOS or Linux)
+
 2.1. Linux & Mac users: 
-  - Open a terminal window and type the following
-  - Update Conda: conda update -n base -c defaults conda
-  - Create new environment with Python 3.8 & Jupyter: conda create -n python-course python=3.8 jupyter
-  - Go to Anaconda Navigator and select python-course from the drop down menu next to the channels button.
+    - Open a terminal window and type the following
+    - Update Conda: conda update -n base -c defaults conda
+    - Create new environment with Python 3.8 & Jupyter: conda create -n python-course python=3.8 jupyter
+    - Go to Anaconda Navigator and select python-course from the drop down menu next to the channels button.
   
 2.2. Windows users
-  - From Anaconda Navigator, launch CMD.exe Prompt
-  - Update Conda: conda update -n base -c defaults conda
-  - Create new environment with Python 3.8 & Jupyter: conda create -n python-course python=3.8 jupyter
-  - Go to Anaconda Navigator and select python-course from the drop down menu next to the channels button.
+    - From Anaconda Navigator, launch CMD.exe Prompt
+    - Update Conda: conda update -n base -c defaults conda
+    - Create new environment with Python 3.8 & Jupyter: conda create -n python-course python=3.8 jupyter
+    - Go to Anaconda Navigator and select python-course from the drop down menu next to the channels button.
 
 3. Launch a Jupyter Notebook from Anaconda.
 4. Find the training materials on our Github repository: [gentle-hands-on-python](https://github.com/vibbits/gentle-hands-on-python/)

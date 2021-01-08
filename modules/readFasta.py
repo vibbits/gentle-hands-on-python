@@ -6,9 +6,8 @@ def readRnaFastaFile(fileName):
         print("Error: File {} not available!".format(fileName))
         return (None,None,None)
 
-    fconnect = open(fileName)
-    lines = fconnect.readlines()
-    fconnect.close()
+    with open(fileName) as fconnect:
+        lines = fconnect.readlines()
 
     sequenceInfo = []
     moleculeName = None

@@ -2,8 +2,8 @@
 standardRnaToProtein = { 
           'UUU':'F', 'UUC':'F', 'UCU':'S', 'UCC':'S',
           'UAU':'Y', 'UAC':'Y', 'UGU':'C', 'UGC':'C',
-          'UUA':'L', 'UCA':'S', 'UAA':None,  'UGA':None,
-          'UUG':'L', 'UCG':'S', 'UAG':None,  'UGG':'W',
+          'UUA':'L', 'UCA':'S', 'UAA':'*',  'UGA':'*',
+          'UUG':'L', 'UCG':'S', 'UAG':'*',  'UGG':'W',
           'CUU':'L', 'CUC':'L', 'CCU':'P', 'CCC':'P',
           'CAU':'H', 'CAC':'H', 'CGU':'R', 'CGC':'R',
           'CUA':'L', 'CUG':'L', 'CCA':'P', 'CCG':'P',

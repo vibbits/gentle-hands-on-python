@@ -5,9 +5,10 @@ from pathlib import Path
 import random
 
 
-def read_sequence(input: TextIO) -> str:
+def read_sequence(input_io: TextIO) -> str:
     """ Read sequence data. """
-    return "".join([s.strip() for s in input.readlines()])
+    return "".join([s.strip() for s in input_io.readlines()])
+
 
 def genfrags(sequence: str, number: int, size: int) -> List[str]:
     """

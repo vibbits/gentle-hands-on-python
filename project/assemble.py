@@ -50,7 +50,7 @@ def stripgaps(reference: str, target: str) -> Tuple[str, str]:
 
 
 @cache
-def score(reference: str, target: str) -> float:
+def score(alignment: Tuple[str, str]) -> float:
     """
     Compote a 'score' to be maximised for an alignment.
 
@@ -59,11 +59,11 @@ def score(reference: str, target: str) -> float:
     the worst possible score. Otherwise the score is just the sequence
     identity.
     """
-    _reference, _target = stripgaps(reference, target)
-    if "-" in _reference or "-" in _target:
+    reference, target = stripgaps(alignment[0], alignment[1])
+    if "-" in reference or "-" in target:
         return -math.inf
 
-    return sum((s == t for s, t in zip(_reference, _target)))
+    return sum((ref == tgt for ref, tgt in zip(reference, target)))
 
 
 def assemble_helper(
@@ -86,7 +86,7 @@ def assemble_helper(
         for j in range(i + 1, len(fragments)):
             alignments.append((i, j, align(reference, fragments[j], scoringfn)))
 
-    tomerge = max(alignments, key=lambda a: score(*a[2]))
+    tomerge = max(alignments, key=lambda a: score(a[2]))
     thescore = score(*tomerge[2])
     print(tomerge[2][0])
     print(tomerge[2][1])

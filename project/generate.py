@@ -5,6 +5,10 @@ from pathlib import Path
 import random
 
 
+def read_sequence(input: TextIO) -> str:
+    """ Read sequence data. """
+    return "".join([s.strip() for s in input.readlines()])
+
 def genfrags(sequence: str, number: int, size: int) -> List[str]:
     """
     Generate `number` fragments all of equal length: `size`, from `sequence`.
@@ -25,9 +29,7 @@ def genfrags(sequence: str, number: int, size: int) -> List[str]:
 def generate(filename: Path, number: int, size: int) -> List[str]:
     """ Given an input file containing a sequence, generate random fragments. """
     with open(filename) as seq_file:
-        return genfrags(
-            "".join([s.strip() for s in seq_file.readlines()]), number, size
-        )
+        return genfrags(read_sequence(seq_file), number, size)
 
 
 def write_fragments(output: TextIO, fragments: List[str]) -> None:

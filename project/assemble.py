@@ -79,7 +79,7 @@ def assemble_helper(
     """
     if len(fragments) < 2:
         return fragments
-    print(f"{len(fragments)=}")
+    print(f"len(fragments) = {len(fragments)}")
 
     alignments = []
     for i, reference in enumerate(fragments):

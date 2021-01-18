@@ -10,7 +10,7 @@ Namely:
 from typing import Callable, Tuple, List
 from enum import IntEnum
 from operator import itemgetter
-from functools import cache
+from functools import lru_cache
 import unittest
 
 
@@ -52,7 +52,7 @@ def print_matrix(mat: Matrix) -> None:
     print("\n".join([" ".join(r) for r in rowstr]) + "\n")
 
 
-@cache
+@lru_cache(maxsize=None)
 def edit_distance(reference: str, target: str) -> Matrix:
     """ Computes the edit distance matrix between a and b. """
     rows = len(reference) + 1
@@ -83,7 +83,7 @@ def edit_distance(reference: str, target: str) -> Matrix:
     return dist
 
 
-@cache
+@lru_cache(maxsize=None)
 def needleman_wunsch(reference: str, target: str) -> Matrix:
     """ Computes the Needleman-Wunsch matrix between a and b. """
     gap_open = 2
@@ -171,7 +171,7 @@ def align(
     return (_reference[::-1], _target[::-1])
 
 
-@cache
+@lru_cache(maxsize=None)
 def coverage(reference: str, target: str) -> int:
     """
     The number of substitutions in an alignment.

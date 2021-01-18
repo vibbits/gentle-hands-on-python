@@ -7,7 +7,7 @@ The most important of these functions is:
 
 from typing import Callable, Tuple
 from collections.abc import Sequence
-from functools import cache
+from functools import lru_cache
 import math
 import unittest
 
@@ -49,7 +49,7 @@ def stripgaps(reference: str, target: str) -> Tuple[str, str]:
     return "", ""
 
 
-@cache
+@lru_cache(maxsize=None)
 def score(alignment: Tuple[str, str]) -> float:
     """
     Compote a 'score' to be maximised for an alignment.

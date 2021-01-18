@@ -5,8 +5,7 @@ The most important of these functions is:
    - assemble(fragments)
 """
 
-from typing import Callable, Tuple
-from collections.abc import Sequence
+from typing import Callable, List, Tuple
 from functools import lru_cache
 import math
 import unittest
@@ -67,8 +66,8 @@ def score(alignment: Tuple[str, str]) -> float:
 
 
 def assemble_helper(
-    fragments: Sequence[str], scoringfn: Callable[[str, str], Matrix]
-) -> Sequence[str]:
+    fragments: List[str], scoringfn: Callable[[str, str], Matrix]
+) -> List[str]:
     """
     This is where the _real_ work is done.
 
@@ -104,8 +103,8 @@ def assemble_helper(
 
 
 def assemble(
-    fragments: Sequence[str], scoringfn: Callable[[str, str], Matrix]
-) -> Sequence[str]:
+    fragments: List[str], scoringfn: Callable[[str, str], Matrix]
+) -> List[str]:
     """
     Assemble fragments using an alignment `scoringfn`.
 

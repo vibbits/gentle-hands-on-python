@@ -186,8 +186,50 @@ SAY: Go through the chapter review questions yourself. Please try to answer each
 **12:00** Lunch
 
 **13:00** Functions
+SAY: Before lunch we explored the first-half of programming. The building blocks. In this section we will
+     explore the glue we use to build up a whole program. In fact, we've already touched on one of
+     these "glue" constructions. This chapter is all about functions: function application, function
+     definition, and function composition.
+     
+SAY: So what is a function? You can think of a function as a black box. You feed input into the box
+     and it gives you some output in return. Kind of like a bread making machine: you put in the
+     ingredients and the bread making function gives you back a fresh loaf of bread.
+     
+SAY: In fact, you've already been using some functions! `abs()` is a function. You give it a number
+     and it responds with the absolute value of that number. `len()` is a function. You give it a
+     string and it responds with the length of that string. This is called _function application_.
+     The function called `len` is applied to some argument with a string data type within a
+     single pair of parentheses: `len("hello")`. It is the parentheses that are important here.
+     They're what tell Python to _apply_ the function before them to whatever is between them.
+     
+SAY: So that's function _application_, what about function definition.
+CMD: Read from the notebook.
 
-* Mention Curry-Howard Isomorphism
+SAY: A lot of what you do as a programmer will be debugging: your program will fail in some way and
+     it is up to you to diagnose what the problem is and fix it. If you're getting an error message
+     then pasting the error message into a search engine is an excellent idea, many problems are
+     easily solved doing this. But be careful, don't just blindly paste the first "solution" you
+     find into your code. Make sure you understand it to the extent that you're confident it fixes
+     your problem.
+     
+SAY: A worse situation is when you're getting no error message but your program is producing
+     incorrect results. There are many processes you can use to help you in this situation, but
+     I will only briefly mention one of them here: testing. Among the many benefits of testing
+     is that it can reveal logical problems in your program early and ensure they do not
+     reoccur. When you test in real life you will use a testing framework, not the toy testing
+     we're using here. But the examples below are a great illustration of testing.
+
+CMD: At exercise 3.2.0 introduce "tests" and how to write a function that satisfies the test cases.
+     Include a joke that breaks the second test. Then allow everyone to complete the first exercise.
+
+SAY: Now you've covered all of the really fundamental concepts in programming. You're already writing
+     and testing complete programs. The remainder of this course, in some sense, are just details
+     of what we've covered already. You're now, officially, programmers :)
+     That doesn't mean you should ignore the rest of the course. Having a theoretical understanding of
+     programming is very different from being able to practically and usefully use Python.
+     Please spend some time to attempt the review questions then take a break. Feel free to ask
+     questions in the chat. Tuur will take over after the break and I will take his place
+     handing out internet points.
 
 **14:00** Break
 

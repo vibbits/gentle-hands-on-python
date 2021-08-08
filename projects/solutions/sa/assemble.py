@@ -10,7 +10,7 @@ from functools import lru_cache
 import math
 import unittest
 
-from project.distance import align, coverage, Matrix
+from solutions.sa.distance import align, coverage, Matrix
 
 GAP_CHARACTER = "-"
 
@@ -51,7 +51,7 @@ def stripgaps(reference: str, target: str) -> Tuple[str, str]:
 @lru_cache(maxsize=None)
 def score(alignment: Tuple[str, str]) -> float:
     """
-    Compote a 'score' to be maximised for an alignment.
+    Compute a 'score' to be maximised for an alignment.
 
     In this case, I only want alignments that will _extend_ a contig.
     So alignments that contain gaps between substitutions are given
@@ -141,7 +141,7 @@ class TestAssembly(unittest.TestCase):
         self.assertEqual(merge("AA", "A-"), "AA")
 
     def test_stripgaps(self):
-        " UNit tests for the stripgaps() function. "
+        " Unit tests for the stripgaps() function. "
         self.assertEqual(stripgaps("", ""), ("", ""))
         self.assertEqual(stripgaps("A", "A"), ("A", "A"))
         self.assertEqual(stripgaps("-", "A"), ("", ""))

@@ -2,12 +2,10 @@
 
 ## Objectives
 
-1. Begin to understand programming and computing. What are "building blocks"? How are building blocks "glued" together?
+1. Understand what the "building blocks" or programming are, and how they are "glued" together?
 1. Evaluate some simple Python expressions on various data types.
 1. Recognise error messages, comprehend them, and fix the problem they're describing.
 1. Understand what a variable is how how to use them.
-1. How are non-integer real numbers represented. Understand that using them can be dangerous.
-1. How to perform type conversions.
 1. How to perform some simple I/O with `input()` and `print()`.
 
 ## Materials
@@ -17,11 +15,15 @@
 
 ## Procedure
 
+**09:30** Introduction. Introduce trainers and ask students to turn on their microphones and cameras and introduce themselves.
+    Demonstract downloading and installing Anaconda and starting Jupyter Labs.
+    Introduce Google Collab for those with a google account.
+
 **10:05** The basics of programming and computing.
 
 SAY: By way of providing you with some background. Our objective for the first 2 sessions
-     today is to provide you with a way of thinging about programming and computing in general.
-     The ideas we want to present you with apply to all programming and programming languages
+     today is to provide you with a way of thinking about programming and computing in general.
+     The ideas we want to present to you apply to all programming and programming languages
      even though we will be using Python for examples. So for those of you who are already familiar
      with R or other programming languages, we hope you will still find these 2 sessions useful.
      
@@ -57,16 +59,20 @@ SAY: The first cell here just contains a number. Run it. What happens? Yes, numb
      yourself that you understand what each operator is doing. Modify the operands as you
      wish.
      
-SAY: Remember the order of operations. In school I learned as mnemonic (BODMAS): first
+EXERCISE
+
+SAY: Remember the order of operations. In school I learned a mnemonic (BODMAS): first
      brackets, then functions, then divide and multiply, and finally add and subtract.
-     This order of operations also applies in computer programming to ensure mathematical
+     This order of operations also applies in computer programming to ensure that
      expressions are evaluated correctly.
      
+EXERCISE
+
 SAY: Don't worry, there's more to programming than mathematics. So if the maths
      scares you fear not for there is very little in this course. Maths is just useful
      when showing you the _building blocks_, the fundamental units used for constructing
-     your programs and primitive operations on these building blocks (+, *, /, abs(), etc.).
-     One of those units (or types) are _numbers_, another is _text_,
+     your programs and operations on these building blocks (+, *, /, abs(), etc.).
+     One of those units (or types) are _numbers_, other are _text_,
      _images_, signals from _key presses_, or _mouse movements_, and many many more.
      Let's look at another one of these types, TEXT. Units of text are often called
      _strings_ because the computer represents them as a series of _characters_ strung
@@ -75,6 +81,8 @@ SAY: Don't worry, there's more to programming than mathematics. So if the maths
      about `*`? Let's find out...
      
 RUN: Let students run the examples and find out what these operations do for themselves.
+
+EXERCISE
 
 SAY: The final building blocks we will explore in this section are the logical (Boolean; named 
      after the self-taught English mathematician [George Boole](https://en.wikipedia.org/wiki/George_Boole))
@@ -87,24 +95,29 @@ SAY: The final building blocks we will explore in this section are the logical (
 CMD: Show truth tables in from [link](https://philosophy.lander.edu/logic/conjunct.html).
      Then allow students to predict the outcome of each cell.
      
-SAY: The outcome of a comparison operation is a Boolean value. These operations can be read
-     as questions: Is `5` less than `10`? "Yes", or `True`.
+EXERCISE
+     
+SAY: Beyond arithmetic on values a useful operation is comparison of values. You can read comparison
+     expressions as questions. For example you can read the expression, `3 < 5` as "Is 3 less than 5?"
+     The outcome of a comparison operation is a Boolean value. `True` is a "Yes" answer, and "False"
+     is a "No" answer. You can ask questions like, "Are these values the same?", "Are these values different?",
+     "Is this value less than this other value?", or "Is this value equal to or larger than this other value?"
 
-CMD: Complete the exercises
+EXERCISE
 
 SAY: Now you've done some programming. And your computer has done some computing. You've earned a break.
      I'll start again in 10 minutes. If you have questions during the break, Tuur and I will be here.
      If at any point you feel lost or left behind please tell Tuur or myself either in the public chat or
      by private message. We have a lot to cover and many (if not all) of the concepts we talk about will
-     be new to you. There is no shame in asking for help. Unfortunately we're not all in a room together
-     so we cannot see if you are struggling or not.
+     be new to you. There is no shame in asking for help. Because we're not all in a room together
+     we cannot see if you are struggling or not.
 
-**10:30** Break
+**10:40** Break
 
-**10:40** Variables.
+**10:50** Variables.
 
 SAY: Now that we're familiar with some of the building blocks of programming. Variables provide us
-     a way to start gluing them together into larger parts.
+     a way to start gluing these building blocks together into larger parts.
      You can think of a variable as a box for a value, and that box has a name, e.g. _mySequence_.
      You put something into the box using the special _assignment operator_ that Python has kindly
      provided for us. You can get that value back out simply by evaluating the box.
@@ -122,15 +135,7 @@ CMD: Read the text in the notebook.
 SAY: So you can evaluate expressions containing variables in the same way we say earlier with values.
      Run each of the cells and convince yourself you understand by predicting the output for each cell.
      
-SAY: So far the "numbers" we've encountered are _integers_ or whole numbers. Sometimes, however,
-     you will need to represent continuous values, _real numbers_. A very common way of _approximating_
-     real numbers (a way that is used in most computing hardware) is a _floating point representation_.
-     You can give Python a floating point number by typing a number with a decimal point.
-     
-SAY: I won't go into the details of binary representation of decimal numbers in this course. But I
-     want to emphasise that you should be extra careful when using floating point numbers.
-     
-**11:00** A short intermezzo: Simple Input and Output (I/O)
+**11:00** Input and Output (I/O)
 SAY: Programming wouldn't be very useful if there were no way of interacting with the world
      outside of your program. Otherwise the only effect your program would have is to
      [slightly warm up your computer](https://www.youtube.com/watch?v=iSmkqocn0oQ&t=205)!
@@ -138,36 +143,10 @@ SAY: Programming wouldn't be very useful if there were no way of interacting wit
      displaying things on the screen, reacting to user input from the keyboard or mouse,
      responding to network requests, among many, many more.
      
-SAY: I/O is a deep and complicated topic so begin with, we'll just show you how to interact with
-     your console.
+SAY: I/O is a deep and complicated topic.
 CMD: Read the text in the notebook.
 
-**11:10** Data type conversions
-SAY: Data type conversions are a common task in programming. A good example is reading data from the console.
-     You and your users can type any string of characters available on their keyboards but you may need them to
-     give you, e.g. an integer.
-     
-SAY: Because it is such a common task, Python provides you with some easy-to-use function for converting values
-     to strings (`str()`), or to integers (`int()`), or to floating point numbers (`float()`).
-CMD: Walk through examples in code cells.
-
-SAY: While operating on data interactively you may wish to find out what data type you're dealing with.
-     This is less common when you're dealing with primitive types like integers and floats but will
-     become more useful as you create larger aggregated data structures.
-     
-**11:40** None
-SAY: The final data type we'll talk about is a bit special. It's an ugly duckling, not like the others.
-     It's `None`. A so-called "sentinal" value. A sentinal value is in-band data with out-of-band semantics.
-     That may not clarify anything for you. Let me try to illustrate with an example:
-
-> Imagine you're watching a movie with your friend. The room is dark and you hold a bucket of popcorn.
-> Every few minutes your friend asks for a handful of popcorn. Being a good friend you give your friend
-> a handful of popcorn. But what do you do when the bucket is empty?
-
-SAY: This is what `None` is for. Typically, you should always give your friend back some popcorn, but sometimes
-     you may have to give back `None` (in-band data). That `None` though is a special value, obviously its not
-     popcorn, it _means_ something special: there's no more popcorn (out-of band semantics).
-CMD: Execute the examples in the notebook to illustrate this point.
+EXERCISES
 
 **11:50** Chapter review.
 SAY: OK. By now you should have a picture of what the "building blocks"

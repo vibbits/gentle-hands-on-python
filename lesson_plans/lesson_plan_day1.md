@@ -217,10 +217,96 @@ SAY: Now you've covered all of the really fundamental concepts in programming. Y
 
 **14:00** Break
 
-**14:15** Conditions
+**14:10** Conditions chapter
+
+SAY: Today we have already covered the fundamental concepts of programming: the building blocks
+     and how to stitch them together into larger, more useful parts with variables and functions.
+     Although all programming _can_ be done with values and functions, in practice each language
+     provides _syntax_ and _semantic_ conveniences tailored to a specific method of formulating
+     solutions to computational problems (Your language shapes the way you think). In this
+     chapter we begin to focus on Python and its unique qualities.
+
+SAY: We will start this by writing a program to play the childrens game called "FizzBuzz". FizzBuzz is
+     a counting game where each player takes it in turns to count up from 1. The twist is that
+     when a player would say a number that is a multiple of 3 they have to say "Fizz" instead.
+     When a multiple of 5, say "Buzz" and when a multiple of 3 AND 5, say "Fizz Buzz".
+
+CMD: Trainers play the game live up to 15.
+
+SAY: To be able to implement a program to play this game, clearly we need to be able to make
+     _decisions_. For example, we might have our program ask the question, "Is the number
+     a multiple of 3?". If the answer to that question is "YES" then we want to say "Fizz" etc etc.
+
+SAY: Python gives us a special decision making _statement_ called **if**. **If** the answer to a
+     question is "YES" (or `True`), then execute some code that wouldn't be executed if the
+     answer were "NO" (or `False`). Of course Python requires you write this in a specific way...
+
+CMD: Explain syntax of an `if` block including indentation.
+     Indentation problems are talked about in the next section.
+
+CMD: Walk through the code cell explaining in the terms used already. Comments may help.
+     Ask students to run the block and experiment with what happens when they modify it.
+
+SAY: You might be surprised that you already know enough to begin implementing a FizzBuzz program.
+
+CMD: Students solve Exercise 4-1
+
+CMD: Explain the solution to Exercise 4-2
+
+**14:30** Break
+
+**14:40** Indentation
+
+SAY: Python code is organised into "blocks" that are noticable visually because of
+     _equal indentation_. Each line of code within a block _must_ be equally indented. Thankfully,
+     Jupyter is very helpful but problems can still happen if you are not careful.
+
+CMD: Demonstrate unequal indentation. Ask students what happens when they try to run the
+     cell with unequal indentation. Ask them to fix it.
+
+SAY: You can also get the decision making process of your program mixed up when you are not careful
+     about indentation. Remember that the block of code guarded by an **if** statement is only
+     executed if the contition is `True`. To demonstrate an example of such a problem, try the next
+     exercise...
+
+CMD: Students solve Exercise 4-2
+
+CMD: Explain the solution to Exercise 4-2
+
+SAY: Exercises 4-3 and 4-4 are intended for you to practise using **if**. Try to complete
+     these exercises too. Exercise 4-5 is an extension exercise which requires more knowledge than
+     what we've presented you so far. If the exercises so far are too easy you're welcome to
+     try it. Ask one of the trainers when you struggle so we can tell you what you need to know
+     to solve it.
+
+CMD: After most students have solved 4-3 and 4-4. Go over the solution to 4-3, 4-4, and 4-5.
+
+SAY: It is ok if you do not understand the solution to Exercise 4-5. We have not covered what is
+     happening here yet. It is still useful to expose you to more Python syntax though, and when
+     we cover this topic you might recognise it.
+
+**15:10** Break
+
+**15:20** `else` and `elif`
+
+SAY: We have already provided an _alternative_ result for when an **if** condition is not `True`.
+     `else` and `elif` are explicit alternatives that guard their respective code blocks.
+
+CMD: Read and explain what's in the notebook.
+
+CMD: Explain the code in the code cell. Run it. Ask students to modify and experiment with each cell
+     until they are confident they understand what `else` and `elif` mean.
+
+SAY: Now you understand enough to extend your earlier version of the FizzBuzz game.
+
+CMD: Students solve Exercise 4-6.
+
+CMD: Explain the solution of Exercise 4-6.
+
+**15:50** Chapter Review
 
 **16:00** Break
 
-**16:15** Select and work on your project.
+**16:10** Select and work on your project.
 
-## Assessment
+**17:00** Fin

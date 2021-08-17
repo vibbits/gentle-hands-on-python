@@ -1,5 +1,10 @@
 # Introduction to programming and Python
 
+## Links
+
+* Anaconda install: https://www.youtube.com/watch?v=5mDYijMfSzs
+* Jupyter Notebook tutorial: https://youtu.be/p1PKGDz0Y6A
+
 ## Objectives
 
 1. Understand what the "building blocks" or programming are, and how they are "glued" together?

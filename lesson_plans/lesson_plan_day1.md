@@ -260,7 +260,24 @@ CMD: Explain the solution to Exercise 4-2
 
 **14:30** Break
 
-**14:40** Indentation
+**14:40** Back from break Quiz
+
+QUIZ: A block of code is a series of Python statements executed together?
+      - True
+      - False
+
+QUIZ: What is the result of `abs(-5) + 1 == 6`?
+      - `True`
+      - `true`
+      - `t`
+      - `6`
+      - `YES`
+
+QUIZ: Python cares about the blank spaces in your code.
+      - Yes
+      - No
+
+**14:45** Indentation
 
 SAY: Python code is organised into "blocks" that are noticable visually because of
      _equal indentation_. Each line of code within a block _must_ be equally indented. Thankfully,
@@ -292,7 +309,25 @@ SAY: It is ok if you do not understand the solution to Exercise 4-5. We have not
 
 **15:10** Break
 
-**15:20** `else` and `elif`
+**15:20** Back from Break Quiz
+
+QUIZ: What is the result of `True and False`?
+      - `True`
+      - `False`
+
+QUIZ: What is the result of `5 = 6`?
+      - `False`
+      - `True`
+      - `SyntaxError`
+      - Nothing
+
+QUIZ: What is the result of `5 != 6`?
+      - `False`
+      - `True`
+      - `SyntaxError`
+      - Nothing
+
+**15:25** `else` and `elif`
 
 SAY: We have already provided an _alternative_ result for when an **if** condition is not `True`.
      `else` and `elif` are explicit alternatives that guard their respective code blocks.
@@ -312,6 +347,26 @@ CMD: Explain the solution of Exercise 4-6.
 
 **16:00** Break
 
+**16:10** Back from break Quiz
+
+QUIZ: Does `"Python" == "python"`?
+      - Yes
+      - No
+
+QUIZ: Is `'z' < 'a'`?
+      - Yes
+      - No
+
+QUIZ: What is the result of `len("Python")`?
+      - "Python"
+      - 7
+      - True
+      - 6
+
 **16:10** Select and work on your project.
+
+SAY: During this course you will work on a large scale project. You can select a project to work on from the `projects/` folder.
+     Each one is intended to be interesting and challenging but possible to complete in about 5-6 hours. You may think that you're
+     not yet ready but you will be surprised what you can accomplish after this course!
 
 **17:00** Fin

@@ -231,7 +231,12 @@ SAY: We will start this by writing a program to play the childrens game called "
      when a player would say a number that is a multiple of 3 they have to say "Fizz" instead.
      When a multiple of 5, say "Buzz" and when a multiple of 3 AND 5, say "Fizz Buzz".
 
+CMD: Use the flowchart in Figure 4-1 to describe how to play.
+
 CMD: Trainers play the game live up to 15.
+
+SAY: In this session, you will write a program to play the core part of this game. Next week you will
+     write a program to play the whole game.
 
 SAY: To be able to implement a program to play this game, clearly we need to be able to make
      _decisions_. For example, we might have our program ask the question, "Is the number

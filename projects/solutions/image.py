@@ -4,6 +4,13 @@ Simple BMP and PPM image reader and writer
 Limitations:
 - Only uncompressed BMP
 - Only 24 bpp BMP
+
+References:
+- http://davis.lbl.gov/Manuals/NETPBM/doc/ppm.html
+- https://en.wikipedia.org/wiki/BMP_file_format
+- https://docs.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-bitmapv5header
+- https://instesre.org/howto/BW_image/ReadingBitmaps.htm
+- https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alone_boy_silhouette_image.jpg/640px-Alone_boy_silhouette_image.jpg
 """
 
 from typing import BinaryIO, List, Optional, Tuple, TypedDict, Union

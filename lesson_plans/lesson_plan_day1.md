@@ -1,7 +1,8 @@
-# Introduction to programming and Python
+# Day 1: Introduction to programming and Python
 
 ## Links
 
+* Custom video explaining setup: https://youtu.be/hmI8YIejVcQ
 * Anaconda install: https://www.youtube.com/watch?v=5mDYijMfSzs
 * Jupyter Notebook tutorial: https://youtu.be/p1PKGDz0Y6A
 
@@ -20,11 +21,27 @@
 
 ## Procedure
 
-**09:30** Introduction. Introduce trainers and ask students to turn on their microphones and cameras and introduce themselves.
-    Demonstract downloading and installing Anaconda and starting Jupyter Labs.
-    Introduce Google Collab for those with a google account.
+**09:20** Start greeting students as they arrive
 
-**10:05** The basics of programming and computing.
+**09:30** Slow Introduction. Introduce trainers, the course, what to expect.
+
+**09:40** Most late students should arrive by now.
+
+CMD: Explain that online learning is different from classroom learning. It's difficult for trainers to notice that students are struggling
+     and it's difficult to interact like we might in a classroom. Therefore we would like to get as much interaction as possible via voice
+     and video. Ask students to turn on their microphones and cameras and introduce themselves.
+    
+
+**10:00** Learning environment setup
+
+CMD: Demonstrate downloading and installing Anaconda and starting Jupyter Labs. Video: https://youtu.be/hmI8YIejVcQ
+     Otherwise, introduce Google Collab for those with a google account.
+     Special mention if anyone is using GNU/Linux: they need not use anaconda. Just `pip install jupyterlab matplotlib ipympl`.
+     Special alternative: Idle with a regular Python install, replit.com (whatever student is comfortable with). Python can be installed
+       from the Microsoft store on Windows 10:  https://www.youtube.com/watch?v=yXfCq4xzrrI&t=19s (Be careful: says Python 3.7)
+    
+
+**10:20** The basics of programming and computing.
 
 SAY: By way of providing you with some background. Our objective for the first 2 sessions
      today is to provide you with a way of thinking about programming and computing in general.
@@ -117,9 +134,9 @@ SAY: Now you've done some programming. And your computer has done some computing
      be new to you. There is no shame in asking for help. Because we're not all in a room together
      we cannot see if you are struggling or not.
 
-**10:40** Break
+**11:00** Break
 
-**10:50** Variables.
+**11:10** Variables.
 
 SAY: Now that we're familiar with some of the building blocks of programming. Variables provide us
      a way to start gluing these building blocks together into larger parts.
@@ -140,7 +157,7 @@ CMD: Read the text in the notebook.
 SAY: So you can evaluate expressions containing variables in the same way we say earlier with values.
      Run each of the cells and convince yourself you understand by predicting the output for each cell.
      
-**11:00** Input and Output (I/O)
+**11:10** Input and Output (I/O)
 SAY: Programming wouldn't be very useful if there were no way of interacting with the world
      outside of your program. Otherwise the only effect your program would have is to
      [slightly warm up your computer](https://www.youtube.com/watch?v=iSmkqocn0oQ&t=205)!
@@ -203,8 +220,16 @@ SAY: A worse situation is when you're getting no error message but your program 
      reoccur. When you test in real life you will use a testing framework, not the toy testing
      we're using here. But the examples below are a great illustration of testing.
 
-CMD: At exercise 3.2.0 introduce "tests" and how to write a function that satisfies the test cases.
+CMD: At exercise 3-0 introduce "tests" and how to write a function that satisfies the test cases.
      Include a joke that breaks the second test. Then allow everyone to complete the first exercise.
+     
+EXERCISES: 3-1, 3-2
+
+**13:20** Break
+
+**13:30**
+
+EXERCISES: 3-3, 3-4, 3-5
 
 SAY: Now you've covered all of the really fundamental concepts in programming. You're already writing
      and testing complete programs. The remainder of this course, in some sense, are just details
@@ -214,6 +239,8 @@ SAY: Now you've covered all of the really fundamental concepts in programming. Y
      Please spend some time to attempt the review questions then take a break. Feel free to ask
      questions in the chat. Tuur will take over after the break and I will take his place
      handing out internet points.
+     
+**13:50** Chapter review
 
 **14:00** Break
 
@@ -363,10 +390,10 @@ QUIZ: What is the result of `len("Python")`?
       - True
       - 6
 
-**16:10** Select and work on your project.
+**16:15** Select and work on your project.
 
 SAY: During this course you will work on a large scale project. You can select a project to work on from the `projects/` folder.
-     Each one is intended to be interesting and challenging but possible to complete in about 5-6 hours. You may think that you're
+     Each one is intended to be interesting and challenging but possible to complete in about 4-6 hours. You may think that you're
      not yet ready but you will be surprised what you can accomplish after this course!
 
 **17:00** Fin

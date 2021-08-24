@@ -231,5 +231,5 @@ QUIZ: Tuples and lists are exactly equivalent.
     - True
     - False
 
-**13:40** Looping
+**13:40** Looping: Doing something repeatedly
 

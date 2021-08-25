@@ -37,6 +37,9 @@
 
 **CMD**: Most late students should arrive by now. Start proper now.
 
+**CMD**: Guided tour of Big Blue Button. How to use global chat. How to send a private message to an
+         instructor, how to answer a poll/quiz, how to access or hide the slides (used in quizes).
+
 **CMD**: Explain that online learning is different from classroom learning. It's difficult for trainers to notice that students are
          struggling and it's difficult to interact like we might in a classroom. Therefore we would like to get as much interaction
          as possible via voice and video. Ask students to turn on their microphones and cameras and introduce themselves.

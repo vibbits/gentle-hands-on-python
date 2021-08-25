@@ -25,6 +25,8 @@
 
 **CMD**: Start greeting students as they arrive
 
+**CMD**: If they haven't filled out the pre-course questionnaire: https://vib.formstack.com/forms/pythonprecoursequestionnaire
+
 ### 09:30
 
 **CMD**: Slow Introduction. Introduce the course.

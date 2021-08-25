@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
+# Editor files
 .idea
 .ipynb_checkpoints
-
+*~

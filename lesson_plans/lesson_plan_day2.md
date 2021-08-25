@@ -11,225 +11,161 @@
 
 ## Procedure
 
-**9:20** Start greeting students as they arrive
+### 9:20
 
-**9:30** Brief introduction while we wait for late students
+**CMD**: Start greeting students as they arrive
 
-SAY: Today we will get more in-depth with Python. We will finally play a complete game of FizzBuzz.
-     We'll also introduce a new problem to work on. (dum dum dum!!!! It's a secret they'll find out later)
+### 9:30
 
-**9:40** Most late students should arrive by now.
+**CMD**: Brief introduction while we wait for late students
 
-CMD: start a refresher quiz
+**SAY**: Today we will get more in-depth with Python. We will finally play a complete game of FizzBuzz.
+         We'll also introduce a new problem to work on. (dum dum dum!!!! It's a secret they'll find out later)
 
-QUIZ: Which expressions evaluate without error?
-    a. "9" + "9"
-    b. int("nine")
-    c. str(9) + "nine"
-    d. 9 + 9
+### 9:40
 
-QUIZ: Which expressions evaluate without error?
-    a. a = 1 * 2
-    b. 2 = 1 + 1
-    c. 5 + 6 = y
-    d. seven = 3 * 4
+**CMD**: Most late students should arrive by now, start the refresher quiz
 
-QUIZ: Which are valid variable names?
-    a. print
-    b. result
-    c. 2nd
-    d. the_computation
+**QUIZ**: Load `day2_intro.pdf` into Big Blue Button.
 
-QUIZ: What is the result of the expression "hello" + "world"
-    1. "hello world"
-    1. "helloworld"
-    1. "hello+world"
-    1. "hello"
+### 10:00
 
-QUIZ: When defining a function, how do you ensure that the `help()` message is useful?
-    1. Write a comment
-    1. Assign a string to the help variable
-    1. Write a docstring
-    1. Name your function appropriately
+**CMD**: Check the status of the projects. Students should have started.
 
-QUIZ: What are the "combining parts" of programs?
-    1. Functions
-    1. Variables
-    1. Operators
-    1. Strings
+**CMD**: Go round students asking if they had a chance to work on projects during the week. Any issues they've faced.
+         They may switch projects if the one they're working on has lost their interest.
 
-QUIZ: Is indentation and spacing important in Python?
-    1. Yes
-    1. No
+### 10:10
 
-QUIZ: Is `elif` a valid Python keyword?
-    1. Yes
-    1. No
+**CMD**: Start topic: Collections of Python values
 
-QUIZ: What type of value guards an "if block"?
-    1. All code is equally indented
-    1. A boolean expression
-    1. A conditional expression
-    1. An equality check
+**SAY**: Using values like a number, text, an image, etc are great and useful. But often we need to collect many of these values
+         together. For example, to compute statistics on experimental observations, we need a collection of multiple observations.
+         Looking at each observation individual is not useful in this case.
 
-**10:00** Status of the projects
+**SAY**: Python gives us a number of ways to store collections of values together. Each with their own characteristics. In this
+         session we will look at the **List**, **Tuple**, and **String** collections and apply them to improving our Fizz Buzz
+         game.
 
-CMD: Go round students asking if they had a chance to work on projects during the week. Any issues they've faced.
-     They may switch projects if the one they're working on has lost their interest.
+**SAY**: Let us begin with lists. In your mind this might conjure shopping lists or todo lists. These are very useful metaphores.
+         Your shopping list is ordered, that is, it is meaningful to ask what the first item on your shopping list is. So are Python
+         lists. Your shopping list can be "nested", for example you might have an item label "Dinner" with a sub-list for items
+         you want to use to make dinner tonight. (See example in notebook)
 
-**10:10** Collections of Python values
+**CMD**: Demo how to write the shopping list example in Python
 
-SAY: Using values like a number, text, an image, etc are great and useful. But often we need to collect many of these values
-     together. For example, to compute statistics on experimental observations, we need a collection of multiple observations.
-     Looking at each observation individual is not useful in this case.
+**SAY**: Here are some other examples of Python lists.
 
-SAY: Python gives us a number of ways to store collections of values together. Each with their own characteristics. In this
-     session we will look at the **List**, **Tuple**, and **String** collections and apply them to improving our Fizz Buzz
-     game.
+**SAY**: We can use lists to help us with the Fizz Buzz game by using them to represent the progress of the game.
 
-SAY: Let us begin with lists. In your mind this might conjure shopping lists or todo lists. These are very useful metaphores.
-     Your shopping list is ordered, that is, it is meaningful to ask what the first item on your shopping list is. So are Python
-     lists. Your shopping list can be "nested", for example you might have an item label "Dinner" with a sub-list for items
-     you want to use to make dinner tonight. (See example in notebook)
+**CMD**: Refresher on the Fizz Buzz game.
 
-CMD: Demo how to write the shopping list example in Python
+**EXERCISE** 5-1
 
-SAY: Here are some other examples of Python lists.
+### 10:30
 
-SAY: We can use lists to help us with the Fizz Buzz game by using them to represent the progress of the game.
+**CMD**: Topic: Slicing
 
-CMD: Refresher on the Fizz Buzz game.
+**SAY**: Last week maybe you noticed the use of the _indexing_ operator. If you remember back to the second lesson
+         on Functions you used the functions `first` and `rest` on strings. `first` returned the first character of
+         a string, and `rest` returned the whole string except the first character. These were implemented using the
+         _indexing_ operator (square brackets after a value containing an index). So the first character in a string
+         (or first value in a list) is at index 0 and so on.
 
-**10:20**
+**SAY**: Well, slicing is a generalisation of indexing. So if you're not confident you understand indexing, don't worry.
+         We will practice with it a lot now.
 
-EXERCISE 5-1
+**CMD**: Demo indexing into a list using a few indexes. How to talk about indexes vs the nth element.
 
-**10:30** Break
+**CMD**: Describe slicing from a start-index to an end-index using the examples in the notebook.
 
-**10:40** Slicing
+**CMD**: Describe indexing and slicing with negative indexes using examples.
 
-SAY: Last week maybe you noticed the use of the _indexing_ operator. If you remember back to the second lesson on Functions you used
-     the functions `first` and `rest` on strings. `first` returned the first character of a string, and `rest` returned the whole string
-     except the first character. These were implemented using the _indexing_ operator (square brackets after a value containing an index).
-     So the first character in a string (or first value in a list) is at index 0 and so on.
+**CMD**: Demonstrate the slicing shorthand for "begginning" and "end".
 
-SAY: Well, slicing is a generalisation of indexing. So if you're not confident you understand indexing, don't worry.
-     The time to understand is now.
+**CMD**: Demo the "step" value in slicing.
 
-CMD: Demo indexing into a list using a few indexes. How to talk about indexes vs the nth element.
+**CMD**: Demo replacing values in a slice.
 
-CMD: Describe slicing from a start-index to an end-index using the examples in the notebook.
+**SAY**: No doubt this seems very confusing. Trying to actually use this technique can help you understand it so lets do an exercise!
 
-CMD: Describe indexing and slicing with negative indexes using examples.
+**EXERCISE** 5-2
 
-CMD: Demonstrate the slicing shorthand for "begginning" and "end".
+**SAY**: The last attempt we made at writing a function to play Fizz Buzz wasn't very interesting. In order to play to larger numbers
+         we would have to type out a longer and longer list. This negates the power of your computer if you can't get to to compute
+         for you. So let's have another attempt using slicing. This time well replace the right numbers with either "Fizz" or "Buzz".
 
-CMD: Demo the "step" value in slicing.
+**EXERCISE** 5-3
 
-CMD: Demo replacing values in a slice.
+## 11:10
 
-SAY: No doubt this seems very confusing. Trying to actually use this technique can help you understand it so lets do an exercise!
+**CMD**: Break
 
-EXERCISE 5-2
+### 11:20
 
-SAY: The last attempt we made at writing a function to play Fizz Buzz wasn't very interesting. In order to play to larger numbers
-     we would have to type out a longer and longer list. This negates the power of your computer if you can't get to to compute
-     for you. So let's have another attempt using slicing. This time well replace the right numbers with either "Fizz" or "Buzz".
+**CMD**: Back from break quiz
 
-EXERCISE 5-3
+**QUIZ**: Load `day2_morning_break.pdf` into Big Blue Button
 
-**11:10** Break
+### 11:25
 
-**11:20** Back from break quiz
+**CMD**: Topic: Operating on Lists
 
-QUIZ: How would I slice _all_ even indexes?
-    - [::2]
-    - [0::2]
-    - [1::2]
-    - [2::2]
+**SAY**: Python has a rich _standard library_ (a collection of re-usable definitions). You've already used some of this library:
+         `abs()`, `print()`, etc are examples of these. This is only scratching the surface though, many more general purpose
+         definitions are available to you through the use of `import`.
 
-**11:25** Operating on Lists
+**SAY**: In the next section we will use the `operator` library. This library provides functions that do the same thing as built in Python
+         operators like `+`, `*`, or `[]`.
 
-SAY: Python has a rich _standard library_ (a collection of re-usable definitions). You've already used some of this library:
-     `abs()`, `print()`, etc are examples of these. This is only scratching the surface though, many more general purpose
-     definitions are available to you through the use of `import`.
+**CMD**: Run the cell to `import operator`.
 
-SAY: In the next section we will use the `operator` library. This library provides functions that do the same thing as built in Python
-     operators like `+`, `*`, or `[]`.
+**SAY**: In this section we will look at the `sorted()` function, the `in` operator, and the `itemgetter()` function from
+         the `operator` library. As the course progresses you will see more of the standard library and the huge array of
+         facilities it provides, however we encourage you to explore and see what useful functionality exists. Let's begin now to
+         try to understand what these functions and operators do...
 
-CMD: Run the cell to `import operator`.
+**SAY**: Before you run the cells try to guess what the result will be.
 
-SAY: In this section we will look at the `sorted()` function, the `in` operator, and the `itemgetter()` function from
-     the `operator` library. As the course progresses you will see more of the standard library and the huge array of
-     facilities it provides, however we encourage you to explore and see what useful functionality exists. Let's begin now to
-     try to understand what these functions and operators do...
+**SAY**: The `sorted()` function takes 2 optional arguments that customise its behaviour: `key` is a function used to access the key
+         to sort on. And `reverse` is used to sort in reverse order.
 
-CMD: Before you run the cells:
+**CMD**: Read and demo from notebook about the `key` argument.
 
-QUIZ: What will this cell result in?
-    - `[5, 10, 2, 7, 1]`
-    - `[1, 2, 5, 7, 10]`
-    - `[1, 10, 2, 5, 7]`
+**SAY**: Once again, here is a chance to try to understand how to use these functions by putting them to use.
 
-QUIZ: What will this cell result in?
-    - `[[5], [2], [7], [1]]`
-    - `[1, 2, 5, 7]`
-    - `[[1], [2], [5], [7]]`
+**EXERCISE** 5-4, 5-5
 
-QUIZ: What will this cell result in?
-    - 0
-    - False
-    - True
-    - -1
+### 12:00
 
-QUIZ: What will this cell result in?
-    - 3
-    - False
-    - 4
-    - True
+**CMD**: Topic: Tuples and Strings
 
-SAY: The `sorted()` function takes 2 optional arguments that customise its behaviour: `key` is a function used to access the key
-     to sort on. And `reverse` is used to sort in reverse order.
+**SAY**: Practically, tuples are almost exactly like lists except that they're _immutable_. Meaning that, once they're defined you
+         cannot change them. As you might imagine this simple difference has all sorts of consequences but they're out of scope for this
+         course.
 
-CMD: Read and demo from notebook about the `key` argument.
+**CMD**: Run through demos of tuple indexing and conversion
 
-SAY: Once again, here is a chance to try to understand how to use these functions by putting them to use.
+**SAY**: Practically, strings are almost exactly like tuples except you cannot store arbitrary values in strings: no, you can only store
+         characters. This is just a different way of looking at text data that allows you to see that indexing and slicing also make sense.
 
-EXERCISE 5-4, 5-5
+**EXERCISE** 5-6
 
-**12:00** Tuples and Strings
+### 12:20
 
-SAY: Practically, tuples are almost exactly like lists except that they're _immutable_. Meaning that, once they're defined you
-     cannot change them. As you might imagine this simple difference has all sorts of consequences but they're out of scope for this
-     course.
+**CMD**: Chapter review
 
-CMD: Run through demos of tuple indexing and conversion
+### 12:30
 
-SAY: Practically, strings are almost exactly like tuples except you cannot store arbitrary values in strings: no, you can only store
-     characters. This is just a different way of looking at text data that allows you to see that indexing and slicing also make sense.
+**CMD**: Lunch break
 
-EXERCISE 5-6
+### 13:30
 
-**12:20** Chapter review
+**CMD**: Return from lunch break quiz
 
-**12:30** Lunch break
+**QUIZ**: Load `day2_after_lunch.pdf` into Big Blue Button
 
-**13:30** Return from lunch break
+### 13:35
 
-QUIZ: How can I reverse a string?
-    - reverse()
-    - [::-1]
-    - reversed()
-
-QUIZ: What is the result of this expression: `"test"[0] = 'b'`
-    - "best"
-    - "test"
-    - TypeError
-    - SyntaxError
-
-QUIZ: Tuples and lists are exactly equivalent.
-    - True
-    - False
-
-**13:40** Looping: Doing something repeatedly
+**CMD**: Topic: Looping: Doing something repeatedly
 

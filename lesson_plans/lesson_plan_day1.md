@@ -27,11 +27,13 @@
 
 ### 09:30
 
-**CMD**: Slow Introduction. Introduce trainers, the course, what to expect.
+**CMD**: Slow Introduction. Introduce the course.
+
+**CMD**: Show the charts from formstack and set expectations based on those charts.
 
 ### 09:40
 
-**CMD**: Most late students should arrive by now.
+**CMD**: Most late students should arrive by now. Start proper now.
 
 **CMD**: Explain that online learning is different from classroom learning. It's difficult for trainers to notice that students are
          struggling and it's difficult to interact like we might in a classroom. Therefore we would like to get as much interaction
@@ -217,26 +219,7 @@
 
 **CMD**: Return from break quiz
 
-**QUIZ**: Variables are...
-- Matematical expressions
-- Boxes that contain values
-- Somewhere to store values
-
-**QUIZ**: What is the result of this expression: `4 < 4`?
-- 4
-- 5
-- True
-- False
-
-**QUIZ**: Can you add an integer to a boolean value?
-- Yes
-- No
-
-**QUIZ**: What is the result of this expression: `8 % 4`?
-- True
-- 1
-- 4
-- 0
+**QUIZ**: `day1_after_lunch.pdf`
 
 ### 13:05
 
@@ -389,49 +372,7 @@
 
 **CMD**: Back from Break Quiz
 
-**QUIZ**: A block of code is a series of Python statements executed together?
-- True
-- False
-
-**QUIZ**: What is the result of `abs(-5) + 1 == 6`?
-- `True`
-- `-4`
-- `6`
-- `YES`
-
-**QUIZ**: Python cares about the blank spaces in your code.
-- Yes
-- No
-
-**QUIZ**: What is the result of `True and False`?
-- `True`
-- `False`
-
-**QUIZ**: What is the result of `5 = 6`?
-- `False`
-- `True`
-- `SyntaxError`
-- Nothing
-
-**QUIZ**: What is the result of `5 != 6`?
-- `False`
-- `True`
-- `SyntaxError`
-- Nothing
-      
-**QUIZ**: Does `"Python" == "python"`?
-- Yes
-- No
-
-**QUIZ**: Is `'z' < 'a'`?
-- Yes
-- No
-
-**QUIZ**: What is the result of `len("Python")`?
-- "Python"
-- 7
-- True
-- 6
+**QUIZ**: Load `day1_end.pdf` into Big Blue Button
 
 ### 16:10
 

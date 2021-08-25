@@ -1,8 +1,12 @@
 # Day 2: Getting to grips with Python
 
-## Links
-
 ## Objectives
+
+1. Understand the purpose and basic use of the most common collection types in Python: List, Tuple, Dictionary
+1. Understand iteration and iteration using collection types
+1. Write new functions with less help
+1. Fix existing code
+1. Reflect on code being written. Can it be improved? Does it need to be improved?
 
 ## Materials
 

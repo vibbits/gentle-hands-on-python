@@ -14,7 +14,7 @@ SOURCE_FORMAT="markdown_strict\
 +smart\
 +fenced_divs"
 
-FILES="day1_after_lunch day1_end day2_intro day2_morning_break day2_after_lunch"
+FILES="day1_after_lunch day1_end day2_intro day2_morning_break day2_after_lunch day2_afternoon"
 
 for name in ${FILES}; do
     echo "Compiling ${name}.pdf"

@@ -167,5 +167,142 @@
 
 ### 13:35
 
-**CMD**: Topic: Looping: Doing something repeatedly
+**CMD**: Topic: for-each loops
 
+**SAY**: Think about a time you had to repeat a set of instructions many times. For example, you're pipetting
+         and writing down measurements or renaming files according to a naming scheme. How easy is it to make
+         a mistake? How focused did you need to be? How quickly did you become tired or bored of the repetition?
+         This is a problem computers do not have. Provided you, the programmer, have described the steps correctly,
+         a computer will execture them quickly, and accurately for as long as necessary.
+
+**SAY**: The Fizz Buzz game we've been trying to play requires the computer to count up to some maximum number.
+         Each of our implementations so far has required you, the programmer, to write down the steps for every
+         single number. We've not used this special power that computers have: to repeat steps.
+
+**SAY**: This is how you might expect to be able to describe the Fizz Buzz game to a computer:
+
+**CMD**: Say this...
+```
+STEP  1: SET VARIABLE COUNTER TO 1
+STEP  2: CHECK IF COUNTER IS A MULTIPLE OF 5 OR 3
+STEP  3: IF SO, SAY "FIZZ BUZZ"
+STEP  4: CHECK IF COUNTER IS A MULTIPLE OF 3
+STEP  5: IF SO, SAY "FIZZ"
+STEP  6: CHECK IF COUNTER IS A MULTIPLE OF 5
+STEP  7: IF SO, SAY "BUZZ"
+STEP  8: CHECK IF WE HAVE FINISHED COUNTING
+STEP  9: IF SO, STOP
+STEP 10: INCREMENT COUNTER
+STEP 11: GO TO STEP 2
+```
+
+**SAY**: The only part we're still mmissing is the ability to say, `GO TO STEP 2`. This is what a _loop_ does.
+         You can think `GO TO STEP 2` as creating a control-flow loop. Steps 2-9 are looped until the stop
+         condition is met.
+
+**SAY**: The loop construct we'll be looking at with here is known as the _for-each loop_. It's called this
+         because it allows us to repeat a set of instructions _for each_ member of a collection. For example,
+         here we have a list of numbers...
+
+**CMD**: Explain the syntax of a **for** loop. Then explain the loop by unrolling it.
+
+**SAY**: Now try to implement Fizz Buzz using your new loop knowledge.
+
+**EXERCISE** 6-1
+
+**SAY**: You might think it was unfair of me to say that a loop will save you having to explicitly tell
+         the computer what to do at each step since you had to literally type out all of the numbers
+         that need to be counted. Well at least you didn't write out 15 `if`/`elif`/`else` blocks so you
+         can be more confident that your logic is correct. But it is unfortunate that you needed to
+         write out the numbers your game is supposed to count. So let's fix that next...
+
+**SAY**: The `range()` function from the standard library generates a range of numbers for you. Let's
+         experiment with using `range()` in a for-each loop.
+
+**CMD**: Run through the examples and describe each parameter as they are used. It may be useful
+         to draw the analogy between `range()` arguments and slicing.
+
+**SAY**: Finally, you now have everything you need to satisfyingly implement a program that plays
+         Fizz Buzz...
+
+**EXERCISE** 6-2
+
+### 14:20
+
+**CMD** Break
+
+### 14:30
+
+**QUIZ**: Load `day2_afternoon.pdf` into Big Blue Button.
+
+### 14:40
+
+**SAY**: In order to practice using and reading for-each loops, try to solve the next 3 exercises.
+
+**EXERCISES** 6-3, 6-4, 6-5
+
+### 15:20
+
+**SAY** Before we finish up with loops I want to introduce you to one more member of the Python
+        standard tool belt: "ZIP"! What problem does this solve?
+        Imagine you have 2 collections with element you wish to process in your loop at the same time...
+
+**CMD**: Walk through description in the notebook and sequence identity example
+
+**EXERCISES**: 6-6, 6-7
+
+### 15:50
+
+**CMD**: Chapter review
+
+### 16:00
+
+**CMD**: Topic: dictionaries
+
+**SAY**: Now that we're finished implementing the Fizz Buzz game, we can tackle a more realistic problem.
+         Here is the scenario: we've been comissioned to produce comparative plots of temerature data for
+         3 countries and globally from 1901 to 2020: Belgium, Russia, and Australia.
+
+**SAY**: The data we need is publicly available on the internet but from different sources so we will need
+         to "clean" it (e.g. ensure dates and times are written in the same way, remove missing data, etc.),
+         and align on dates and temperature offsets (and units). You will also need to perform some smoothing
+         and finally generate the plots.
+
+**SAY**: This is an abbitious project for new Pythonistas! But I promise we can do it together, with the help
+         of Python and it's standard library, one step at a time.
+
+**SAY**: One of the first things we should think about is how to model our data. That is, how to represent
+         our data in our program so that it is easy to work with. You might already be thinking about storing
+         temperatures in a list, that's not a bad idea. We will need 4 lists: one for each country and 1 for
+         the global data. This idea can get very messy though: if we want to add a new country in the future
+         we will need another list and modify every function we write to deal with these data. Aligining the
+         data on date/time will require us to combine the lists together.
+
+**SAY**: So we could immediately combine the data for a date/time together into a list of tuples perhaps like this:
+         `[(BEL1, RUS1, AUS1, GLO1), (BEL2, RUS2, AUS2, GLO2),...]` and so on. Of course we will have to remember
+         the ordering ourselves. And if we add another country then that will make remembering order even
+         more difficult. We're going in the right direction though. We really need a collection that will allow
+         us to associate a name, say "BEL" with a temperature. A tuple does not do this for us but a Python
+         dictionary does!
+
+**CMD**: Talk through the image for syntax of a dictionary. Also how to use indexing and the `in` operator. Link
+         to how other collections work.
+
+**EXERCISE** 7-1, 7-2
+
+**CMD**: Demonstrate looping over a dictionary and the special functions `.items()` and `.values()`
+
+**EXERCISES**: 7-3, 7-4, 7-5
+
+### 16:50
+
+**CMD**: Chapter review
+
+**SAY**: Another very big day today. We've covered a lot of very new concepts. Please tell one of us instructors
+         if you are struggling. Next week we will continue to work on this climate plotting project. We will
+         also share your work on the other projects. Please try to spend a couple of hours this week working on them
+         before the next session.
+
+### 17:00
+
+**CMD**: Fin

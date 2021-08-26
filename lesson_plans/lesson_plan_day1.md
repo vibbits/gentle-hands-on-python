@@ -16,7 +16,7 @@
 
 ## Materials
 
-1. Jupyter and the "Basics", "Functions", and "Conditions" notebooks.
+1. Jupyter and the "Basics", "Functions", and "Conditions" notebooks: https://github.com/vibbits/gentle-hands-on-python/releases/download/2021-08-day1/ghop_day1.zip
 1. The "How to Design Programs" textbook.
 
 ## Procedure

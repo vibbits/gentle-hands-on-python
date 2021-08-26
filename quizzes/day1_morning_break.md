@@ -45,14 +45,22 @@ C.  SyntaxError
 
 D.  Not an expression
 
-# Does `"Python" == "python"`?
+# What is the result of this expression?
 
-- Yes
+```python
+"Python" == "python"
+```
 
-- No
+- True
 
-# Is `'z' < 'a'`?
+- False
 
-- Yes
+# What is the result of this expression?
 
-- No
+```python
+'z' < 'a'
+```
+
+- True
+
+- False

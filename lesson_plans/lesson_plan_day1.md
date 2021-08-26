@@ -43,6 +43,7 @@
 
 **CMD**: Guided tour of Big Blue Button. How to use global chat. How to send a private message to an
          instructor, how to answer a poll/quiz, how to access or hide the slides (used in quizes).
+         Shift+Enter to send multiline messages.
 
 **CMD**: Explain that online learning is different from classroom learning. It's difficult for trainers to notice that students are
          struggling and it's difficult to interact like we might in a classroom. Therefore we would like to get as much interaction
@@ -145,10 +146,10 @@
          is a "No" answer. You can ask questions like, "Are these values the same?", "Are these values different?",
          "Is this value less than this other value?", or "Is this value equal to or larger than this other value?"
 
-**EXERCISE** 2-5
+**EXERCISE** 2-6
 
 **SAY**: Now you've done some programming. And your computer has done some computing. You've earned a break.
-         I'll start again in 10 minutes. If you have questions during the break, Tuur and I will be here.
+         I'll start again in 10 minutes. If you have questions during the break, one of your instructors will be here.
          If at any point you feel lost or left behind please tell Tuur or myself either in the public chat or
          by private message. We have a lot to cover and many (if not all) of the concepts we talk about will
          be new to you. There is no shame in asking for help. Because we're not all in a room together
@@ -171,8 +172,8 @@
          You put something into the box using the special _assignment operator_ that Python has kindly
          provided for us. You can get that value back out simply by evaluating the box.
 
-**SAY**: Let's examine an example in detail: We create a box called "myVar" and put the value `5` in it
-         using the assignment operator. Then we want to evaluate the expression `myVar + myVar`. To do
+**SAY**: Let's examine an example in detail: We create a box called "my_var" and put the value `5` in it
+         using the assignment operator. Then we want to evaluate the expression `my_var + my_var`. To do
          so Python first evaluates the left-hand operand, it opens the box and looks at the value inside,
          it's `5`. So the left-hand operand evaluates to `5`. The same happens for the right-hand operand.
          Python opens the box and finds `5` inside. Then Python can reduce the expression to `5 + 5`.
@@ -184,6 +185,10 @@
 
 **SAY**: So you can evaluate expressions containing variables in the same way we say earlier with values.
          Run each of the cells and convince yourself you understand by predicting the output for each cell.
+
+**SAY**: Notice that the cell containing assignments to the `x` and `y` variables did not evaluate to
+         anything. This is because assignment is a _statement_, not an _expression_. The difference is that
+         expressions evaluate to something, statements do not.
      
 ### 11:25
 
@@ -198,7 +203,7 @@
      
 **SAY**: I/O is a deep and complicated topic so we will only just scratch the surface for now.
 
-**CMD**: Read the text in the notebook.
+**CMD**: Read the text in the notebook (second paragraph).
 
 **EXERCISES** 2-7, 2-8, 2-9
 
@@ -216,7 +221,7 @@
          and various operations on them. We've talked about variables and the assignment operator.
          This is a lot of ideas crammed into one morning. So well done to all of you. I appologise to those
          who are familiar with these ideas, things will get more interesting for you in the afternoon.
-         If you feel like you're struggling you're probably not alone. Please let Tuur or I know either in
+         If you feel like you're struggling you're probably not alone. Please let us know either in
          the chat or via private message and we'll do anything we can to help you out.
 
 **SAY**: Go through the chapter review questions yourself. Please try to answer each one. There are a few
@@ -318,10 +323,6 @@
 
 **SAY**: Today we have already covered the fundamental concepts of programming: the building blocks
          and how to stitch them together into larger, more useful parts with variables and functions.
-         Although all programming _can_ be done with values and functions, in practice each language
-         provides _syntax_ and _semantic_ conveniences tailored to a specific method of formulating
-         solutions to computational problems (Your language shapes the way you think). In this
-         chapter we begin to focus on Python and its unique qualities.
 
 **SAY**: We will start this by writing a program to play the childrens game called "FizzBuzz". FizzBuzz is
          a counting game where each player takes it in turns to count up from 1. The twist is that
@@ -353,6 +354,8 @@
 
 **EXERCISE** 4-1
 
+**SAY**: For extra points, why is "Fizz Buzz" returned first?
+
 ### 15:00
 
 **CMD**: Explain importance of indentation in Python
@@ -372,12 +375,9 @@
 **EXERCISE** 4-2
 
 **SAY**: Exercises 4-3 and 4-4 are intended for you to practise using **if**. Try to complete
-     these exercises too. Exercise 4-5 is an extension exercise which requires more knowledge than
-     what we've presented you so far. If the exercises so far are too easy you're welcome to
-     try it. Ask one of the trainers when you struggle so we can tell you what you need to know
-     to solve it.
+         these exercises too.
 
-**EXERCISES**: 4-3, 4-4, 4-5
+**EXERCISES**: 4-3, 4-4
 
 ### 15:50
 
@@ -397,7 +397,7 @@
 
 **SAY**: Now you understand enough to extend your earlier version of the FizzBuzz game.
 
-**EXERCISE** 4-6
+**EXERCISE** 4-5
 
 ### 16:15
 

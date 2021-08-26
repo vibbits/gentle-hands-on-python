@@ -21,6 +21,10 @@
 
 ## Procedure
 
+### 09:00
+
+**CMD**: Instructors meet to check tech and setup
+
 ### 09:20
 
 **CMD**: Start greeting students as they arrive
@@ -155,6 +159,10 @@
 
 ### 11:10
 
+**QUIZ**: Load `day1_morning_break.pdf` into Big Blue Button
+
+### 11:15
+
 **CMD**: Start the Variables section.
 
 **SAY**: Now that we're familiar with some of the building blocks of programming. Variables provide us
@@ -177,7 +185,7 @@
 **SAY**: So you can evaluate expressions containing variables in the same way we say earlier with values.
          Run each of the cells and convince yourself you understand by predicting the output for each cell.
      
-### 11:20
+### 11:25
 
 **CMD**: Introduce basic Input and Output (I/O)
 
@@ -199,7 +207,7 @@
 
 **EXERCISES** 2-10, 2-11, 2-12, 2-13, 2-14
 
-### 11:50
+### 11:55
 
 **CMD**: Review the Chapter: what was learned?
 
@@ -224,7 +232,7 @@
 
 **CMD**: Return from break quiz
 
-**QUIZ**: `day1_after_lunch.pdf`
+**QUIZ**: Load `day1_after_lunch.pdf` into Big Blue Button
 
 ### 13:05
 
@@ -275,7 +283,9 @@
 
 ### 13:40
 
-**CMD**: Return from break
+**QUIZ**: Load `day1_after_lunch.pdf` into Big Blue Button
+
+### 13:45
 
 **SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
          and testing complete programs. The remainder of this course, in some sense, are just details
@@ -299,6 +309,10 @@
 **CMD**: Break
 
 ### 14:40
+
+**QUIZ**: Load `day1_afternoon_break.pdf` into Big Blue Button
+
+### 14:45
 
 **CMD**: New topic: Conditions
 
@@ -365,21 +379,11 @@
 
 **EXERCISES**: 4-3, 4-4, 4-5
 
-**SAY**: It is ok if you do not understand the solution to Exercise 4-5. We have not covered what is
-         happening here yet. It is still useful to expose you to more Python syntax though, and when
-         we cover this topic you might recognise it.
-
 ### 15:50
 
 **CMD**: Break
 
 ### 16:00
-
-**CMD**: Back from Break Quiz
-
-**QUIZ**: Load `day1_end.pdf` into Big Blue Button
-
-### 16:10
 
 **CMD**: Final topic: `else` and `elif`
 
@@ -395,11 +399,11 @@
 
 **EXERCISE** 4-6
 
-### 16:30
+### 16:15
 
 **CMD**: Chapter Review
 
-### 16:40
+### 16:20
 
 **SAY**: During this course you will work on a large scale project. You can select a project to work on from the `projects/` folder.
          Each one is intended to be interesting and challenging but possible to complete in about 4-6 hours. You may think that you're

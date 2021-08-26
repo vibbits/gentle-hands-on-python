@@ -6,13 +6,13 @@ mainfont: "Liberation Mono"
 
 # How would I slice _all_ even indexes?
 
-- `[::2]`
+A.  `[::2]`
 
-- `[0::2]`
+B.  `[0::2]`
 
-- `[1::2]`
+C.  `[1::2]`
 
-- `[2::2]`
+D.  `[2::2]`
 
 # What does this expression evaluate to?
 
@@ -20,13 +20,13 @@ mainfont: "Liberation Mono"
 [1, 3, 5, 7, 9][1:-1]
 ```
 
-- `[3, 5, 7]`
+A.  `[3, 5, 7]`
 
-- `[1, 3, 5, 7]`
+B.  `[1, 3, 5, 7]`
 
-- `[2, 4, 6, 8]`
+C.  `[2, 4, 6, 8]`
 
-- `[1, 2, 3, 4, 5, 6, 7, 8]`
+D.  `[1, 2, 3, 4, 5, 6, 7, 8]`
 
 # What is at index 5 of this list?
 
@@ -34,13 +34,13 @@ mainfont: "Liberation Mono"
 ["A", "E", "I", "O", "U"]
 ```
 
-- "A"
+A.  "A"
 
-- Cannot access index `5`: `IndexError`
+B.  Cannot access index `5`: `IndexError`
 
-- "U"
+C.  "U"
 
-- "O"
+D.  "O"
 
 # What does this expression evaluate to?
 
@@ -48,10 +48,10 @@ mainfont: "Liberation Mono"
 list()
 ```
 
-- `SyntaxError`
+A.  `SyntaxError`
 
-- `[]`
+B.  `[]`
 
-- `NameError`
+C.  `NameError`
 
-- `["list"]`
+D.  `["list"]`

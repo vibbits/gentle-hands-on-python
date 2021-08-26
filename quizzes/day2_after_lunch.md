@@ -6,13 +6,13 @@ mainfont: "Liberation Mono"
 
 # How can I reverse the string in a variable called `my_string`?
 
-- `reverse(my_string)`
+A.  `reverse(my_string)`
 
-- `my_string[::-1]`
+B.  `my_string[::-1]`
 
-- `reversed(my_string)`
+C.  `reversed(my_string)`
 
-- `my_string.reverse`
+D.  `my_string.reverse`
 
 # What is the result of this expression?
 
@@ -20,13 +20,13 @@ mainfont: "Liberation Mono"
 "test"[0] = 'b'
 ```
 
-- `"best"`
+A.  `"best"`
 
-- `"test"`
+B.  `"test"`
 
-- `TypeError`
+C.  `TypeError`
 
-- `SyntaxError`
+D.  `SyntaxError`
 
 # Tuples and Lists are exactly equivalent
 
@@ -39,3 +39,17 @@ mainfont: "Liberation Mono"
 - Yes
 
 - No
+
+# What is the result of this expression?
+
+```python
+[1, 2, 3] + (4, 5, 6)
+```
+
+A.  SyntaxError
+
+B.  TypeError
+
+C.  [1, 2, 3, 4, 5, 6]
+
+D.  (1, 2, 3, 4, 5, 6)

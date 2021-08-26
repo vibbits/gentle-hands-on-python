@@ -1,16 +1,15 @@
 ---
-title:
-    - Quiz
+title: "Quiz: after lunch, day 1"
 mainfont: "Liberation Mono"
 ---
 
 # What are variables?
 
-- Mathematical expressions
+A.  Mathematical expressions
 
-- Boxes that contain values
+B.  Boxes that contain values
 
-- Somewhere to store values
+C.  Somewhere to store values
 
 # What is the result of this expression?
 
@@ -18,13 +17,13 @@ mainfont: "Liberation Mono"
 4 <= 4
 ```
 
-- 4
+A.  4
 
-- 5
+B.  5
 
-- True
+C.  True
 
-- False
+D.  False
 
 # Can you add an integer to a boolean value?
 
@@ -38,10 +37,26 @@ mainfont: "Liberation Mono"
 8 % 4
 ```
 
-- True
+A.  True
 
-- 1
+B.  1
 
-- 4
+C.  4
 
-- 0
+D.  0
+
+# What is the result of this code?
+
+
+```python
+x = "GCA" * 2
+len(x)
+```
+
+A.  "GCAGCA"
+
+B.  "GCA2"
+
+C.  6
+
+D.  3

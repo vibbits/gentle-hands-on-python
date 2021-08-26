@@ -12,13 +12,13 @@ for num in range(1, 10, 2):
         print(num)
 ```
 
-- 4
+A.  4
 
-- 5
+B.  5
 
-- 1
+C.  1
 
-- 6
+D.  6
 
 # What does this function do?
 
@@ -29,13 +29,13 @@ def foo(bar):
         baz = [v] + baz
 ```
 
-- Reverses a list given as an argument
+A.  Reverses a list given as an argument
 
-- Nothing
+B.  Nothing
 
-- Returns the input list unmodified
+C.  Returns the input list unmodified
 
-- Sums the values of the input list
+D.  Sums the values of the input list
 
 # What is the output of this expression?
 
@@ -43,11 +43,11 @@ def foo(bar):
 range(10, 5, -1)
 ```
 
-- `[10, 9, 8, 7, 6]`
+A.  `[10, 9, 8, 7, 6]`
 
-- `[10, 9, 8, 7, 6, 5]`
+B.  `[10, 9, 8, 7, 6, 5]`
 
-- `range(10, 5, -1)`
+C.  `range(10, 5, -1)`
 
 # What does this function do?
 
@@ -63,10 +63,24 @@ def bar(baz):
 ```
 
 
-- Counts the number of 's' and 'a' characters in a string
+A.  Counts the number of 's' and 'a' characters in a string
 
-- Nothing
+B.  Nothing
 
-- Unary calculator: 'a' for `+1`, 's' for `-1`
+C.  Unary calculator: 'a' for `+1`, 's' for `-1`
 
-- Retuns a string containing 's' and 'a' charcters depending on the argument
+D.  Retuns a string containing 's' and 'a' charcters depending on the argument
+
+# What is the result of this expression?
+
+```python
+sorted((5, 3, 8, 7, 2))
+```
+
+A. SyntaxError
+
+B. [2, 3, 5, 7, 8]
+
+C. (2, 3, 5, 7, 8)
+
+D. TypeError

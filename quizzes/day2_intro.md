@@ -1,38 +1,37 @@
 ---
-title:
-    - Quiz
+title: "Refresh quiz: day 2"
 mainfont: "Liberation Mono"
 ---
 
 # Which expression causes an error?
 
-- `"9" + "9"`
+A.  `"9" + "9"`
 
-- `int("nine")`
+B.  `int("nine")`
 
-- `str(9) + "nine"`
+C.  `str(9) + "nine"`
 
-- `9 + 9`
+D.  `9 + 9`
 
 # Which statements cause an error?
 
-- `a = 1 * 2`
+A.  `a = 1 * 2`
 
-- `2 = 1 + 1`
+B.  `2 = 1 + 1`
 
-- `5 + 6 = y`
+C.  `5 + 6 = y`
 
-- `seven = 3 * 4`
+D.  `seven = 3 * 4`
 
 # Which is not a valid variable name?
 
-- `print`
+A.  `print`
 
-- `result`
+B.  `result`
 
-- `2nd`
+C.  `2nd`
 
-- `the_computation`
+D.  `the_computation`
 
 # What is the result of this expression?
 
@@ -40,23 +39,23 @@ mainfont: "Liberation Mono"
 "hello" + "world"
 ```
 
-- `"hello world"`
+A.  `"hello world"`
 
-- `"helloworld"`
+B.  `"helloworld"`
 
-- `"hello+world"`
+C.  `"hello+world"`
 
-- `SyntaxError`
+D.  `SyntaxError`
 
 # When defining a function, how do you ensure that the `help()` message is useful?
 
-- Write a comment
+A.  Write a comment
 
-- Assign a string to the help variable
+B.  Assign a string to the help variable
 
-- Write a docstring
+C.  Write a docstring
 
-- Name your function appropriately
+D.  Name your function appropriately
 
 # Is indentation and spacing important in Python?
 
@@ -66,13 +65,13 @@ mainfont: "Liberation Mono"
 
 # What are the "combining parts" of programs?
 
-- Functions
+A.  Functions
 
-- Variables
+B.  Variables
 
-- Operators
+C.  Comments
 
-- Strings
+D.  Strings
 
 # Is `elif` a valid Python keyword?
 
@@ -82,10 +81,10 @@ mainfont: "Liberation Mono"
 
 # What type of value guards an "if block"?
 
-- All code is equally indented
+A.  All code is equally indented
 
-- A boolean expression
+B.  A boolean expression
 
-- A conditional expression
+C.  A conditional expression
 
-- An equality check
+E.  An equality check

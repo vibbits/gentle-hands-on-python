@@ -282,15 +282,6 @@
      
 **EXERCISES**: 3-1, 3-2
 
-### 13:40
-
-**CMD**: Break
-
-### 13:40
-
-**QUIZ**: Load `day1_after_lunch.pdf` into Big Blue Button
-
-### 13:45
 
 **SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
          and testing complete programs. The remainder of this course, in some sense, are just details

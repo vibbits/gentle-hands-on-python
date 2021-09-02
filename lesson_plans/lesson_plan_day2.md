@@ -32,14 +32,14 @@
 
 **QUIZ**: Load `day2_intro.pdf` into Big Blue Button.
 
-### 10:00
+### 9:50
 
 **CMD**: Check the status of the projects. Students should have started.
 
 **CMD**: Go round students asking if they had a chance to work on projects during the week. Any issues they've faced.
          They may switch projects if the one they're working on has lost their interest.
 
-### 10:10
+### 10:00
 
 **CMD**: Start topic: Collections of Python values
 
@@ -66,7 +66,7 @@
 
 **EXERCISE** 5-1
 
-### 10:30
+### 10:20
 
 **CMD**: Topic: Slicing
 
@@ -101,17 +101,17 @@
 
 **EXERCISE** 5-3
 
-## 11:10
+## 11:00
 
 **CMD**: Break
 
-### 11:20
+### 11:10
 
 **CMD**: Back from break quiz
 
 **QUIZ**: Load `day2_morning_break.pdf` into Big Blue Button
 
-### 11:25
+### 11:15
 
 **CMD**: Topic: Operating on Lists
 
@@ -140,7 +140,7 @@
 
 **EXERCISE** 5-4, 5-5
 
-### 12:00
+### 11:45
 
 **CMD**: Topic: Tuples and Strings
 
@@ -155,21 +155,21 @@
 
 **EXERCISE** 5-6
 
-### 12:20
+### 11:55
 
 **CMD**: Chapter review
 
-### 12:30
+### 12:00
 
 **CMD**: Lunch break
 
-### 13:30
+### 13:00
 
 **CMD**: Return from lunch break quiz
 
 **QUIZ**: Load `day2_after_lunch.pdf` into Big Blue Button
 
-### 13:35
+### 13:05
 
 **CMD**: Topic: for-each loops
 
@@ -231,21 +231,21 @@ STEP 11: GO TO STEP 2
 
 **EXERCISE** 6-2
 
-### 14:20
+### 14:00
 
 **CMD** Break
 
-### 14:30
+### 14:10
 
 **QUIZ**: Load `day2_afternoon.pdf` into Big Blue Button.
 
-### 14:40
+### 14:15
 
 **SAY**: In order to practice using and reading for-each loops, try to solve the next 3 exercises.
 
 **EXERCISES** 6-3, 6-4, 6-5
 
-### 15:20
+### 14:45
 
 **SAY** Before we finish up with loops I want to introduce you to one more member of the Python
         standard tool belt: "ZIP"! What problem does this solve?
@@ -255,11 +255,15 @@ STEP 11: GO TO STEP 2
 
 **EXERCISES**: 6-6, 6-7
 
-### 15:50
+### 15:00
 
 **CMD**: Chapter review
 
-### 16:00
+### 15:05
+
+**CMD** Break
+
+### 15:15
 
 **CMD**: Topic: dictionaries
 
@@ -298,7 +302,7 @@ STEP 11: GO TO STEP 2
 
 **EXERCISES**: 7-3, 7-4, 7-5
 
-### 16:50
+### 16:10
 
 **CMD**: Chapter review
 
@@ -306,6 +310,10 @@ STEP 11: GO TO STEP 2
          if you are struggling. Next week we will continue to work on this climate plotting project. We will
          also share your work on the other projects. Please try to spend a couple of hours this week working on them
          before the next session.
+         
+### 16:15
+
+**CMD**: Work on projects
 
 ### 17:00
 

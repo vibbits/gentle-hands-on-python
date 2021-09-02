@@ -1,6 +1,5 @@
 ---
-title:
-    - Quiz
+title: "Quiz: morning, day 2"
 mainfont: "Liberation Mono"
 ---
 

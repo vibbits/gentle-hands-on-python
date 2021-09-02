@@ -45,7 +45,7 @@
 
 **SAY**: Using values like a number, text, an image, etc are great and useful. But often we need to collect many of these values
          together. For example, to compute statistics on experimental observations, we need a collection of multiple observations.
-         Looking at each observation individual is not useful in this case.
+         Looking at each observation individually is not useful in this case.
 
 **SAY**: Python gives us a number of ways to store collections of values together. Each with their own characteristics. In this
          session we will look at the **List**, **Tuple**, and **String** collections and apply them to improving our Fizz Buzz
@@ -85,7 +85,7 @@
 
 **CMD**: Describe indexing and slicing with negative indexes using examples.
 
-**CMD**: Demonstrate the slicing shorthand for "begginning" and "end".
+**CMD**: Demonstrate the slicing shorthand for "beginning" and "end".
 
 **CMD**: Demo the "step" value in slicing.
 
@@ -96,7 +96,7 @@
 **EXERCISE** 5-2
 
 **SAY**: The last attempt we made at writing a function to play Fizz Buzz wasn't very interesting. In order to play to larger numbers
-         we would have to type out a longer and longer list. This negates the power of your computer if you can't get to to compute
+         we would have to type out longer and longer lists. This negates the power of your computer if you can't get to to compute
          for you. So let's have another attempt using slicing. This time well replace the right numbers with either "Fizz" or "Buzz".
 
 **EXERCISE** 5-3
@@ -128,11 +128,13 @@
          the `operator` library. As the course progresses you will see more of the standard library and the huge array of
          facilities it provides, however we encourage you to explore and see what useful functionality exists. Let's begin now to
          try to understand what these functions and operators do...
-
+         
 **SAY**: Before you run the cells try to guess what the result will be.
 
+**CMD**: Run the example cells.
+
 **SAY**: The `sorted()` function takes 2 optional arguments that customise its behaviour: `key` is a function used to access the key
-         to sort on. And `reverse` is used to sort in reverse order.
+         to sort on. And `reverse` is used to sort in reverse order, it should be `True` or `False`.
 
 **CMD**: Read and demo from notebook about the `key` argument.
 
@@ -153,7 +155,7 @@
 **SAY**: Practically, strings are almost exactly like tuples except you cannot store arbitrary values in strings: no, you can only store
          characters. This is just a different way of looking at text data that allows you to see that indexing and slicing also make sense.
 
-**EXERCISE** 5-6
+**EXERCISE** 5-6, 5-7
 
 ### 11:55
 
@@ -183,30 +185,9 @@
          Each of our implementations so far has required you, the programmer, to write down the steps for every
          single number. We've not used this special power that computers have: to repeat steps.
 
-**SAY**: This is how you might expect to be able to describe the Fizz Buzz game to a computer:
-
-**CMD**: Say this...
-```
-STEP  1: SET VARIABLE COUNTER TO 1
-STEP  2: CHECK IF COUNTER IS A MULTIPLE OF 5 OR 3
-STEP  3: IF SO, SAY "FIZZ BUZZ"
-STEP  4: CHECK IF COUNTER IS A MULTIPLE OF 3
-STEP  5: IF SO, SAY "FIZZ"
-STEP  6: CHECK IF COUNTER IS A MULTIPLE OF 5
-STEP  7: IF SO, SAY "BUZZ"
-STEP  8: CHECK IF WE HAVE FINISHED COUNTING
-STEP  9: IF SO, STOP
-STEP 10: INCREMENT COUNTER
-STEP 11: GO TO STEP 2
-```
-
-**SAY**: The only part we're still mmissing is the ability to say, `GO TO STEP 2`. This is what a _loop_ does.
-         You can think `GO TO STEP 2` as creating a control-flow loop. Steps 2-9 are looped until the stop
-         condition is met.
-
-**SAY**: The loop construct we'll be looking at with here is known as the _for-each loop_. It's called this
-         because it allows us to repeat a set of instructions _for each_ member of a collection. For example,
-         here we have a list of numbers...
+**SAY**: The loop construct we'll be looking at here is known as the _for-each loop_. It's called this
+         because it allows us to repeat a set of instructions _for each_ member of a collection.
+         For example, here we have a list of numbers...
 
 **CMD**: Explain the syntax of a **for** loop. Then explain the loop by unrolling it.
 
@@ -249,9 +230,11 @@ STEP 11: GO TO STEP 2
 
 **SAY** Before we finish up with loops I want to introduce you to one more member of the Python
         standard tool belt: "ZIP"! What problem does this solve?
-        Imagine you have 2 collections with element you wish to process in your loop at the same time...
+        Imagine you have 2 collections with elements you wish to process in your loop at the same time...
 
-**CMD**: Walk through description in the notebook and sequence identity example
+**CMD**: Walk through description in the notebook and sequence identity example.
+
+**CMD**: Explain `None`.
 
 **EXERCISES**: 6-6, 6-7
 
@@ -268,7 +251,7 @@ STEP 11: GO TO STEP 2
 **CMD**: Topic: dictionaries
 
 **SAY**: Now that we're finished implementing the Fizz Buzz game, we can tackle a more realistic problem.
-         Here is the scenario: we've been comissioned to produce comparative plots of temerature data for
+         Here is the scenario: we've been comissioned to produce comparative plots of temperature data for
          3 countries and globally from 1901 to 2020: Belgium, Russia, and Australia.
 
 **SAY**: The data we need is publicly available on the internet but from different sources so we will need

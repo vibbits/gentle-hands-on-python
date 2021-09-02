@@ -1,6 +1,5 @@
 ---
-title:
-    - Quiz
+title: "Afternoon, day 2"
 mainfont: "Liberation Mono"
 ---
 
@@ -20,7 +19,7 @@ C.  1
 
 D.  6
 
-# What does this function do?
+# What is the result of applying this function?
 
 ```python
 def foo(bar):
@@ -48,6 +47,8 @@ A.  `[10, 9, 8, 7, 6]`
 B.  `[10, 9, 8, 7, 6, 5]`
 
 C.  `range(10, 5, -1)`
+
+D.  Nothing
 
 # What does this function do?
 

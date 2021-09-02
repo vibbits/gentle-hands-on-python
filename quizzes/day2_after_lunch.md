@@ -1,6 +1,5 @@
 ---
-title:
-    - Quiz
+title: ""Quiz: after lunch, day 2"
 mainfont: "Liberation Mono"
 ---
 
@@ -14,7 +13,7 @@ C.  `reversed(my_string)`
 
 D.  `my_string.reverse`
 
-# What is the result of this expression?
+# What will this statement do?
 
 ```python
 "test"[0] = 'b'

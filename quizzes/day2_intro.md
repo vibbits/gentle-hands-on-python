@@ -23,15 +23,15 @@ C.  `5 + 6 = y`
 
 D.  `seven = 3 * 4`
 
-# Which is not a valid variable name?
+# Which is the right way to define a variable?
 
-A.  `print`
+A.  `var <- 6`
 
-B.  `result`
+B.  `var = 6`
 
-C.  `2nd`
+C.  `int var = 6;`
 
-D.  `the_computation`
+D.  `let var = 6`
 
 # What is the result of this expression?
 
@@ -79,7 +79,7 @@ D.  Strings
 
 - No
 
-# What type of value guards an "if block"?
+# What type of value should go after `if`?
 
 A.  All code is equally indented
 

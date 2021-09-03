@@ -161,3 +161,12 @@
 ### 13:00
 
 **CMD**: Return from lunch
+
+**CMD**: Topic: Visualising data
+
+**SAY**: This is the last section of "theory" in this course, and the first taste of the enormous third-party
+         Python "ecosystem". If you're coming from R, you will be familiar with third party packages coming
+         from CRAN. In Python, third-party packages generally come from the Python Package Index (PyPI).
+
+**SAY**: At the beginning of the course 2 weeks ago you installed a third-party library called "matplotlib".
+         This is probably the most popular library for plotting in Python, though certainly not the only one.

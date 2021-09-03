@@ -259,7 +259,7 @@
          and align on dates and temperature offsets (and units). You will also need to perform some smoothing
          and finally generate the plots.
 
-**SAY**: This is an abbitious project for new Pythonistas! But I promise we can do it together, with the help
+**SAY**: This is an ambitious project for new Pythonistas! But I promise we can do it together, with the help
          of Python and it's standard library, one step at a time.
 
 **SAY**: One of the first things we should think about is how to model our data. That is, how to represent

@@ -1,5 +1,5 @@
 ---
-title: ""Quiz: after lunch, day 2"
+title: "Quiz: after lunch, day 2"
 mainfont: "Liberation Mono"
 ---
 

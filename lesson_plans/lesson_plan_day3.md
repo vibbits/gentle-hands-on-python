@@ -68,7 +68,7 @@
 
 **CMD**: Demonstrate looping over a dictionary and the special functions `.items()` and `.values()`
 
-**EXERCISES**: 7-3, 7-4, 7-5
+**EXERCISES**: 7-3, 7-4
 
 ### 11:00
 
@@ -264,6 +264,10 @@
 
 **CMD**: Allow students to present their project work. Possibly work through solutions as necessary.
          This can be a group exercise.
+
+### 16:55
+
+**CMD**: Final word and conclusion of course. Wish everyone good luck. Talk through the conclusion notebook.
 
 ### 17:00
 

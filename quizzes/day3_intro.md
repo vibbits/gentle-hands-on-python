@@ -25,10 +25,10 @@ B.  `[(2, 'b'), (3, 'c')]`
 
 C.  `[(2, 'b')]`
 
-D.  `[[(1, 'a'), (2, 'b'), (3, 'c')]`
+D.  `(2, 'b')`
 
 
-# What data type is this exprerssion?
+# What data type is this expression?
 
 ```python
 (1, 3, 5, 7, 9)
@@ -61,7 +61,7 @@ D.  All of the above
 # What is the result of this expression?
 
 ```python
-"hello" = 6
+"hello" == 6
 ```
 
 A.  `SyntaxError`
@@ -92,12 +92,12 @@ D.  `[4, 1, 3, 5, 7, 9]`
 ```python
 data = []
 for val in range(10):
-    data += val * 2
+    data += [val * 2]
 
 print(-data[3])
 ```
 
-A.  `SyntaxError`
+A.  `-6`
 
 B.  `-9`
 
@@ -129,25 +129,8 @@ list(zip("hello", "world"))[2]
 
 A.  `[("llo", "rld")]`
 
-B.  `IndexError`
+B.  `('e', 'o')`
 
 C.  `"lr"`
 
 D.  `('l', 'r')`
-
-# What is the result of this expression?
-
-
-```python
-from collections import Counter
-
-Counter("helloworld")['l']
-```
-
-A.  `SyntaxError`
-
-B.  `IndexError`
-
-C.  `2`
-
-D.  `3`

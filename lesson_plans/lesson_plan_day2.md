@@ -212,21 +212,17 @@
 
 **EXERCISE** 6-2
 
-### 14:00
+### 14:30
 
 **CMD** Break
 
-### 14:10
+### 14:40
 
 **QUIZ**: Load `day2_afternoon.pdf` into Big Blue Button.
-
-### 14:15
 
 **SAY**: In order to practice using and reading for-each loops, try to solve the next 3 exercises.
 
 **EXERCISES** 6-3, 6-4, 6-5
-
-### 14:45
 
 **SAY** Before we finish up with loops I want to introduce you to one more member of the Python
         standard tool belt: "ZIP"! What problem does this solve?
@@ -238,54 +234,7 @@
 
 **EXERCISES**: 6-6, 6-7
 
-### 15:00
-
-**CMD**: Chapter review
-
-### 15:05
-
-**CMD** Break
-
-### 15:15
-
-**CMD**: Topic: dictionaries
-
-**SAY**: Now that we're finished implementing the Fizz Buzz game, we can tackle a more realistic problem.
-         Here is the scenario: we've been comissioned to produce comparative plots of temperature data for
-         3 countries and globally from 1901 to 2020: Belgium, Russia, and Australia.
-
-**SAY**: The data we need is publicly available on the internet but from different sources so we will need
-         to "clean" it (e.g. ensure dates and times are written in the same way, remove missing data, etc.),
-         and align on dates and temperature offsets (and units). You will also need to perform some smoothing
-         and finally generate the plots.
-
-**SAY**: This is an ambitious project for new Pythonistas! But I promise we can do it together, with the help
-         of Python and it's standard library, one step at a time.
-
-**SAY**: One of the first things we should think about is how to model our data. That is, how to represent
-         our data in our program so that it is easy to work with. You might already be thinking about storing
-         temperatures in a list, that's not a bad idea. We will need 4 lists: one for each country and 1 for
-         the global data. This idea can get very messy though: if we want to add a new country in the future
-         we will need another list and modify every function we write to deal with these data. Aligining the
-         data on date/time will require us to combine the lists together.
-
-**SAY**: So we could immediately combine the data for a date/time together into a list of tuples perhaps like this:
-         `[(BEL1, RUS1, AUS1, GLO1), (BEL2, RUS2, AUS2, GLO2),...]` and so on. Of course we will have to remember
-         the ordering ourselves. And if we add another country then that will make remembering order even
-         more difficult. We're going in the right direction though. We really need a collection that will allow
-         us to associate a name, say "BEL" with a temperature. A tuple does not do this for us but a Python
-         dictionary does!
-
-**CMD**: Talk through the image for syntax of a dictionary. Also how to use indexing and the `in` operator. Link
-         to how other collections work.
-
-**EXERCISE** 7-1, 7-2
-
-**CMD**: Demonstrate looping over a dictionary and the special functions `.items()` and `.values()`
-
-**EXERCISES**: 7-3, 7-4, 7-5
-
-### 16:10
+### 16:45
 
 **CMD**: Chapter review
 
@@ -294,10 +243,6 @@
          also share your work on the other projects. Please try to spend a couple of hours this week working on them
          before the next session.
          
-### 16:15
-
-**CMD**: Work on projects
-
 ### 17:00
 
 **CMD**: Fin

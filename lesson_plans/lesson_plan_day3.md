@@ -29,11 +29,60 @@
 
 **CMD**: Most late students should arrive by now, start the refresher quiz
 
-**QUIZ**: Load `day2_intro.pdf` into Big Blue Button.
+**QUIZ**: Load `day3_intro.pdf` into Big Blue Button.
 
 ### 9:50
 
-**CMD**: Start topic: Fetching and storing data
+**CMD**: Topic: dictionaries
+
+**SAY**: Now that we're finished implementing the Fizz Buzz game, we can tackle a more realistic problem.
+         Here is the scenario: we've been comissioned to produce comparative plots of temperature data for
+         3 countries and globally from 1901 to 2020: Belgium, Russia, and Australia.
+
+**SAY**: The data we need is publicly available on the internet but from different sources so we will need
+         to "clean" it (e.g. ensure dates and times are written in the same way, remove missing data, etc.),
+         and align on dates and temperature offsets (and units). You will also need to perform some smoothing
+         and finally generate the plots.
+
+**SAY**: This is an ambitious project for new Pythonistas! But I promise we can do it together, with the help
+         of Python and it's standard library, one step at a time.
+
+**SAY**: One of the first things we should think about is how to model our data. That is, how to represent
+         our data in our program so that it is easy to work with. You might already be thinking about storing
+         temperatures in a list, that's not a bad idea. We will need 4 lists: one for each country and 1 for
+         the global data. This idea can get very messy though: if we want to add a new country in the future
+         we will need another list and modify every function we write to deal with these data. Aligining the
+         data on date/time will require us to combine the lists together.
+
+**SAY**: So we could immediately combine the data for a date/time together into a list of tuples perhaps like this:
+         `[(BEL1, RUS1, AUS1, GLO1), (BEL2, RUS2, AUS2, GLO2),...]` and so on. Of course we will have to remember
+         the ordering ourselves. And if we add another country then that will make remembering order even
+         more difficult. We're going in the right direction though. We really need a collection that will allow
+         us to associate a name, say "BEL" with a temperature. A tuple does not do this for us but a Python
+         dictionary does!
+
+**CMD**: Talk through the image for syntax of a dictionary. Also how to use indexing and the `in` operator. Link
+         to how other collections work.
+
+**EXERCISE** 7-1, 7-2
+
+**CMD**: Demonstrate looping over a dictionary and the special functions `.items()` and `.values()`
+
+**EXERCISES**: 7-3, 7-4, 7-5
+
+### 11:00
+
+**CMD**: Break
+
+### 11:10
+
+**CMD**: Back from break quiz
+
+**QUIZ**: Load `day2_morning_break.pdf` into Big Blue Button
+
+### 11:15
+
+**CMD**: Topic: Fetching and storing data
 
 **SAY**: Last week we started working on a new project: plotting climate data. We've been asked
          to plot global climate data, as well as climate data for 3 specific countries: Belgium,
@@ -91,17 +140,17 @@
 
 ***EXERCISE**: 8-3
 
-### 11:00
+### 12:00
 
-**CMD**: Break
+**CMD**: Lunch break
 
-### 11:10
+### 13:00
 
-**CMD**: Back from break quiz
+**CMD**: Back from lunch quiz
 
-**QUIZ**: Load `day3_morning_break.pdf` into Big Blue Button
+**QUIZ**: Load `day3_after_lunch.pdf` into Big Blue Button
 
-### 11:15
+### 13:05
 
 **CMD**: Topic: Loading data from a web resource
 
@@ -126,7 +175,7 @@
 
 **EXERCISE**: 8-4, 8-5
 
-### 11:30
+### 13:30
 
 **CMD**: Topic: data serialisation
 
@@ -150,17 +199,21 @@
 
 **EXERCISE**: 8-7
 
-### 11:55
+### 13:55
 
 **CMD**: Chapter review
 
-### 12:00
+### 14:00
 
-**CMD**: Lunch break
+**CMD**: Break
 
-### 13:00
+### 14:10
 
-**CMD**: Return from lunch
+**CMD**: Back from break quiz
+
+**QUIZ**: Load `day3_afternoon.pdf` into Big Blue Button.
+
+### 14:15
 
 **CMD**: Topic: Visualising data
 
@@ -170,3 +223,48 @@
 
 **SAY**: At the beginning of the course 2 weeks ago you installed a third-party library called "matplotlib".
          This is probably the most popular library for plotting in Python, though certainly not the only one.
+         We can use it to display interactive plots in Jupyter using some special sauce...
+         
+**CMD**: Run the Jupyter magic code cell: `%matplotlib widget`. If this does not work, ensure students have
+         `matplotlib` and `ipympl` packages installed and accessible for Jupyter Lab.
+
+**SAY**: Matplotlib provides a `pyplot` library which is a set of MATLAB like commands for generating plots.
+         So the first thing we need to do is import the library.
+
+**SAY**: Now you're ready to create a basic plot.
+
+**CMD**: Explain simple example. Then explain the more complicated samples. Ask students to notice the
+         similarities between them.
+
+**CMD**: Walk through the bar plot example. Explain that there are more plot types available and students
+         should look at the matplotlib documentation and examples websites for inspiration.
+
+**SAY**: Now that you understand the basics of using matplotlib for plotting let us try to plot the climate data.
+         Luckily, you saved your cleaned climate data earlier so now you can load it and plot it directly...
+
+**CMD**: Read from the notebook...
+
+**SAY**: This looks good so far, but it would be nice to notice long term trends using smoothed data...
+
+**EXERCISE**: 9-1, 9-2
+
+### 15:15
+
+**CMD**: Chapter review
+
+### 15:25
+
+**CMD**: Break and work on projects.
+
+**SAY**: At 16:00 we will begin looking through the projects and ask 2 or 3 of you to present your work.
+         If you would like to volunteer to present your work that would be very welcome, please tell one of the
+         instructors.
+
+### 16:00
+
+**CMD**: Allow students to present their project work. Possibly work through solutions as necessary.
+         This can be a group exercise.
+
+### 17:00
+
+**CMD**: Fin

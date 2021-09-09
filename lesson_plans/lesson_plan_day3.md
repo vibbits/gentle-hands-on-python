@@ -33,6 +33,11 @@
 
 ### 9:50
 
+**SAY**: To help you get back in the groove, lets try an extercise that you can already solve before we tackle
+         any new topics.
+         
+**EXERCISE**: Open special Revision notebook.
+
 **CMD**: Topic: dictionaries
 
 **SAY**: Now that we're finished implementing the Fizz Buzz game, we can tackle a more realistic problem.

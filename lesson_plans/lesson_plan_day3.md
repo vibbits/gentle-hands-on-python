@@ -71,27 +71,29 @@
 
 **EXERCISE** 7-1, 7-2
 
+### 10:30
+
+**CMD**: Break
+
+### 10:40
+
+**CMD**: Return from break
+
 **CMD**: Demonstrate looping over a dictionary and the special functions `.items()` and `.values()`
 
 **EXERCISES**: 7-3, 7-4
 
-### 11:00
+**CMD**: Chapter review
 
-**CMD**: Break
+### 12:00
 
-### 11:10
+**CMD**: Lunch break
 
-**CMD**: Back from break quiz
+### 13:00
 
-**QUIZ**: Load `day2_morning_break.pdf` into Big Blue Button
-
-### 11:15
+**CMD**: Back from lunch
 
 **CMD**: Topic: Fetching and storing data
-
-**SAY**: Last week we started working on a new project: plotting climate data. We've been asked
-         to plot global climate data, as well as climate data for 3 specific countries: Belgium,
-         Russia, and Australia.
 
 **SAY**: The global data is available in a file on your computer, the per-country data is only
          available from a website. In this session we will fetch these data, "clean" it, and
@@ -145,17 +147,11 @@
 
 ***EXERCISE**: 8-3
 
-### 12:00
+### 14:00
 
-**CMD**: Lunch break
+**CMD**: Break
 
-### 13:00
-
-**CMD**: Back from lunch quiz
-
-**QUIZ**: Load `day3_after_lunch.pdf` into Big Blue Button
-
-### 13:05
+### 14:10
 
 **CMD**: Topic: Loading data from a web resource
 
@@ -180,45 +176,23 @@
 
 **EXERCISE**: 8-4, 8-5
 
-### 13:30
+**CMD**: Tell Google collab users to download their saved cleaned data files.
 
-**CMD**: Topic: data serialisation
-
-**SAY** Before lunch, let's explore data serialisation a little. This morning you've enountered a general-purpose
-        data serialisation format that's very popular for tabular structured data. Of course there are many other
-        data formats, some general purpose (like CSV or JavaScript Object Notation; JSON) and some special purpose
-        like (Word processor documents for storing structured text, executable programs for storing the binary
-        representation of programs, or FASTA for storing nucleic acid or amino acid sequences).
-
-**SAY**: Like with CSV, the Python standard library provides a library to help us read and write JSON formatted data.
-
-**CMD**: Run through and explain the examples.
-
-**EXERCISE**: 8-6
-
-**SAY**: The Python standard library does not provide a library to deal with the special purpose FASTA format. Though
-         there are of course third-party libraries to do so. Instead you're going to write your own reader for FASTA
-         and use the result of your reader to compute GC content.
-
-**CMD**: Explain the structure of FASTA formatted data.
-
-**EXERCISE**: 8-7
-
-### 13:55
+### 14:55
 
 **CMD**: Chapter review
 
-### 14:00
+### 15:00
 
 **CMD**: Break
 
-### 14:10
+### 15:10
 
 **CMD**: Back from break quiz
 
-**QUIZ**: Load `day3_afternoon.pdf` into Big Blue Button.
+**QUIZ**: Load `day3_morning_break.pdf` into Big Blue Button.
 
-### 14:15
+### 15:15
 
 **CMD**: Topic: Visualising data
 
@@ -241,7 +215,7 @@
 **CMD**: Explain simple example. Then explain the more complicated samples. Ask students to notice the
          similarities between them.
 
-**CMD**: Walk through the bar plot example. Explain that there are more plot types available and students
+**CMD**: Explain that there are more plot types available and students
          should look at the matplotlib documentation and examples websites for inspiration.
 
 **SAY**: Now that you understand the basics of using matplotlib for plotting let us try to plot the climate data.
@@ -253,19 +227,19 @@
 
 **EXERCISE**: 9-1, 9-2
 
-### 15:15
+### 16:00
 
 **CMD**: Chapter review
 
-### 15:25
+### 16:05
 
 **CMD**: Break and work on projects.
 
-**SAY**: At 16:00 we will begin looking through the projects and ask 2 or 3 of you to present your work.
+**SAY**: At 16:30 we will begin looking through the projects and ask 2 or 3 of you to present your work.
          If you would like to volunteer to present your work that would be very welcome, please tell one of the
          instructors.
 
-### 16:00
+### 16:30
 
 **CMD**: Allow students to present their project work. Possibly work through solutions as necessary.
          This can be a group exercise.

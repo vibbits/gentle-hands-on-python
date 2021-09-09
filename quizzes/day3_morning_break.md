@@ -3,7 +3,7 @@ title: "Quiz: morning, day 3"
 mainfont: "Liberation Mono"
 ---
 
-# I can use web resources the same way I can file resources
+# I can perform the same operations on web resources and file resources
 
 - True
 

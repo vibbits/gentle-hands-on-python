@@ -81,6 +81,9 @@
 
 **CMD**: Demonstrate looping over a dictionary and the special functions `.items()` and `.values()`
 
+**CMD**: When talking through solutions to exercise 7-3 you can discuss a progression from naive
+         solution, to `collections.defaultdict(int)` to `collections.Counter()`.
+
 **EXERCISES**: 7-3, 7-4
 
 **CMD**: Chapter review

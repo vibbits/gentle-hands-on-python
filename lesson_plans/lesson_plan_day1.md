@@ -212,6 +212,8 @@
 
 **EXERCISES** 2-10, 2-11, 2-12, 2-13, 2-14
 
+**CMD**: Describe what comments are and why they're useful.
+
 ### 11:55
 
 **CMD**: Review the Chapter: what was learned?
@@ -263,6 +265,15 @@
 
 **CMD**: Read from the notebook.
 
+**CMD**: Explain importance of indentation in Python
+
+**SAY**: Python code is organised into "blocks" that are noticable visually because of
+         _equal indentation_. Each line of code within a block _must_ be equally indented. Thankfully,
+         Jupyter is very helpful but problems can still happen if you are not careful.
+
+**CMD**: Demonstrate unequal indentation. Ask students what happens when they try to run the
+         cell with unequal indentation. Ask them to fix it.
+
 **SAY**: A lot of what you do as a programmer will be debugging: your program will fail in some way and
          it is up to you to diagnose what the problem is and fix it. If you're getting an error message
          then pasting the error message into a search engine is an excellent idea, many problems are
@@ -275,7 +286,9 @@
          I will only briefly mention one of them here: testing. Among the many benefits of testing
          is that it can reveal logical problems in your program early and ensure they do not
          reoccur. When you test in real life you will use a testing framework, not the toy testing
-         we're using here. But the examples below are a great illustration of testing.
+         we're using here.
+
+**CMD**: Read from the notebook about testing.
 
 **CMD**: At exercise 3-0 introduce "tests" and how to write a function that satisfies the test cases.
          Include a joke that breaks the second test. Then allow everyone to complete the first exercise.
@@ -290,11 +303,22 @@
          programming is very different from being able to practically and usefully use Python.
          To practice what you've learned so far complete the remainder of the exercises.
 
-**EXERCISES**: 3-3, 3-4, 3-5, 3-6
+**EXERCISE**: 3-3
+
+**SAY**: At the beginning of this section we talked about functions as the "combining parts" of programs. Well this wouldn't
+         be very useful if we couldn't combine functions themselves together. Functions can be "composed" together into new
+         functions.
+
+**CMD**: Talk through the section on function composition
+
+**EXERCISE**: 3-4
+
+**SAY**: One final concept for you: scope.
+
+**CMD**: Read through the Scope section.
 
 **SAY**: Please spend some time to attempt the review questions then take a break. Feel free to ask
-         questions in the chat. Tuur will take over after the break and I will take his place
-         handing out internet points.
+         questions in the chat.
      
 ### 14:25
 
@@ -336,7 +360,6 @@
          answer were "NO" (or `False`). Of course Python requires you write this in a specific way...
 
 **CMD**: Explain syntax of an `if` block including indentation.
-         Indentation problems are talked about in the next section.
 
 **CMD**: Walk through the code cell explaining in the terms used already. Comments may help.
          Ask students to run the block and experiment with what happens when they modify it.
@@ -348,15 +371,6 @@
 **SAY**: For extra points, why is "Fizz Buzz" returned first?
 
 ### 15:00
-
-**CMD**: Explain importance of indentation in Python
-
-**SAY**: Python code is organised into "blocks" that are noticable visually because of
-         _equal indentation_. Each line of code within a block _must_ be equally indented. Thankfully,
-         Jupyter is very helpful but problems can still happen if you are not careful.
-
-**CMD**: Demonstrate unequal indentation. Ask students what happens when they try to run the
-         cell with unequal indentation. Ask them to fix it.
 
 **SAY**: You can also get the decision making process of your program mixed up when you are not careful
          about indentation. Remember that the block of code guarded by an **if** statement is only

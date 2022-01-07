@@ -296,17 +296,13 @@
      
 **EXERCISES**: 3-1, 3-2, 3-3
 
-**SAY**: At the beginning of this section we talked about functions as the "combining parts" of programs. Well this wouldn't
-         be very useful if we couldn't combine functions themselves together. Functions can be "composed" together into new
-         functions.
+**SAY**: At the beginning of this section we talked about functions as the "combining parts" of programs.
+         Well this wouldn't be very useful if we couldn't combine functions themselves together. Functions
+         can be "composed" together into new functions.
 
-**CMD**: Talk through the section (section 4) on function composition
+**CMD**: Talk through section 4 on function composition
 
 **EXERCISE**: 3-4
-
-**SAY**: One final concept for you: scope.
-
-**CMD**: Read through the Scope section.
 
 **SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
          and testing complete programs. The remainder of this course, in some sense, are just details

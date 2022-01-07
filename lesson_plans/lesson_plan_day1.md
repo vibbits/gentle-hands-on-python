@@ -260,12 +260,12 @@
          The function called `len` is applied to some argument with a string data type within a
          single pair of parentheses: `len("hello")`. It is the parentheses that are important here.
          They're what tell Python to _apply_ the function before them to whatever is between them.
+
+**CMD**: Run first 2 code cells to demo function application.
      
 **SAY**: So that's function _application_, what about function definition.
 
-**CMD**: Read from the notebook.
-
-**CMD**: Explain importance of indentation in Python
+**CMD**: Read from section 1.2
 
 **SAY**: Python code is organised into "blocks" that are noticable visually because of
          _equal indentation_. Each line of code within a block _must_ be equally indented. Thankfully,
@@ -285,31 +285,22 @@
          incorrect results. There are many processes you can use to help you in this situation, but
          I will only briefly mention one of them here: testing. Among the many benefits of testing
          is that it can reveal logical problems in your program early and ensure they do not
-         reoccur. When you test in real life you will use a testing framework, not the toy testing
-         we're using here.
+         reoccur. When you test in real life you will use a testing framework, but for now we will just
+         show you the basics.
 
-**CMD**: Read from the notebook about testing.
+**CMD**: Read from the notebook about testing section 3.
+
 
 **CMD**: At exercise 3-0 introduce "tests" and how to write a function that satisfies the test cases.
-         Include a joke that breaks the second test. Then allow everyone to complete the first exercise.
+         Then allow everyone to complete the first exercise (3-1).
      
-**EXERCISES**: 3-1, 3-2
-
-
-**SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
-         and testing complete programs. The remainder of this course, in some sense, are just details
-         of what we've covered already. You're now, officially, programmers :)
-         That doesn't mean you should ignore the rest of the course. Having a theoretical understanding of
-         programming is very different from being able to practically and usefully use Python.
-         To practice what you've learned so far complete the remainder of the exercises.
-
-**EXERCISE**: 3-3
+**EXERCISES**: 3-1, 3-2, 3-3
 
 **SAY**: At the beginning of this section we talked about functions as the "combining parts" of programs. Well this wouldn't
          be very useful if we couldn't combine functions themselves together. Functions can be "composed" together into new
          functions.
 
-**CMD**: Talk through the section on function composition
+**CMD**: Talk through the section (section 4) on function composition
 
 **EXERCISE**: 3-4
 
@@ -317,9 +308,15 @@
 
 **CMD**: Read through the Scope section.
 
+**SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
+         and testing complete programs. The remainder of this course, in some sense, are just details
+         of what we've covered already. You're now, officially, programmers :)
+         That doesn't mean you should ignore the rest of the course. Having a theoretical understanding of
+         programming is very different from being able to practically and usefully use Python.
+
 **SAY**: Please spend some time to attempt the review questions then take a break. Feel free to ask
          questions in the chat.
-     
+
 ### 14:25
 
 **CMD**: Chapter review

@@ -67,7 +67,8 @@
          dictionary does!
 
 **CMD**: Talk through the image for syntax of a dictionary. Also how to use indexing and the `in` operator. Link
-         to how other collections work.
+         to how other collections work (e.g. lists from day 2). Also explicitly talk about how to change values
+         and add new key/value pairs.
 
 **EXERCISE** 7-1, 7-2
 

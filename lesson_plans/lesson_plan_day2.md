@@ -238,10 +238,15 @@
 
 **CMD**: Chapter review
 
-**SAY**: Another very big day today. We've covered a lot of very new concepts. Please tell one of us instructors
-         if you are struggling. Next week we will continue to work on this climate plotting project. We will
-         also share your work on the other projects. Please try to spend a couple of hours this week working on them
-         before the next session.
+**SAY**: Another very big day today. We've covered a lot of very new concepts.
+         Please tell one of us instructors if you are struggling. Next week we
+         will continue to work on this climate plotting project. We will
+         also share your work on the other projects. Please try to spend a
+         couple of hours this week working on them before the next session.
+
+**SAY**: By the way. You can now, officially, call yourselves programmers :) That doesn't
+         mean you should ignore the rest of the course. But you should now know enough
+         to build useful programs.
          
 ### 17:00
 

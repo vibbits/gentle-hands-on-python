@@ -11,6 +11,9 @@
 
 ## Materials
 
+1. Notebook chapters 8, 9, 10
+1. The "How to Design Programs" textbook
+
 ## Procedure
 
 ### 9:20

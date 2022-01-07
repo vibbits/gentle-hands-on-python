@@ -47,7 +47,9 @@
 
 **CMD**: Explain that online learning is different from classroom learning. It's difficult for trainers to notice that students are
          struggling and it's difficult to interact like we might in a classroom. Therefore we would like to get as much interaction
-         as possible via voice and video. Ask students to turn on their microphones and cameras and introduce themselves.
+         as possible via voice and video.
+
+**CMD**: Ask students to turn on their microphones and cameras and introduce themselves.
 
 ### 10:00
 
@@ -61,7 +63,7 @@
 * Special alternative: Idle with a regular Python install, replit.com (whatever student is comfortable with). Python can be installed
   from the Microsoft store on Windows 10:  https://www.youtube.com/watch?v=yXfCq4xzrrI&t=19s (Be careful: says Python 3.7)
 
-### 10:20
+### 10:30
 
 **CMD**: Start on the basics of programming and computing.
 
@@ -296,6 +298,10 @@
      
 **EXERCISES**: 3-1, 3-2, 3-3
 
+## 13:45
+
+**CMD**: Function composition
+
 **SAY**: At the beginning of this section we talked about functions as the "combining parts" of programs.
          Well this wouldn't be very useful if we couldn't combine functions themselves together. Functions
          can be "composed" together into new functions.
@@ -306,9 +312,7 @@
 
 **SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
          and testing complete programs. The remainder of this course, in some sense, are just details
-         of what we've covered already. You're now, officially, programmers :)
-         That doesn't mean you should ignore the rest of the course. Having a theoretical understanding of
-         programming is very different from being able to practically and usefully use Python.
+         of what we've covered already.
 
 **SAY**: Please spend some time to attempt the review questions then take a break. Feel free to ask
          questions in the chat.
@@ -366,9 +370,10 @@
 ### 15:00
 
 **SAY**: You can also get the decision making process of your program mixed up when you are not careful
-         about indentation. Remember that the block of code guarded by an **if** statement is only
-         executed if the contition is `True`. To demonstrate an example of such a problem, try the next
-         exercise...
+         about indentation. Remember that the indented block of code guarded by an **if** statement is only
+         executed if the contition is `True`. So it is important to ensure that all of the code you wish to
+         be conditionally executed is indented under the `if`. To demonstrate an example of such a problem,
+         try the next exercise...
 
 **EXERCISE** 4-2
 

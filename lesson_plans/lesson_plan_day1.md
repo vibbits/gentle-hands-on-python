@@ -54,12 +54,12 @@
 ### 10:00
 
 **CMD**: Talk about how to set up a learning environment
-
-**CMD**:
+**NOTE**: Dependencies are: `matplotlib ipympl pillow`
+**NOTE**: Anaconda download link: https://www.anaconda.com/products/individual
 * If students are running Windows or Apple OSX (and have at least 5 GiB available disk space):
   Demonstrate downloading and installing Anaconda and starting Jupyter Labs. Video: https://youtu.be/hmI8YIejVcQ
 * Otherwise, introduce Google Collab for those with a google account: https://colab.research.google.com/
-* GNU/Linux users need not use Anaconda. Just `pip install jupyterlab matplotlib ipympl`.
+* GNU/Linux users need not use Anaconda. Just `pip install jupyterlab matplotlib ipympl pillow`.
 * Special alternative: Idle with a regular Python install, replit.com (whatever student is comfortable with). Python can be installed
   from the Microsoft store on Windows 10:  https://www.youtube.com/watch?v=yXfCq4xzrrI&t=19s (Be careful: says Python 3.7)
 

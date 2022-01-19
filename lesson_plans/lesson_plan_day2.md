@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Understand the purpose and basic use of the most common collection types in Python: List, Tuple, Dictionary
+1. Understand the purpose and basic use of the most common collection types in Python: List, Tuple
 1. Understand iteration and iteration using collection types
 1. Write new functions with less help
 1. Fix existing code
@@ -10,7 +10,7 @@
 
 ## Materials
 
-1. Notebook chapters 5, 6, 7
+1. Notebook chapters 5, 6
 1. The "How to Design Programs" textbook
 
 ## Procedure

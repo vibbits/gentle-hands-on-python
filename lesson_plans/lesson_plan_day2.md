@@ -231,8 +231,6 @@
 
 **CMD**: Walk through description in the notebook and sequence identity example.
 
-**CMD**: Explain `None`.
-
 **EXERCISES**: 6-6, 6-7
 
 ### 16:45

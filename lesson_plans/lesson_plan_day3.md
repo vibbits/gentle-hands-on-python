@@ -16,6 +16,8 @@
 
 ## Procedure
 
+# !!TODO!! Need to explain `None` somewhere
+
 ### 9:20
 
 **CMD**: Start greeting students as they arrive

@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Understand the purpose and basic use of the most common collection types in Python: List, Tuple
-1. Understand iteration and iteration using collection types
+1. Understand iterating over collection types
 1. Write new functions with less help
 1. Fix existing code
 1. Reflect on code being written. Can it be improved? Does it need to be improved?
@@ -59,6 +59,9 @@
 **CMD**: Demo how to write the shopping list example in Python
 
 **SAY**: Here are some other examples of Python lists.
+
+**SAY**: You can combine the assignment operator and the addition operator together as a shorthand for addition and
+         then assignment.
 
 **SAY**: We can use lists to help us with the Fizz Buzz game by using them to represent the progress of the game.
 

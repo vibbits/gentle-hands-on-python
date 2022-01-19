@@ -73,13 +73,7 @@
 
 **CMD**: Topic: Slicing
 
-**SAY**: Last week maybe you noticed the use of the _indexing_ operator. If you remember back to the second lesson
-         on Functions you used the functions `first` and `rest` on strings. `first` returned the first character of
-         a string, and `rest` returned the whole string except the first character. These were implemented using the
-         _indexing_ operator (square brackets after a value containing an index). So the first character in a string
-         (or first value in a list) is at index 0 and so on.
-
-**SAY**: Well, slicing is a generalisation of indexing. So if you're not confident you understand indexing, don't worry.
+**SAY**: Slicing is a generalisation of indexing. So if you're not confident you understand indexing, don't worry.
          We will practice with it a lot now.
 
 **CMD**: Demo indexing into a list using a few indexes. How to talk about indexes vs the nth element.

@@ -158,6 +158,10 @@
 
 **CMD**: Chapter review
 
+**SAY**: The supporting material at the end of each chapter is there to support your own learning.
+         Make sure you take some time to browse through it, especially if you're having trouble
+         understanding any part of what we're explaining.
+
 ### 12:00
 
 **CMD**: Lunch break

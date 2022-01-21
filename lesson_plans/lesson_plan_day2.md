@@ -28,16 +28,16 @@
 
 ### 9:40
 
-**CMD**: Most late students should arrive by now, start the refresher quiz
-
-**QUIZ**: Load `day2_intro.pdf` into Big Blue Button.
-
-### 9:50
-
 **CMD**: Check the status of the projects. Students should have started.
 
 **CMD**: Go round students asking if they had a chance to work on projects during the week. Any issues they've faced.
          They may switch projects if the one they're working on has lost their interest.
+
+### 9:50
+
+**CMD**: Most late students should arrive by now, start the refresher quiz
+
+**QUIZ**: Load `day2_intro.pdf` into Big Blue Button.
 
 ### 10:00
 

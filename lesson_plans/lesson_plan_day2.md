@@ -43,18 +43,20 @@
 
 **CMD**: Start topic: Collections of Python values
 
-**SAY**: Using values like a number, text, an image, etc are great and useful. But often we need to collect many of these values
-         together. For example, to compute statistics on experimental observations, we need a collection of multiple observations.
-         Looking at each observation individually is not useful in this case.
+**SAY**: Using values like a number, text, an image, etc are great and useful. But often we need to collect
+         many of these values together. For example, to compute statistics on experimental observations, we
+         need a collection of multiple observations. Looking at each observation individually is not useful
+         in this case.
 
-**SAY**: Python gives us a number of ways to store collections of values together. Each with their own characteristics. In this
-         session we will look at the **List**, **Tuple**, and **String** collections and apply them to improving our Fizz Buzz
-         game.
+**SAY**: Python gives us a number of ways to store collections of values together. Each with their own
+         characteristics. In this session we will look at the **List**, **Tuple**, and **String** collections
+         and apply them to improving our Fizz Buzz game.
 
-**SAY**: Let us begin with lists. In your mind this might conjure shopping lists or todo lists. These are very useful metaphores.
-         Your shopping list is ordered, that is, it is meaningful to ask what the first item on your shopping list is. So are Python
-         lists. Your shopping list can be "nested", for example you might have an item label "Dinner" with a sub-list for items
-         you want to use to make dinner tonight. (See example in notebook)
+**SAY**: Let us begin with lists. In your mind this might conjure shopping lists or todo lists. These are
+         very useful metaphores. Your shopping list is ordered, that is, it is meaningful to ask what the
+         first item on your shopping list is. So are Python lists. Your shopping list can be "nested", for
+         example you might have an item label "Dinner" with a sub-list for items you want to use to make
+         dinner tonight. (See example in notebook)
 
 **CMD**: Demo how to write the shopping list example in Python
 
@@ -92,9 +94,10 @@
 
 **EXERCISE** 5-2
 
-**SAY**: The last attempt we made at writing a function to play Fizz Buzz wasn't very interesting. In order to play to larger numbers
-         we would have to type out longer and longer lists. This negates the power of your computer if you can't get to to compute
-         for you. So let's have another attempt using slicing. This time well replace the right numbers with either "Fizz" or "Buzz".
+**SAY**: The last attempt we made at writing a function to play Fizz Buzz wasn't very interesting. In order
+         to play to larger numbers we would have to type out longer and longer lists. This negates the power
+         of your computer if you can't get to to compute for you. So let's have another attempt using slicing.
+         This time well replace the right numbers with either "Fizz" or "Buzz".
 
 **EXERCISE** 5-3
 
@@ -112,26 +115,28 @@
 
 **CMD**: Topic: Operating on Lists
 
-**SAY**: Python has a rich _standard library_ (a collection of re-usable definitions). You've already used some of this library:
-         `abs()`, `print()`, etc are examples of these. This is only scratching the surface though, many more general purpose
-         definitions are available to you through the use of `import`.
+**SAY**: Python has a rich _standard library_ (a collection of re-usable definitions). You've already used
+         some of this library: `abs()`, `print()`, etc are examples of these. This is only scratching the
+         surface though, many more general purpose definitions are available to you through the use of `import`.
 
-**SAY**: In the next section we will use the `operator` library. This library provides functions that do the same thing as built in Python
-         operators like `+`, `*`, or `[]`.
+**SAY**: In the next section we will use the `operator` library. This library provides functions that do
+         the same thing as built in Python operators like `+`, `*`, or `[]`.
 
 **CMD**: Run the cell to `import operator`.
 
-**SAY**: In this section we will look at the `sorted()` function, the `in` operator, and the `itemgetter()` function from
-         the `operator` library. As the course progresses you will see more of the standard library and the huge array of
-         facilities it provides, however we encourage you to explore and see what useful functionality exists. Let's begin now to
-         try to understand what these functions and operators do...
+**SAY**: In this section we will look at the `sorted()` function, the `in` operator, and the `itemgetter()`
+         function from the `operator` library. As the course progresses you will see more of the standard
+         library and the huge array of facilities it provides, however we encourage you to explore and see
+         what useful functionality exists. Let's begin now to try to understand what these functions and
+         operators do...
          
 **SAY**: Before you run the cells try to guess what the result will be.
 
 **CMD**: Run the example cells.
 
-**SAY**: The `sorted()` function takes 2 optional arguments that customise its behaviour: `key` is a function used to access the key
-         to sort on. And `reverse` is used to sort in reverse order, it should be `True` or `False`.
+**SAY**: The `sorted()` function takes 2 optional arguments that customise its behaviour: `key` is a
+         function used to access the key to sort on. And `reverse` is used to sort in reverse order,
+         it should be `True` or `False`.
 
 **CMD**: Read and demo from notebook about the `key` argument.
 
@@ -143,14 +148,15 @@
 
 **CMD**: Topic: Tuples and Strings
 
-**SAY**: Practically, tuples are almost exactly like lists except that they're _immutable_. Meaning that, once they're defined you
-         cannot change them. As you might imagine this simple difference has all sorts of consequences but they're out of scope for this
-         course.
+**SAY**: Practically, tuples are almost exactly like lists except that they're _immutable_. Meaning that,
+         once they're defined you cannot change them. As you might imagine this simple difference has all
+         sorts of consequences but they're out of scope for this course.
 
 **CMD**: Run through demos of tuple indexing and conversion
 
-**SAY**: Practically, strings are almost exactly like tuples except you cannot store arbitrary values in strings: no, you can only store
-         characters. This is just a different way of looking at text data that allows you to see that indexing and slicing also make sense.
+**SAY**: Practically, strings are almost exactly like tuples except you cannot store arbitrary values in
+         strings: no, you can only store characters. This is just a different way of looking at text data
+         that allows you to see that indexing and slicing also make sense.
 
 **EXERCISE** 5-6, 5-7
 

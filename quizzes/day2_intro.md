@@ -19,7 +19,7 @@ A.  `a = 1 * 2`
 
 B.  `2 = 1 + 1`
 
-C.  `5 + 6 = y`
+C.  `"na" * 8 + " batman"`
 
 D.  `seven = 3 * 4`
 
@@ -67,7 +67,7 @@ D.  Name your function appropriately
 
 A.  Functions
 
-B.  Variables
+B.  Values
 
 C.  Comments
 
@@ -83,7 +83,7 @@ D.  Strings
 
 A.  All code is equally indented
 
-B.  A boolean expression
+B.  An inequality check
 
 C.  A conditional expression
 

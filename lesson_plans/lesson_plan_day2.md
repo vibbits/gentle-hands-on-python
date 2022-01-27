@@ -97,7 +97,7 @@
 **SAY**: The last attempt we made at writing a function to play Fizz Buzz wasn't very interesting. In order
          to play to larger numbers we would have to type out longer and longer lists. This negates the power
          of your computer if you can't get to to compute for you. So let's have another attempt using slicing.
-         This time well replace the right numbers with either "Fizz" or "Buzz".
+         This time we'll replace the right numbers with either "Fizz" or "Buzz".
 
 **EXERCISE** 5-3
 

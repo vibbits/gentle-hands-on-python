@@ -11,7 +11,7 @@
 
 ## Materials
 
-1. Notebook chapters 8, 9, 10
+1. Notebook chapters 7, 8, 9, 10
 1. The "How to Design Programs" textbook
 
 ## Procedure
@@ -103,6 +103,11 @@
 **CMD**: Back from lunch
 
 **CMD**: Topic: Fetching and storing data
+
+**NOTE**: New data URLs:
+          BEL: https://paste.c-net.org/PaddySofia
+          AUS: https://paste.c-net.org/WoodsKruger
+          RUS: https://paste.c-net.org/ClutchesStabs
 
 **SAY**: The global data is available in a file on your computer, the per-country data is only
          available from a website. In this session we will fetch these data, "clean" it, and
@@ -204,10 +209,6 @@
 ### 15:15
 
 **CMD**: Topic: Visualising data
-
-**SAY**: This is the last section of "theory" in this course, and the first taste of the enormous third-party
-         Python "ecosystem". If you're coming from R, you will be familiar with third party packages coming
-         from CRAN. In Python, third-party packages generally come from the Python Package Index (PyPI).
 
 **SAY**: At the beginning of the course 2 weeks ago you installed a third-party library called "matplotlib".
          This is probably the most popular library for plotting in Python, though certainly not the only one.

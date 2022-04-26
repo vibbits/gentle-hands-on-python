@@ -1,0 +1,19 @@
+name: Keep remote data files
+
+on:
+  schedule:
+  - cron: "0 0 1 */2 *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  touch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a multi-line script
+        run: |
+          curl --head https://paste.c-net.org/PaddySofia
+          curl --head https://paste.c-net.org/WoodsKruger
+          curl --head https://paste.c-net.org/ClutchesStabs

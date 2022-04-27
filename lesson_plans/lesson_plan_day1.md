@@ -191,7 +191,9 @@
 **SAY**: Notice that the cell containing assignments to the `x` and `y` variables did not evaluate to
          anything. This is because assignment is a _statement_, not an _expression_. The difference is that
          expressions evaluate to something, statements do not.
-     
+
+**CMD**: Briefly describe shorthand arithmentic-assignment expressions and allow students to experiment with them.
+
 ### 11:25
 
 **CMD**: Introduce basic Input and Output (I/O)

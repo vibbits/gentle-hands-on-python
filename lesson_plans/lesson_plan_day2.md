@@ -78,7 +78,11 @@
 **SAY**: Slicing is a generalisation of indexing. So if you're not confident you understand indexing, don't worry.
          We will practice with it a lot now.
 
-**CMD**: Demo indexing into a list using a few indexes. How to talk about indexes vs the nth element.
+**CMD**: Demo indexing into a list using a few indexes.
+
+**SAY**: (At list index out of bounds) Python just told us we're doing something we're not allowed to do. Our list
+         only contains 10 elements but we asked Python for the 54th element... Python is just telling us there is no
+         54th element.
 
 **CMD**: Describe slicing from a start-index to an end-index using the examples in the notebook.
 

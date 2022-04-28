@@ -71,6 +71,8 @@
 
 **EXERCISE** 5-1
 
+**CMD**: Read and explain section 2 on what `len()` means.
+
 ### 10:20
 
 **CMD**: Topic: Slicing

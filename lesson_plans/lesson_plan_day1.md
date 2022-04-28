@@ -301,10 +301,16 @@
 **CMD**: Demonstrate unequal indentation. Ask students what happens when they try to run the
          cell with unequal indentation. Ask them to fix it.
 
-**SAY**: In the next 2 exercises you will practise indentation, feel free to you you ENTER key liberally.
+**SAY**: In the next 2 exercises you will practise indentation, feel free to use your ENTER key liberally.
          You will also elplore what it means to `return` a value from a function.
 
-**EXERCISES**: 3-3, 3-4
+**EXERCISE**: 3-3
+
+**SAY**: In this exercise you hopefully noticed that your functions can sometimes return this `None` value.
+         This is a special marker that Python uses to represent the absence of a value. Yes, it probably
+         seems like a weird concept but it can be useful. Let's see what else functions can `return`.
+
+**EXERCISE**: 3-4
 
 **SAY**: A lot of what you do as a programmer will be debugging: your program will fail in some way and
          it is up to you to diagnose what the problem is and fix it. If you're getting an error message
@@ -333,8 +339,7 @@
 **CMD**: Function composition
 
 **SAY**: At the beginning of this section we talked about functions as the "combining parts" of programs.
-         Well this wouldn't be very useful if we couldn't combine functions themselves together. Functions
-         can be "composed" together into new functions.
+         Well this wouldn't be very useful if we couldn't combine functions themselves together.
 
 **CMD**: Talk through section 4 on function composition
 
@@ -438,14 +443,17 @@
 
 ### 16:20
 
-**SAY**: During this course you will work on a large scale project. You can select a project to work on from the `projects/` folder.
-         Each one is intended to be interesting and challenging but possible to complete in about 4-6 hours. You may think that you're
+**SAY**: During this course you will work on a large scale project. You can select a project
+         to work on from the `projects/` folder. Each one is intended to be interesting and
+         challenging but possible to complete in about 4-6 hours. You may think that you're
          not yet ready but you will be surprised what you can accomplish after this course!
 
-**SAY**: Today has been a long day and I expect you're feeling overwhelmed. You don't need to start working on a project right
-         now but do try to work on one before the next session on $DATE. We (trainers) will be here until 5PM if you have any
-         questions or concerns please feel free to ask us. If you are feeling lost or left behind please tell us, there
-         is no shame in feeling left behind given the number of new concepts and ideas that we've covered in a single day!
+**SAY**: Today has been a long day and I expect you're feeling overwhelmed.
+         You don't need to start working on a project right now but do try to work on
+         one before the next session on %DATE%. We (trainers) will be here until 5PM if you have any
+         questions or concerns please feel free to ask us. If you are feeling lost or left behind
+         please tell us, there is no shame in feeling left behind given the number of new
+         concepts and ideas that we've covered in a single day!
 
 **CMD**: Have students browse through the projects
 

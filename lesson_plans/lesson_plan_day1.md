@@ -41,19 +41,25 @@
 
 **CMD**: Most late students should arrive by now. Start proper now.
 
-**CMD**: Guided tour of Big Blue Button. How to use global chat. How to send a private message to an
-         instructor, how to answer a poll/quiz, how to access or hide the slides (used in quizes).
+**CMD**: Guided tour of learning platform. How to use the chat functionality. How to send a private message to an
+         instructor, how to answer a poll/quiz.
          Shift+Enter to send multiline messages.
 
-**CMD**: Explain that online learning is different from classroom learning. It's difficult for trainers to notice that students are
-         struggling and it's difficult to interact like we might in a classroom. Therefore we would like to get as much interaction
+**CMD**: Explain that online learning is different from classroom learning.
+         It's difficult for trainers to notice that students are struggling and it's difficult to
+         interact like we might in a classroom. Therefore we would like to get as much interaction
          as possible via voice and video.
 
-**CMD**: Ask students to turn on their microphones and cameras and introduce themselves.
+**CMD**: Ask students to turn on their microphones and cameras and introduce themselves. If not, name individual
+         students one-by-one and ask them to introduce themselves in text that you can read aloud.
+         - name
+         - why you're here
+         - what you want to do with python
+         - a cool fact, funny joke, or something interesting about yourself
 
 ### 10:00
 
-**CMD**: Talk about how to set up a learning environment
+**CMD**: Talk about how to set up a learning environment (refer to the email)
 **NOTE**: Dependencies are: `matplotlib ipympl pillow`
 **NOTE**: Anaconda download link: https://www.anaconda.com/products/individual
 * If students are running Windows or Apple OSX (and have at least 5 GiB available disk space):
@@ -69,15 +75,15 @@
 
 **SAY**: By way of providing you with some background. Our objective for the first 2 sessions
          today is to provide you with a way of thinking about programming and computing in general.
-         The ideas we want to present to you apply to all programming and programming languages
+         Most of the ideas we will present to you apply to all of programming and programming languages
          even though we will be using Python for examples. So for those of you who are already familiar
          with R or other programming languages, we hope you will still find these 2 sessions useful.
      
 **SAY**: A note for those of you who are already confident programmers. This morning
-         may feel slow for you. We're covering the basics. Feel free to read ahead and complete the advanced
+         may feel slow for you. We're covering the basics. Feel free to read ahead and try to complete some
          exercises. If you are a new programmer please follow along with me. There are
          a lot of new concepts that we will cover today and you will feel exhausted
-         soon enough. We need not rush.
+         soon enough. We do not need to rush.
 
 **CMD**: Read out the quote from "How to Design Programs"
 
@@ -162,7 +168,7 @@
 
 ### 11:10
 
-**QUIZ**: Load `day1_morning_break.pdf` into Big Blue Button
+**QUIZ**: Load `day1_morning_break.pdf`
 
 ### 11:15
 
@@ -243,7 +249,7 @@
 
 **CMD**: Return from break quiz
 
-**QUIZ**: Load `day1_after_lunch.pdf` into Big Blue Button
+**QUIZ**: Load `day1_after_lunch.pdf`
 
 ### 13:05
 
@@ -251,12 +257,25 @@
 
 **SAY**: Before lunch we explored the first-half of programming. The building blocks. In this section we will
          explore the glue we use to build up a whole program. In fact, we've already touched on one of
-         these "glue" constructions. This chapter is all about functions: function application, function
-         definition, and function composition.
+         these "glue" constructions. This chapter is all about functions.
      
-**SAY**: So what is a function? You can think of a function as a black box. You feed input into the box
-         and it gives you some output in return. Kind of like a bread making machine: you put in the
-         ingredients and the bread making function gives you back a fresh loaf of bread.
+**SAY**: So what is a function? If your program is a list of instructions for computing something, then
+         you can think of a function as a sub list that "hides" some perhaps less interesting details.
+         Do this for a simple everyday task in the next exercise.
+
+**EXERCISE**: 3-1
+
+**SAY**: It would be nice to be able to write these sub-lists of instructions somewhere else so that
+         your friend can ignore them if they don't need them but look them up if they do. That's
+         basically what we do as programmers. We write our sub-lists (called functions from now on)
+         somewhere else and only refer to them by name.
+
+**SAY**: That's one way to think about functions but the analogy is imperfect because a function can
+         sdo things that a simple list of instructions cannot do! Imagine you have a function that runs
+         a centrifuge. It would be very inconvenient if you had to write a new centrifuge running function
+         to run the centrifuge for different durations or speeds. Thankfully functions can be parameterised:
+         they can adjust their behaviour at your request! They can also perform computations and give you
+         responses. A centrifuge running function may respond with whether the centrifuge is broken or not.
      
 **SAY**: In fact, you've already been using some functions! `abs()` is a function. You give it a number
          and it responds with the absolute value of that number. `len()` is a function. You give it a
@@ -267,16 +286,25 @@
 
 **CMD**: Run first 2 code cells to demo function application.
      
-**SAY**: So that's function _application_, what about function definition.
+**SAY**: So that's function _application_, you've seen that already. The real meat of this chapter is defining your own
+         functions so let's do that now.
 
 **CMD**: Read from section 1.2
 
-**SAY**: Python code is organised into "blocks" that are noticable visually because of
-         _equal indentation_. Each line of code within a block _must_ be equally indented. Thankfully,
+**EXERCISE**: 3-2
+
+**SAY**: We have to talk a little about Python syntax at this point. Python code is organised into
+         "blocks" that are noticable visually because of _equal indentation_. Each line of code
+         within a block _must_ be equally indented. Thankfully,
          Jupyter is very helpful but problems can still happen if you are not careful.
 
 **CMD**: Demonstrate unequal indentation. Ask students what happens when they try to run the
          cell with unequal indentation. Ask them to fix it.
+
+**SAY**: In the next 2 exercises you will practise indentation, feel free to you you ENTER key liberally.
+         You will also elplore what it means to `return` a value from a function.
+
+**EXERCISES**: 3-3, 3-4
 
 **SAY**: A lot of what you do as a programmer will be debugging: your program will fail in some way and
          it is up to you to diagnose what the problem is and fix it. If you're getting an error message
@@ -298,7 +326,7 @@
 **CMD**: At exercise 3-0 introduce "tests" and how to write a function that satisfies the test cases.
          Then allow everyone to complete the first exercise (3-1).
      
-**EXERCISES**: 3-1, 3-2, 3-3
+**EXERCISES**: 3-5, 3-6, 3-7
 
 ## 13:45
 
@@ -310,7 +338,7 @@
 
 **CMD**: Talk through section 4 on function composition
 
-**EXERCISE**: 3-4
+**EXERCISE**: 3-8
 
 **SAY**: Now you've covered all of the really fundamental concepts in programming. You're already writing
          and testing complete programs. The remainder of this course, in some sense, are just details
@@ -329,7 +357,7 @@
 
 ### 14:40
 
-**QUIZ**: Load `day1_afternoon_break.pdf` into Big Blue Button
+**QUIZ**: Load `day1_afternoon_break.pdf`
 
 ### 14:45
 

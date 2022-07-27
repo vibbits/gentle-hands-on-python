@@ -24,7 +24,6 @@
 **CMD**: Brief introduction while we wait for late students
 
 **SAY**: Today we will get more in-depth with Python. We will finally play a complete game of FizzBuzz.
-         We'll also introduce a new problem to work on. (dum dum dum!!!! It's a secret they'll find out later)
 
 ### 9:40
 

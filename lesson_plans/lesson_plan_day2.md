@@ -63,6 +63,11 @@
 
 **SAY**: You can combine the assignment operator and the addition operator together as a shorthand for addition and
          then assignment.
+         
+**SAY**: You can also multiply a list by a number. Perhaps you can guess what might happen when you do this
+         based on what happened when you did this with strings last week?
+
+**CMD**: Pause to let students think / run the cell.
 
 **SAY**: We can use lists to help us with the Fizz Buzz game by using them to represent the progress of the game.
 
@@ -70,7 +75,7 @@
 
 **EXERCISE** 5-1
 
-**CMD**: Read and explain section 2 on what `len()` means.
+**CMD**: Read and explain section 2 on what `len()` means on lists.
 
 ### 10:20
 
@@ -120,10 +125,6 @@
 
 **CMD**: Topic: Operating on Lists
 
-**SAY**: Python has a rich _standard library_ (a collection of re-usable definitions). You've already used
-         some of this library: `abs()`, `print()`, etc are examples of these. This is only scratching the
-         surface though, many more general purpose definitions are available to you through the use of `import`.
-
 **SAY**: In the next section we will use the `operator` library. This library provides functions that do
          the same thing as built in Python operators like `+`, `*`, or `[]`.
 
@@ -163,7 +164,7 @@
          strings: no, you can only store characters. This is just a different way of looking at text data
          that allows you to see that indexing and slicing also make sense.
 
-**EXERCISE** 5-6, 5-7
+**EXERCISE** 5-6
 
 ### 11:55
 

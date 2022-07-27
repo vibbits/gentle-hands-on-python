@@ -81,7 +81,9 @@
      
 **SAY**: A note for those of you who are already confident programmers. This morning
          may feel slow for you. We're covering the basics. Feel free to read ahead and try to complete some
-         exercises. If you are a new programmer please follow along with me. There are
+         exercises. There are links to more advanced exercises in several places. You're welcome to attempt these
+         and ask questions about them in the chat, but we will not be covering solutions.
+         If you are a new programmer please follow along with me. There are
          a lot of new concepts that we will cover today and you will feel exhausted
          soon enough. We do not need to rush.
 
@@ -146,7 +148,7 @@
 **CMD**: Show truth tables in from [link](https://philosophy.lander.edu/logic/conjunct.html).
          Then allow students to predict the outcome of each cell.
 
-**EXERCISES** 2-4, 2-5
+**EXERCISES** 2-4
      
 **SAY**: Beyond arithmetic on values a useful operation is comparison of values. You can read comparison
          expressions as questions. For example you can read the expression, `3 < 5` as "Is 3 less than 5?"
@@ -154,11 +156,11 @@
          is a "No" answer. You can ask questions like, "Are these values the same?", "Are these values different?",
          "Is this value less than this other value?", or "Is this value equal to or larger than this other value?"
 
-**EXERCISE** 2-6
+**EXERCISE** 2-5, 2-6
 
 **SAY**: Now you've done some programming. And your computer has done some computing. You've earned a break.
          I'll start again in 10 minutes. If you have questions during the break, one of your instructors will be here.
-         If at any point you feel lost or left behind please tell Tuur or myself either in the public chat or
+         If at any point you feel lost or left behind please tell one of us instructors, either in the public chat or
          by private message. We have a lot to cover and many (if not all) of the concepts we talk about will
          be new to you. There is no shame in asking for help. Because we're not all in a room together
          we cannot see if you are struggling or not.
@@ -215,14 +217,18 @@
 
 **CMD**: Read the text in the notebook (second paragraph).
 
-**EXERCISES** 2-7, 2-8, 2-9
+**EXERCISES** 2-7, 2-8
 
 **SAY**: Now you've been introduced to the basics try to explore what you have already learned in
          the coming exercises...
 
-**EXERCISES** 2-10, 2-11, 2-12, 2-13, 2-14
+**EXERCISES** 2-9, 2-10, 2-11
 
 **CMD**: Describe what comments are and why they're useful.
+
+**CMD**: Talk about modules/packages/libraries. Python is "batteries included" with a lot of libraries "built-in".
+         But there is a universe of third-party libraries too that can be used. Some of which students
+         already installed for this course ;)
 
 ### 11:55
 

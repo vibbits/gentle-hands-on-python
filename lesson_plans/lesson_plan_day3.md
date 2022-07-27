@@ -13,10 +13,11 @@
 
 1. Notebook chapters 7, 8, 9, 10
 1. The "How to Design Programs" textbook
+1. [Belgium climate data](https://gist.github.com/MaybeJustJames/4a604c9d9dcff2c999496ec5def1d6ce/raw/caf3df0d47b1523e347df01ed8db2cc3726b1bdc/bel_data_orig.csv)
+1. [Australia climate data](https://gist.github.com/MaybeJustJames/4a604c9d9dcff2c999496ec5def1d6ce/raw/caf3df0d47b1523e347df01ed8db2cc3726b1bdc/aus_data_orig.csv)
+1. [Russia climate data](https://gist.github.com/MaybeJustJames/4a604c9d9dcff2c999496ec5def1d6ce/raw/caf3df0d47b1523e347df01ed8db2cc3726b1bdc/rus_data_orig.csv)
 
 ## Procedure
-
-# !!TODO!! Need to explain `None` somewhere
 
 ### 9:20
 
@@ -77,11 +78,11 @@
 
 **EXERCISE** 7-1, 7-2
 
-### 10:30
+### 10:20
 
 **CMD**: Break
 
-### 10:40
+### 10:30
 
 **CMD**: Return from break
 
@@ -103,11 +104,6 @@
 **CMD**: Back from lunch
 
 **CMD**: Topic: Fetching and storing data
-
-**NOTE**: New data URLs:
-          BEL: https://paste.c-net.org/PaddySofia
-          AUS: https://paste.c-net.org/WoodsKruger
-          RUS: https://paste.c-net.org/ClutchesStabs
 
 **SAY**: The global data is available in a file on your computer, the per-country data is only
          available from a website. In this session we will fetch these data, "clean" it, and

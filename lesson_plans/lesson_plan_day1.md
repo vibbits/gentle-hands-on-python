@@ -31,11 +31,11 @@
 
 **CMD**: If they haven't filled out the pre-course questionnaire: https://vib.formstack.com/forms/pythonprecoursequestionnaire
 
-### 09:30
+### 09:30 (START: INSTRUCTOR 1)
 
 **CMD**: Slow Introduction. Introduce the course.
 
-**CMD**: Show the charts from formstack and set expectations based on those charts.
+**CMD**: Show the charts from VIB forms and set expectations based on those charts.
 
 ### 09:40
 
@@ -69,7 +69,7 @@
 * Special alternative: Idle with a regular Python install, replit.com (whatever student is comfortable with). Python can be installed
   from the Microsoft store on Windows 10:  https://www.youtube.com/watch?v=yXfCq4xzrrI&t=19s (Be careful: says Python 3.7)
 
-### 10:30
+### 10:30 (SWITCH INSTRUCTORS TO INSTRUCTOR 2)
 
 **CMD**: Start on the basics of programming and computing.
 
@@ -172,7 +172,7 @@
 
 **QUIZ**: Load `day1_morning_break.pdf`
 
-### 11:15
+### 11:15 (SWITCH INSTRUCTORS TO INSTRUCTOR 1)
 
 **CMD**: Start the Variables section.
 
@@ -257,7 +257,7 @@
 
 **QUIZ**: Load `day1_after_lunch.pdf`
 
-### 13:05
+### 13:05 (SWITCH INSTRUCTORS TO INSTRUCTOR 2)
 
 **CMD**: New topic: Functions
 
@@ -340,7 +340,7 @@
      
 **EXERCISES**: 3-5, 3-6, 3-7
 
-## 13:45
+## 13:45 (SWITCH INSTRUCTORS TO INSTRUCTOR 1)
 
 **CMD**: Function composition
 
@@ -427,7 +427,7 @@
 
 **CMD**: Break
 
-### 16:00
+### 16:00 (SWITCH INSTRUCTORS TO INSTRUCTOR 2)
 
 **CMD**: Final topic: `else` and `elif`
 

@@ -38,7 +38,7 @@
 
 **QUIZ**: Load `day2_intro.pdf` into Big Blue Button.
 
-### 10:00
+### 10:00 (START: INSTRUCTOR 1)
 
 **CMD**: Start topic: Collections of Python values
 
@@ -121,7 +121,7 @@
 
 **QUIZ**: Load `day2_morning_break.pdf` into Big Blue Button
 
-### 11:15
+### 11:15 (SWAP TO: INSTRUCTOR 2)
 
 **CMD**: Topic: Operating on Lists
 
@@ -184,7 +184,7 @@
 
 **QUIZ**: Load `day2_after_lunch.pdf` into Big Blue Button
 
-### 13:05
+### 13:05 (SWAP TO: INSTRUCTOR 1)
 
 **CMD**: Topic: for-each loops
 
@@ -229,7 +229,7 @@
 
 **CMD** Break
 
-### 14:40
+### 14:40 (SWAP TO: INSTRUCTOR 2)
 
 **QUIZ**: Load `day2_afternoon.pdf` into Big Blue Button.
 

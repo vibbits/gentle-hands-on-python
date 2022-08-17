@@ -37,7 +37,7 @@
 
 **QUIZ**: Load `day3_intro.pdf` into Big Blue Button.
 
-### 9:50
+### 9:50 (START: INSTRUCTOR 1)
 
 **SAY**: To help you get back in the groove, lets try an extercise that you can already solve before we tackle
          any new topics.
@@ -82,7 +82,7 @@
 
 **CMD**: Break
 
-### 10:30
+### 10:30 (SWAP TO: INSTRUCTOR 2)
 
 **CMD**: Return from break
 
@@ -99,7 +99,7 @@
 
 **CMD**: Lunch break
 
-### 13:00
+### 13:00 (SWAP TO: INSTRUCTOR 1)
 
 **CMD**: Back from lunch
 
@@ -161,7 +161,7 @@
 
 **CMD**: Break
 
-### 14:10
+### 14:10 (SWAP TO: INSTRUCTOR 2)
 
 **CMD**: Topic: Loading data from a web resource
 
@@ -202,7 +202,7 @@
 
 **QUIZ**: Load `day3_morning_break.pdf` into Big Blue Button.
 
-### 15:15
+### 15:15 (SWAP TO: INSTRUCTOR 1)
 
 **CMD**: Topic: Visualising data
 

@@ -35,7 +35,7 @@
 
 **CMD**: Most late students should arrive by now, start the refresher quiz
 
-**QUIZ**: Load `day3_intro.pdf` into Big Blue Button.
+**QUIZ**: Load `day3_intro.pdf`
 
 ### 9:50 (START: INSTRUCTOR 1)
 

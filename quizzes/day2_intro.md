@@ -73,18 +73,48 @@ C.  Comments
 
 D.  Strings
 
-# Is `elif` a valid Python keyword?
+# What does a "statement" evaluate to?
+
+A. `None`
+
+B. An expression
+
+C. Nothing
+
+D. A command
+
+# How do I convert a string to an integer?
+
+A.  `as int`
+
+B.  `str()`
+
+C.  `float()`
+
+D.  `int()`
+
+# Can I assign a function to a variable?
 
 - Yes
 
 - No
 
-# What type of value should go after `if`?
+# Why is testing useful?
 
-A.  All code is equally indented
+A. Experiment with your solution
 
-B.  An inequality check
+B. Serves as rudimentary documentation
 
-C.  A conditional expression
+C. Ensures correctness
 
-E.  An equality check
+D. All of the above
+
+# Functions can NOT be...
+
+A. applied
+
+B. summed
+
+C. defined
+
+D. composed

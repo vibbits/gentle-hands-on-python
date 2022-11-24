@@ -105,7 +105,7 @@ type(x)
 ```
 :::
 
----
+***
 
 ### Exercise 2-1: What's that type?
 
@@ -121,11 +121,42 @@ try to guess first, then use the `type()` function to check your guess.
 
 :::
 
+***
+
+## Some other types
+
+Before we finish this chapter, there are 2 further data types that will be
+important during this course: `float` and `bool`.
+
+`float`, short for _floating point number_, is a decimal numeric data type
+that represents continuous numbers to within some finite accuracy.
+
+`bool`, short for _boolean_ values represent the logical states of `True`
+or `False`.
+
+Each of these data types come with their own conversion functions. Experiment
+with them below.
+
+***
+
+### Exercise 2-2: converting between types
+
+What `int` values are converted to `True`, which are converted to `False`?
+
+::: {.cell .code}
+```python
+bool(0)
+```
+:::
+
+***
+
 ## Chapter Review
 
 In this chapter you learned that all values in Python have a _data type_. You
 learned that operations on data expect compatible data types, and you learned
-how to annotate your programs with their types.
+how to annotate your programs with their types. Finally you learned about 3 new
+data types: `int`, `float`, and `bool`.
 
 ## Review Questions
 

@@ -251,10 +251,13 @@ assert my_example_function.__doc__ is not None, "You should write a docstring fo
 
 ### Exercise 3-4: Testing
 How would you test the following function. Write some tests, try to discover a bug.
+You're seeing the syntax for annotating the _return data type_ of a function here for
+the first time. It's the arrow between the closing parenthesis and the colon. So this
+function accepts a `float` parameter and returns a `float`.
 
 ::: {.cell .code}
 ```python
-def fractional_part(number):
+def fractional_part(number: float) -> float:
     """Find the fractional part of an input floating point number."""
     int_part = int(number) + 1
     frac_part = int_part + number

@@ -1,14 +1,24 @@
-# Gentle hands-on introduction to Python programming
-This is the material for the 'Gentle hands-on introduction to Python programming' course. 
+# Gentle Hands-on Introduction Programming
 
-## Installation & set-up
-This course runs in Jupyter Notebooks or JupyterLab, please follow the instructions below to install the Jupyter. 
+Teaching materials for the course. This course is intended to help new
+programmers find their feet and begin them on their journeyto writing
+useful programs.
 
-1. Go to [Anaconda](https://www.anaconda.com/products/individual), scroll down to the Anaconda Installers section, select the right distribution system (Windows, MacOS or Linux) and download the latest Python version. Follow the [installation instructions](https://docs.anaconda.com/anaconda/install/).
-2. Open Anaconda Navigator. From here you can choose to launch either a JupyterLab or Jupyter Notebook.	It should open with a list of files and folders in a tab on the left side or centrally on your screen. From here you can navigate through your computer’s folders. 
-3. Find the training materials on our Github repository: [gentle-hands-on-python](https://github.com/vibbits/gentle-hands-on-python/)
-4. Click the green button ‘Code’ and select ‘Download ZIP’. Finally, extract the zipped file in a folder accessible by Jupyter.
-5. Navigate to the extracted ZIP-files of the course and enjoy!
+## Outline
 
-Have fun programming in Python!
-The VIB training team
+1. _Introduction_: We begin with [Hedy](https://hedy.org), a _gradual_ introduction to programming. This
+   aids in learning to think computationally. But also builds confidence and provides quick
+   feedback between writing a program and seeing outp[ut on the screen. Finally, it motivates
+   syntax (especially for strings).
+2. Data types: introduces the concept and value of types and the Python syntax for data type annotations.
+3. Functions: introduces functions as an abstraction for program design and construction.
+   Testing is also covered. This chapter forms the final theoretical foundation for the course.
+4. Decisions: `if`, `elif`, and `else`.
+5. Collections: lists, operations on lists, `in`.
+6. Loops: `for`-each loops over lists, stings, and `reange()`.
+7. Dictionaries: associating data, looping, slicing, and other operations.
+8. Input and output: dealing with the outside world. Data cleaning and some common
+   file formats in bioinformatics, such as csv and fasta, are covered.
+9. Plotting: a teaser for more advanced topics.
+
+

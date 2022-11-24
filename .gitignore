@@ -5,3 +5,11 @@ __pycache__/
 .idea
 .ipynb_checkpoints
 *~
+
+# Generated files
+01_Introduction.ipynb
+02_Types.ipynb
+03_Functions.ipynb
+04_Conditions.ipynb
+05_Lists_Tuples.ipynb
+06_Loops.ipynb

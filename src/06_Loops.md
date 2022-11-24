@@ -158,7 +158,7 @@ Finally, we have all of the tools we need to write a concise program to play Fiz
 
 ::: {.cell .code}
 ```python
-def fizzbuzz6(end):
+def fizzbuzz6(end: int):
     "Play Fizz Buzz"
     ...
 
@@ -183,7 +183,7 @@ $$n! = n \cdot (n - 1) \cdot (n - 2) \cdot \ldots \cdot 3 \cdot 2 \cdot 1$$
 
 ::: {.cell .code}
 ```python
-def myfactorial(number):
+def myfactorial(number: int) -> int:
     # 5! = 5 * 4 * 3 * 2 * 1
     _
 
@@ -204,7 +204,7 @@ Below is the definition of a function to sum numbers from in the argument (a lis
 
 ::: {.cell .code}
 ```python
-def mysum(data):
+def mysum(data: list[int]) -> int:
     "Sum all of the numbers in the input list (called data)"
     total = 0
     for number in end:
@@ -232,7 +232,7 @@ Your task is to identify and fix the bug(s) using techniques you have explored s
 
 ::: {.cell .code}
 ```python
-def myjoin(strings):
+def myjoin(strings: list[str]) -> str:
     joined = ""
     for string in strings:
         joined = joined + string + ","

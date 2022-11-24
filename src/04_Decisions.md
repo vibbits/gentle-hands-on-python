@@ -82,7 +82,7 @@ Using the template below, write out the 3 conditions we need for the FizzBuzz ga
 
 ::: {.cell .code}
 ```python
-def fizzbuzz1(number):
+def fizzbuzz1(number: int) -> str:
     if _:
         return "Fizz Buzz"
     if _:
@@ -168,7 +168,7 @@ Write a function that returns "odd" when its input is odd, and "even" otherwise.
 
 ::: {.cell .code}
 ```python
-def even_or_odd(num: int):
+def even_or_odd(num: int) -> str:
     _
 ```
 :::
@@ -294,6 +294,8 @@ assert "Buzz" == fizzbuzz2(20), "Expected: \"Buzz\", got: " + str(fizzbuzz2(20))
 assert 16 == fizzbuzz2(16), "Expected: 16, got: " + str(fizzbuzz2(16))
 ```
 :::
+
+Can you add a correct type annotation to this function?
 
 [Advanced question](Advanced%20Exercises.ipynb#4-5)
 

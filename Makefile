@@ -9,10 +9,10 @@ all: $(IPYNBS)
 	pandoc $< -o $@
 
 release:
-	@echo "Release"
+	@echo "Release not yet implemented!"
 
 test:
-	@echo "Testing..."
+	@echo "Tests not yet implemented!"
 
 clean:
 	rm -f $(IPYNBS)

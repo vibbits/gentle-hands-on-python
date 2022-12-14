@@ -15,4 +15,4 @@ test:
 	@echo "Tests not yet implemented!"
 
 clean:
-	rm -f $(IPYNBS)
+	rm -rf $(IPYNBS) __pycache__/

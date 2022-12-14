@@ -31,7 +31,7 @@ a website asking if you want to join the class.
 
 When you click on the "Join class" button you will be prompted to create an account. Click "Yes".
 
-![Hedy create a account](images/create_account_dialog.png)
+![Hedy create a account](images/hedy_create_account_dialog.png)
 
 You will then be asked to login using a username and password. If you do not already have an account you can
 click on the "Create account" button.

@@ -13,15 +13,16 @@
 - [ ] Generate Jitsi links [here](https://moderated.jitsi.net/) and save them in WELCOME.md.
 
 - [ ] Schedule YouTube live stream with the template:
-      > Gentle hands-on introduction to Python programming $YEAR-$MONTH day $N
-      >
-      > Day $N of the Python course.
-      > Materials: $LINK
-      > Software setup: https://youtu.be/vLRAUHpeHtM
-      > Google Colab: https://colab.research.google.com/
-      >
-      > Day N: $LINK
-      > Day N: $LINK
+
+> Gentle hands-on introduction to Python programming $YEAR-$MONTH day $N
+>
+> Day $N of the Python course.
+> Materials: $LINK
+> Software setup: https://youtu.be/vLRAUHpeHtM
+> Google Colab: https://colab.research.google.com/
+>
+> Day N: $LINK
+> Day N: $LINK
 
 - [ ] Add the YouTube livestream links for each day to WELCOME.md.
 

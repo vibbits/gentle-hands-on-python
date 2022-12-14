@@ -22,3 +22,28 @@ useful programs.
 9. Plotting: a teaser for more advanced topics.
 
 
+## Hedy
+
+As part of your welcome email you should receive a link to join Hedy. When you click on the link you should see
+a website asking if you want to join the class.
+
+![Join a Hedy class](images/hedy_join_class.png)
+
+When you click on the "Join class" button you will be prompted to create an account. Click "Yes".
+
+![Hedy create a account](images/create_account_dialog.png)
+
+You will then be asked to login using a username and password. If you do not already have an account you can
+click on the "Create account" button.
+
+![Create a Hedy account](images/hedy_login_form.png)
+
+You will now be asked if you are a student or a teacher. You should click "Student".
+
+![Hedy question: student or teacher](images/hedy_create_account_step1.png)
+
+At this point you have successfully created your account and joined the class.
+
+![Hedy finished](images/hedy_first_login.png)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fmF7HpU_-9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

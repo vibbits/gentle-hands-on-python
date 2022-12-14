@@ -46,4 +46,3 @@ At this point you have successfully created your account and joined the class.
 
 ![Hedy finished](images/hedy_first_login.png)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fmF7HpU_-9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

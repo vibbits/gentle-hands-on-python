@@ -332,6 +332,5 @@ between _keys_ and _values_. Due to this, the keys must be unique.
 * [Automate the Boring Stuff with Python, Chapter 5](http://automatetheboringstuff.com/2e/chapter5/)
 * [Real Python: Dictionaries](https://realpython.com/python-dicts/)
 
-## Next session
 
-Go to our [next chapter](08_Files.ipynb).
+Click [here](08_Files.ipynb) to go to the next chapter.

@@ -16,8 +16,10 @@ jobs:
       - uses: actions/setup-go@v3
       - name: Install mustache processor
         run: go install github.com/cbroglie/mustache/cmd/mustache@latest
-      - name: Debug
-        run: tree
+      - name: Install pandoc
+        uses: r-lib/actions/setup-pandoc@v1
+        with:
+          pandoc-version: "2.19.2"
       - name: Build materials
         run: make
       - name: Build Welcome email

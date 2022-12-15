@@ -36,7 +36,7 @@ load the country data from the website. Let us begin...
 
 The outside world is a dangerous and scary place. Here, in your Python programming environment you are relatively safe. But out
 there lie horrific things like missing files, URLs that point to nowhere and even... INVALID DATA!!! Luckily Python gives us
-some mechanisms to help us deal with this frightening environment and return to our comfortable Python interpreter.
+some mechanisms to help us deal with this frightening environment.
 
 There are, in general, 3 steps to dealing with the outside world:
 
@@ -97,9 +97,9 @@ print(contents)
 ```python
 # Read from a file after the context manager has closed it
 with open("data/readfile.txt") as file_resource:
-    save_this = file_resource
+    pass
 
-contents = save_this.read()
+contents = file_resource.read()
 print(contents)
 ```
 :::
@@ -108,7 +108,7 @@ print(contents)
 ## Explore the global data
 
 In order to understand how to use the data in a file, we need to understand what's in it. As you saw above, the `read()`
-function reads all the data from the file. The global data file is probably quite large though so let's try to read less.
+function reads all the data from the file. The global data file is probably quite large though so let's try to see just the beginning.
 We have 2 options: The `readline()` function will read up to a new line character, or we could pass an argument to the
 `read()` function that is the number of characters to read.
 
@@ -122,7 +122,8 @@ print(first_line + second_line)
 ```
 :::
 
-You may've guessed based on the extension that this is tabular data in "comma-separated values (CSV)" format. If not, then you can tell by the structure of the data we've read. Let us look at the data in more detail using a Jupyter Lab feature. Open the datafile with _CSVTable_.
+You may've guessed based on the extension that this is tabular data in "comma-separated values (CSV)" format.
+If not, then you can tell by the structure of the data we've read.
 
 The [HadCRUT](https://www.metoffice.gov.uk/hadobs/hadcrut5/) website describes what we're looking at. Column,
 
@@ -131,7 +132,7 @@ The [HadCRUT](https://www.metoffice.gov.uk/hadobs/hadcrut5/) website describes w
   3. 2.5% confidence from 200 ensemble measurements.
   4. 97.5% confidence from 200 ensemble measurements.
 
-Although CSV is a conceptually simple data format it can be difficult to read and write correctly. The Python standard library
+Although CSV is a conceptually simple data format it can be difficult to read and write _correctly_. The Python standard library
 provides a module (called `csv`) to help us easily read and write this format. Let's use this library to read the global data...
 
 ::: {.cell .code}
@@ -218,6 +219,8 @@ def clean_global_data(reading):
 assert clean_global_data({'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'}) == {'Time': datetime(1901, 5, 1, 0, 0),'Temperature': -0.24934465}
 ```
 :::
+
+[Advanced question](Advanced%20Exercises.ipynb#8-1)
 
 ---
 

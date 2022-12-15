@@ -54,7 +54,7 @@ In order to run the program that you type in, you can press the "Run Code" butto
 ![Hedy interface with the Run Code button highlighted](images/hedy_run_code.png)
 
 Read the introductory description. Three commands are introduced: `print`, `ask`, and `echo`.
-Using these thre commands you can print text to the output area. Once you have tried writing
+Using these three commands you can print text to the output area. Once you have tried writing
 a program to print text to the output area with Hedy, explore some challenges in the tabs here:
 
 ![Hedy interface with the challenge tabs highlighted](images/hedy_4.png)

@@ -29,17 +29,31 @@ all strings are the type, `str`. As you will discover throughout this course, Py
 a rich set of _data types_ that are useful when writing programs. But first, let us try to
 understand why thinking about data types is useful.
 
+---
+
+### Exercise 2-1: Why?
+
 What is the result of an operation like this?
 
+::: {.cell .code}
 ```python
 "hello" + 5
 ```
+:::
+
+---
 
 Indeed it is nonsense. `"hello"` is a string (in Python we say it is a `str`) and `5` is an
 integer number (in Python we say `int`). They are different _data types_. You can think of
 data types as the _shape_ of some data. The `+` operator expects its operands to be
-compatible shapes (data types), so if we try to run this code, Python will tell us that
-the operation is not allowed with these types of operands:
+compatible shapes (data types).
+
+---
+
+### Exercise 2-2: Type errors
+
+Run the following 2 code blocks. Read the error messages. Notice the difference in error messages.
+Why are the error messages different?
 
 ::: {.cell .code}
 ```python
@@ -55,7 +69,8 @@ or,
 ```
 :::
 
-Notice the difference in error message. Why are the error messages different?
+---
+
 
 Python allows us programmers the _option_ to explicitly _annotate_ the data types of
 values in our programs. This can be very helpful as we will see later on. For now,
@@ -107,7 +122,7 @@ type(x)
 
 ***
 
-### Exercise 2-1: What's that type?
+### Exercise 2-3: What's that type?
 
 What is the type of this expression?
 
@@ -139,7 +154,7 @@ with them below.
 
 ***
 
-### Exercise 2-2: converting between types
+### Exercise 2-4: converting between types
 
 What `int` values are converted to `True`, which are converted to `False`?
 

@@ -19,19 +19,20 @@ jupyter:
     version: "3.11.0"
 ---
 
-# If at first you don't succeed, try, and try again
+# Repeating tasks
 
 > _"Flat is better than nested."_<sup><a href="#References">1</a></sup>
 
 A very useful feature of computers is that they can do the same thing over and over again, perfectly, never getting bored.
-In Python this ability is expressed using a _loop_. Essentially, a loop is a block of code that is repeatedly executed.
+This ability is expressed by executing a few instructions, then jumping back to the beginning of the series of instructions
+and executing them again. This pattern is called a _loop_. Essentially, a loop is a block of code that is repeatedly executed.
 
 ## The `for`-each loop
-Now that we understand _collections_ of values (from the previous chapter), you may wish to perform some computation on
-each value in a collection. This can be achieved by _looping_ over each value one-by-one so that your computation is
-executed _for each_ value in the collection.
+Now that we understand lists of values (from the previous chapter), you may wish to perform some computation on
+each value in a list. This can be achieved by _looping_ over each value one-by-one so that your computation is
+executed _for each_ value in the list.
 
-Here is an example of to write and use a `for`-each loop to "count" up from 1:
+Here is an example of how to write and use a `for`-each loop to print the numbers in a list.
 
 ::: {.cell .code}
 ```python
@@ -69,7 +70,7 @@ Notice that `number` is given the value of each successive value in the collecti
 executed, then it gets `2` and so on.
 
 This also illustrates the utility of loops!
-Not only is a loop more concise, but it's easier to read and less error prone. Imagine having to type out all the indexes
+Not only is a loop more concise, but it's easier to read and understand than the unrolled version. Imagine having to type out all the indexes
 in a list that contains 100 elements! Then imagine if you had to change the size of the list... that's a LOT OF WORK!!!
 
 Lets use our new knowledge of loops to try to play the Fizz Buzz game again. This time, checking each number as we come accross it in a loop.
@@ -137,7 +138,7 @@ You can also provide your own starting value.
 
 ::: {.cell .code}
 ```python
-for val in range(5, 10):
+for val in range(start=5, stop=10):
     print(val)
 ```
 :::
@@ -146,7 +147,7 @@ Finally, like with slicing, you can provide a `step`.
 
 ::: {.cell .code}
 ```python
-for val in range(9, 0, -1):
+for val in range(start=9, stop=0, step=-1):
     print(val)
 ```
 :::
@@ -154,7 +155,9 @@ for val in range(9, 0, -1):
 ***
 
 ### Exercise 6-2: Let's play Fizz Buzz
-Finally, we have all of the tools we need to write a concise program to play Fizz Buzz. Write a function called `fizzbuzz6` that takes an integer argument which is the number to count up to and returns a list starting at 1 tracking the progress of playing the Fizz Buzz game.
+Finally, we have all of the tools we need to write a concise program to play Fizz Buzz.
+Write a function called `fizzbuzz6` that takes an integer argument which is the number
+to count up to and returns a list starting at 1 tracking the progress of playing the Fizz Buzz game.
 
 ::: {.cell .code}
 ```python
@@ -171,8 +174,9 @@ fizzbuzz6(30)
 ```
 :::
 
-Although this is the last time we will look at the Fizz Buzz game, it is useful to reflect on your final implementation. What is good about it? What could be improved? How easy
-is it to change if requirements change (say if we add the 3$^{rd}$ condition on multiples of `7`)?
+Although this is the last time we will look at the Fizz Buzz game, it is useful to reflect
+on your final implementation. What is good about it? What could be improved? How easy
+is it to change if requirements change (say if we add the third condition on multiples of `7`)?
 
 ***
 
@@ -244,11 +248,12 @@ def myjoin(strings: list[str]) -> str:
 ***
 
 ## Chapter Review
-Congratulations! By now you understand enough Python to tackle complex and interesting problems. Hopefully you noticed the exercises are becoming more interesting. Keep practicing
-and your confidence and ability to solve problems can only improve.
+Congratulations! By now you understand enough Python to tackle complex and interesting problems.
+Hopefully you noticed the exercises are becoming more interesting. Keep practicing and your
+confidence and ability to solve problems can only improve.
 
-In this chapter you've learned how to ask the computer to repeat a block of code for you using a `for`-each loop. You also learned about 2 useful built-in functions: `sum()` and
-`join()`.
+In this chapter you've learned how to ask the computer to repeat a block of code for you using
+a `for`-each loop. You also learned about 3 useful built-in functions: `range()`, `sum()`, and `join()`.
 
 
 ## Review Questions
@@ -262,20 +267,20 @@ In this chapter you've learned how to ask the computer to repeat a block of code
 2. What is a `for`-each loop used for?
 <details>
     <summary>Answer</summary>
-    Repeating operations on each element of a <em>collection</em> such as a list or tuple.
+    Repeating operations on each element of a list.
 </details>
 
 3. What is `range()` used for?
 <details>
     <summary>Answer</summary>
-    Save us typing out a range of numbers in a <code>for</code>-each loop. A <em>range</em> has a given start point, to a given end point, and uses a given
+    Save us typing out a range of numbers. A <em>range</em> has a given start point, to a given end point, and uses a given
     step size.
 </details>
 
 4. What operation **cannot** be performed in the block of code being looped over?
 <details>
     <summary>Answer</summary>
-    None! All Python operations can be performed in a loop. But <b>be careful</b>: NEVER mofify the list it'er looping over.
+    None! All Python operations can be performed in a loop. But <b>be careful</b>: NEVER mofify the list you're looping over.
 </details>
 
 

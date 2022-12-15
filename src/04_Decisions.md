@@ -24,9 +24,13 @@ jupyter:
 > _"Now is better than never."_<sup><a href="#References">1</a></sup>
 
 ## _FizzBuzz_: A counting game
-This will be your first non-trivial Python program. "FizzBuzz" is a childrens game to help learn multiplication. It can be played with 1 or more people and involves taking turns to count up from `1`. If the number is a multiple of `3`, you don't say the number, instead you say "Fizz". If the number is a multiple of `5` you say "Buzz". Finally, if the number is a multiple of `3` **and** `5` you say "Fizz Buzz".
+This will be your first non-trivial Python program. "FizzBuzz" is a childrens game to help learn multiplication.
+It can be played with 1 or more people and involves taking turns to count up from `1`. If the number is a
+multiple of `3`, you don't say the number, instead you say "Fizz". If the number is a multiple of `5` you say
+"Buzz". Finally, if the number is a multiple of `3` **and** `5` you say "Fizz Buzz".
 
-For example:
+The goal is to write a Python program that will play this game by itself, counting up to some number argument
+that we give it. Like this:
 ```python
 >>> fizzbuzz(15)
 1
@@ -51,16 +55,19 @@ Fizz Buzz
     <figcaption><em style="font-weight:bold">Figure 4-1</em>: A flowchart to tell you how to play Fizzbuzz</figcaption>
 </figure>
 
-In this chapter we're going to begin to implement this `fizzbuzz` function. Although you're already familiar with universally applicable programming concepts, we will introduce some Python specifics that will help us to write a `fizzbuzz` function. This begins with _conditional logic_...
+In this chapter we're going to begin to implement this `fizzbuzz` function. Although you're already familiar
+with universally applicable programming concepts, we will introduce some Python specifics that will help us
+to write a `fizzbuzz` function. This begins with _conditional logic_...
 
 ## The `if` statement
 
-The **if** statement allows you to only execute a _block_ of code if a condition is satisfied (if the answer to a question is "YES"). You can think of **if** as _guarding_ its block.
+The **if** statement allows you to only execute an indented _block_ of code if a boolean condition is
+satisfied (if the answer to a question is "YES"). You can think of **if** as _guarding_ its indented block.
 
 ![Python if statement](https://files.realpython.com/media/t.78f3bacaa261.png)
 
-Python syntax requires that you put a colon `:` after the condition, and that the block of code guarded by the
-conditional is **equally indented** (with spaces or tabs) to the same **indentation level**. Python doesn't really care about the number of spaces or tabs, as long as you're consistent. Jupyter notebooks will indent code blocks for you automatically. Now try this:
+Just as with function definitions, Python syntax requires that you put a colon `:` after the condition,
+and that the block of code guarded by the conditional be **equally indented** to the same **indentation level**.
 
 ::: {.cell .code}
 ```python
@@ -79,6 +86,7 @@ if x!=5: # Question: is the value in the variable called 'x' not equal to 5?
 ### Exercise 4-1: The beginnings of FizzBuzz
 
 Using the template below, write out the 3 conditions we need for the FizzBuzz game. Replace the `_` characters with your conditions.
+You may find the modulo division (or _remainder_) operator useful: `%`.
 
 ::: {.cell .code}
 ```python
@@ -116,7 +124,7 @@ Can you spot (and fix!) the bug caused by incorrect grouping of code in the foll
 
 ::: {.cell .code}
 ```python
-def clamp_0_10(value: int):
+def clamp_0_10(value: int) -> int:
     "Bound value between 0 and 10 inclusive"
     minimum_value = 0
     maximum_value = 10
@@ -180,20 +188,20 @@ def even_or_odd(num: int) -> str:
 ## Otherwise: `else` and `elif` statements
 
 You may wish to perform a computation based on one of several conditions. An example from everyday experience
-is "What type of food will I eat?"
+is "What meal will I eat?"
 
-***
+
 **If** it is breakfast time, then **eat breakfast**
 
 **Otherwise, if** it is lunch time, then **eat lunch**
 
-**Otherwise, if** it is dinner time, then **eat dinner**
+**Otherwise, if** it is tea time, then **eat tea**
 
 **Otherwise**, **eat snacks**.
 
-***
 
-In this example we select _only one_ of 4 possible actions (eat breakfast, eat lunch, eat dinner, or eat snacks).
+
+In this example we select _only one_ of 4 possible actions (eat breakfast, eat lunch, eat tea, or eat snacks).
 This can be neatly translated into pseudo-Python using `if`, `elif`, and `else`:
 
 ```python
@@ -202,16 +210,14 @@ if 6_00 <= current_time() <= 10_00:
 elif 12_00 <= current_time() <= 13_00:
     eat_lunch()
 elif 17_00 <= current_time() <= 20_00:
-    eat_dinner()
+    eat_tea()
 else:
     eat_snacks()
 ```
 
 You will notice that `elif` is not the same as another **if**-statement. An **elif** is only executed if the
-previous `if` (and other preceding elifs) are not executed. In the example below the code from section 4.3 is adapted.
-Now all if-statements are changed by elifs and only a single indented block of code will be evaluated.
-
-The `elif` is a convenient short-hand for `else` followed by `if`. The above example is exactly equivalent to:
+previous `if` (and other preceding elifs) are not executed. An `elif` is a convenient short-hand for `else`
+followed by `if`. The above example is exactly equivalent to:
 
 ```python
 if 6_00 <= current_time() <= 10_00:
@@ -295,16 +301,14 @@ assert 16 == fizzbuzz2(16), "Expected: 16, got: " + str(fizzbuzz2(16))
 ```
 :::
 
-Can you add a correct type annotation to this function?
-
 [Advanced question](Advanced%20Exercises.ipynb#4-5)
 
 ***
 
 ## Chapter Review
-In this chapter you've learned how to _guard_ a block with an `if` condition in order to conditionally execute
-blocks of code. You've also learned how to check multiple conditions using `if` with `elif`. And finally, you've
-learned how to use `else` as a catch-all conditional guard.
+In this chapter you've learned how to _guard_ an indented block with an `if` statement in order to conditionally execute
+the block of code. You've also learned how to check multiple conditions using `if` with `elif`. And finally, you've
+learned how to use `else` as a catch-all final alternative.
 
 
 ## Review Questions

@@ -19,7 +19,7 @@ jupyter:
     version: "3.11.0"
 ---
 
-# Associating data: Plotting climate change
+# Dictionaries
 
 > _"Complex is better than complicated."_<sup><a href="#References">1</a></sup>
 
@@ -28,7 +28,7 @@ You can generalise this notion of a dictionary to anything that allows you to qu
 find the _associated value_ (the definition).
 
 It is best to think of a dictionary as a set of `key: value` pairs. The keys in a dictionary are _unique_ and
-<abbr title="This is not strictly true">_unordered_</abbr>. Dictionaries are created by using curly braces `{}`,
+<abbr title="This is not strictly true">_unordered_</abbr>. The syntax for creating dictionaries is: `{}`,
 and each `key:value` pair is separated with a comma. You will often see strings as keys, but many other values
 can also be keys, as long as they're <abbr title="You cannot change the value">_immutable_</abbr>.
 
@@ -69,8 +69,8 @@ There are 3 major _operations_ that you might want to perform on a **Dictionary*
  2. Check if a word is in the dictionary (check if a key exists in the dictionary), and
  3. Add a new word with a definition to the dictionary (add a new key and associated value to the dictionary).
 
-To lookup a value you can use a familiar operator: `[]` the indexing operator. In stead of giving it a numeric index, though, you
-must give it a key that you know exists in the dictionary you're indexing. Like so,
+To lookup a value you can use a familiar operator: `[]` the indexing operator. Instead of giving it a numeric index, though, you
+must give it a key that you know exists in the dictionary. Like so,
 
 ::: {.cell .code}
 ```python
@@ -204,6 +204,8 @@ assert "Met" == lookup_three_letter_code("M"), "Expected 'Met', got: " + str(loo
 ```
 :::
 
+[Advanced question](Advanced%20Exercises.ipynb#7-2)
+
 ---
 
 ### Exercise 7-3: Amino-acid sequence
@@ -282,10 +284,12 @@ assert average_temperature(example) == {"BEL": 10.2, "RUS": -4.5, "AUS": 32.9, "
 ```
 :::
 
+[Advanced question](Advanced%20Exercises.ipynb#7-5)
+
 ---
 
 ## Chapter Review
-In this chapter you've learned about the Python _dictionary_. It's a special collection that stores an association
+In this chapter you've learned about the Python _dictionary_. It's a special collection that stores an association (or mapping)
 between _keys_ and _values_. Due to this, the keys must be unique.
 
 ### Review Questions
@@ -311,13 +315,13 @@ between _keys_ and _values_. Due to this, the keys must be unique.
 1. Can a list be a key in a dictionary?
 <details>
     <summary>Answer</summary>
-    No. A list can be modified after you create it so it would not be a stable key.
+    No. Lists are <em>mutable</em> (they can be modified after you create them) so they cannot be stable keys.
 </details>
 
 1. How can you access a key you're not sure is in the dictionary?
 <details>
     <summary>Answer</summary>
-    Check that the key is <code>in</code> the dictionary first.
+    If the key is not in the dictionary you cannot access it. But you can check that it is <code>in</code> the dictionary first.
 </details>
 
 ## References

@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-go@v3
       - name: Install mustache processor
         run: go install github.com/cbroglie/mustache/cmd/mustache@latest
+      - name: Debug
+        run: tree
       - name: Build materials
         run: make
       - name: Build Welcome email

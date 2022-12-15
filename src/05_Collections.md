@@ -28,8 +28,8 @@ jupyter:
 So far we've seen how to store a single value in a variable that you can use in your program.
 It is also possible to assign a _collection_ of values to a name. In Python, *lists* are a common example of such collections.
 
-A list is an _ordered_ collection of arbitrary python values that are possibly nested. This is similar to a shopping list.
-My shopping list sometimes looks like this:
+A list is an _ordered_ collection of arbitrary python values. Even other lists! A list inside another list is called a _nested list_.
+This is similar to a shopping list. My shopping list sometimes looks like this:
 
 > * Apples
 > * Milk
@@ -40,8 +40,7 @@ My shopping list sometimes looks like this:
 > * Snacks
 
 
-You can make a list in Python by seperating each value in a list with comma's and placing these between square `[]` brackets.
-Lists can be _nested_ inside other lists.
+You can make a list in Python by seperating each value in a list with commas and placing these between square `[]` brackets.
 
 ::: {.cell .code}
 ```python
@@ -72,7 +71,7 @@ Lists can be arbitrarily nested.
 ```
 :::
 
-You can annotate the type of homogeneous lists.
+You can annotate the type of _homogeneous_ lists.
 
 ::: {.cell .code}
 ```python
@@ -89,7 +88,7 @@ You can _combine_ lists together with the `+` operator.
 ```
 :::
 
-This gives you a way to _append_ to a list.
+This gives you a way to _append_ to a list. We will use this pattern a lot during this course.
 
 ::: {.cell .code}
 ```python
@@ -99,7 +98,7 @@ mylist
 ```
 :::
 
-You can also _multiply_ a list by an integer.
+You can even _multiply_ a list by an integer.
 
 ::: {.cell .code}
 ```python
@@ -133,46 +132,53 @@ What is the length of this list `[1, [2, [3, 4]]]`? If you say `2`, you're right
 However, Python only agrees with you if you said `2`. This is because Python does not look at the structure of the
 values in a list. So when you ask Python, `len([1, [2, [3, 4]]])`? Python sees, `len([💩, 💩])`.
 
+::: {.cell .code}
+```python
+len([1, [2, [3, 4]]])
+```
+:::
+
 You may wonder if there is a way to compute the number of nested values (`4` in the above example), this is left as an advanced exercise.
 
 ## Indexing and Slicing
-What is the 3$^{rd}$ _character_ in the string, `my_string`?
 
-```python
-my_string = "Some text goes here"
-my_string[2] == 'm'
-```
+Lists are _ordered_ collections of values. It is sometimes necessary to work with a particular value within a list, requiring us to
+extract that value from the list. This "extract" operation is known as indexing. For example, if you wish to work with the second element
+of a list you would need to _index_ the list at a particular _offset_ from the beginning of the list.
 
-What is the 1$^{st}$ _element_ in the list, `my_list`?
-
-```python
-my_list: list[string] = ['A', 'E', 'I', 'O', 'U']
-my_list[0]
-```
-
-You can replace a value in a list by combining the slicing operator with the assignment operator.
+The beginning of the list is at an offset of _zero_ elements from the beginning of the list. So in order to "extract" the first element
+of a list, we index it at `0` using the _index operator_: `[]`.
 
 ::: {.cell .code}
 ```python
-mylist[0] = 42
-mylist
+my_list = ['A', 'E', 'I', 'O', 'U', 'Y']
+my_list[0]
 ```
 :::
 
-_Slicing_ is a generalisation of _indexing_ which allows you to view a part (or a _slice_) of the values in a collection. Similarly to indexing, the syntax looks like this:
-```python
-myList[start_index : end_index : step]
-```
-**Remember:** Python always starts counting from index 0 (meaning, the beginning of the list `+ 0` elements).
+The second element the list is at _index_ `1` and so on.
 
-Here are some examples. Try to guess the output before you execute each cell.
+```python
+my_list[1]
+```
+
+You can replace a value in a list by combining the index operator with the assignment operator.
 
 ::: {.cell .code}
 ```python
-my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] # In this list, the indexes and the values are the same
+my_list[0] = 42
 my_list
 ```
 :::
+
+_Slicing_ is a generalisation of _indexing_ which allows you to view a _slice_ of the list. If you think of the list
+as a loaf of bread, you can slice out a part of the loaf as small or as large as you like.
+
+```python
+my_list[start_index : end_index : step]
+```
+
+Here are some examples of indexing and slicing. Try to guess the output before you execute each cell.
 
 ::: {.cell .code}
 ```python
@@ -198,8 +204,7 @@ my_list[1:3]
 ```
 :::
 
-You will see above that the slicing operation always stops just short of the _end_index_.
-What's before the beginning of the list? At index `-1`?
+Notice that the slicing operation always stops just short of the _end index_.
 
 ::: {.cell .code}
 ```python
@@ -248,11 +253,11 @@ a_copy
 ```
 :::
 
-Rather than slicing every element in the range, you can slice every step$^{th}$ element.
+Rather than slicing every element in the range, you can slice every step-th element.
 
 ::: {.cell .code}
 ```python
-my_list[0:10:2]
+my_list[::2]
 ```
 :::
 
@@ -264,7 +269,7 @@ my_list[::-1]
 ```
 :::
 
-You can also assign to slices (be careful when assigning to slices when the step is not `1`).
+You can also assign to slices.
 
 ::: {.cell .code}
 ```python
@@ -273,10 +278,19 @@ my_list
 ```
 :::
 
+Be careful when assigning to slices when the step is not `1`.
+
+::: {.cell .code}
+```python
+my_list[::2] = ['a', 'e', 'i', 'o', 'u']
+my_list
+```
+
 ***
 
 ### Exercise 5-2: Slicing nested lists
-Write a function that accepts a nested list as an argument and returns the original list with second element reversed. For example, given input `[[1, 2], [3, 4]]`, return `[[1, 2], [4, 3]]`.
+Write a function that accepts a nested list as an argument and returns the original
+list with second element reversed. For example, given input `[[1, 2], [3, 4]]`, return `[[1, 2], [4, 3]]`.
 
 ::: {.cell .code}
 ```python
@@ -310,7 +324,7 @@ fizzbuzz4([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 ```
 :::
 
-Does `fizzbuzz4()` correctly play the Fizz Buzz game? If not, what is wrong with this solution?
+Does `fizzbuzz4()` correctly play the Fizz Buzz game? If not, what is wrong with this solution? Can you fix it?
 
 [Advanced question](Advanced%20Exercises.ipynb#5-2)
 
@@ -318,7 +332,10 @@ Does `fizzbuzz4()` correctly play the Fizz Buzz game? If not, what is wrong with
 
 ## Operating on Lists and using Python utilities
 
-In the following section we will use the `operator` library which is part of the Python standard library (if you're interested, see the documentation [here](https://docs.python.org/3/library/operator.html)). The `operator` library defines functions that are equivalent to the usual operators you've seen so far (e.g. `+`, `*`, _indexing_, etc.). Let's begin by importing the `operator` library. Run the next code cell:
+In the following section we will use the `operator` library which is part of the Python standard library (if you're
+interested, see the documentation [here](https://docs.python.org/3/library/operator.html)). The `operator` library
+defines functions that are equivalent to the usual operators you've seen so far (e.g. `+`, `*`, _indexing_, etc.).
+Let's begin by importing the `operator` library.
 
 ::: {.cell .code}
 ```python
@@ -326,15 +343,18 @@ import operator
 ```
 :::
 
-As you progress through the course we will use other facilities provided by the Python standard library. It's very useful to be aware of them so that you don't need to re-invent what is already available.
+As you progress through the course we will use other facilities provided by the Python standard library. It's very
+useful to be aware of them so that you don't need to re-invent what is already available.
 
-You might already appreciate the utility of lists, if not the next few exercises aim to demonstrate how they can be useful. In order to complete the next exercises you will need to know how to perform some operations on lists as a whole. Here are 3 new things to become acquainted with:
+You might already appreciate the utility of lists, if not the next few exercises aim to demonstrate how they can be
+useful. In order to complete the next exercises you will need to know how to perform some operations on lists as a
+whole. Here are 3 new things to become acquainted with:
 
-* The `sorted()` function will sort any collection, including lists
-* The `in` operator is a predicate evaluating to `True` if `x in collection`.
-* `operator.itemgetter()` from the `operator` library behaves like the index (`[]`) operator.
+* The `sorted()` function sorts lists
+* The `in` operator checks if a value is contained in a list.
+* `operator.itemgetter()` is a function that behaves like the index (`[]`) operator.
 
-The first 2 definitions are available to you without needing to `import` a library. These descriptions probably seem very vague, so let's experiment with them to see what they do.
+The first 2 definitions are available to you without needing to `import` a library. Let us experiment to see what they do.
 
 ::: {.cell .code}
 ```python
@@ -362,7 +382,7 @@ sorted([[5], [10], [2], [7], [1]])
 
 
 We can customise the behaviour of the `sorted()` function because it takes 2 _optional_ named arguments: `reverse` to sort in reverse order, and
-`key` to extract the value to sort from a structure. Once structure you may with to extract a sort key from is another list, say:
+`key` to extract the value to sort from a structure. One structure you may wish to extract a sort key from is another list, say:
 
 ::: {.cell .code}
 ```python
@@ -457,27 +477,27 @@ assert second_highest([
 
 ## Chapter Review
 In this chapter you learned how to store multiple values into an ordered, mutable collection called
-a `list`. You learned how to access individual values, ranges (or slices) of values, sort lists, and
-check for value membership in a list.
+a `list`. You learned how to access individual values and slices of values. You also learned how to
+sort lists and check for membership in a list.
 
 
 ## Review Questions
 
-1. What are collections used for?
+1. What are lists used for?
 <details>
     <summary>Answer</summary>
     To collect values together. 
 </details>
 
 
-2. What does it mean for a collection to be mutable?
+2. What does it mean for a list to be mutable?
 <details>
     <summary>Answer</summary>
     A value can be changed after creation. The assignment operator (`=`) works.
 </details>
 
 
-3. Is a string (`str`) a collection?
+3. Is a string (`str`) like a list?
 <details>
   <summary>Answer</summary>
   Yes. In the sense that strings can be indexed and sliced. They're collections
@@ -489,7 +509,7 @@ check for value membership in a list.
 4. What is _slicing_?
 <details>
     <summary>Answer</summary>
-    Slicing is a way to access elements (or ranges of elements) in a collection.
+    Slicing is a way to access ranges of elements in a list (or string).
 </details>
 
 5. Can you turn a string into a list of characters?

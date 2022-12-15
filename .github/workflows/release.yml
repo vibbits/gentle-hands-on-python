@@ -14,8 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
+        with:
+          go-version: "1.19.4"
       - name: Install mustache processor
         run: go install github.com/cbroglie/mustache/cmd/mustache@latest
+      - name: Debug
+        run: ls -l /home/runner/go/bin
+      - name: Debug2
+        run: env
       - name: Install pandoc
         uses: r-lib/actions/setup-pandoc@v1
         with:

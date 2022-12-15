@@ -214,7 +214,7 @@ my_list[-1]
 
 ::: {.cell .code}
 ```python
-my_list[5:-1]
+my_list[3:-1]
 ```
 :::
 
@@ -222,13 +222,13 @@ There is a special shortcut for slicing _from the beginning_ or _to the end_:
 
 ::: {.cell .code}
 ```python
-my_list[:5]
+my_list[:3]
 ```
 :::
 
 ::: {.cell .code}
 ```python
-my_list[5:]
+my_list[3:]
 ```
 :::
 
@@ -285,6 +285,7 @@ Be careful when assigning to slices when the step is not `1`.
 my_list[::2] = ['a', 'e', 'i', 'o', 'u']
 my_list
 ```
+:::
 
 ***
 

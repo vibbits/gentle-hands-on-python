@@ -22,6 +22,8 @@ jobs:
         uses: r-lib/actions/setup-pandoc@v1
         with:
           pandoc-version: "2.19.2"
+      - name: Add meterials link to settings
+        run: echo "release: https://github.com/vibbits/gentle-hands-on-python/releases/download/${{ github.ref_name }}/materials.zip" >> settings.yml
       - name: Build materials
         run: make
       - name: Build Welcome email
@@ -29,8 +31,8 @@ jobs:
       - name: Create draft release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref }}
-          name: ${{ github.ref }}
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
           prerelease: false
           draft: true
           body_path: welcome.md

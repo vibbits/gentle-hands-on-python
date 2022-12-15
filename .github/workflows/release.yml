@@ -1,0 +1,32 @@
+---
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+      - name: Install mustache processor
+        run: go install github.com/cbroglie/mustache/cmd/mustache@latest
+      - name: Build materials
+        run: make
+      - name: Build Welcome email
+        run: mustache settings.yml WELCOME.md > welcome.md
+      - name: Create draft release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          name: ${{ github.ref }}
+          prerelease: false
+          draft: true
+          body_path: welcome.md
+          files: |
+            materials.zip
+...

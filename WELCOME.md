@@ -1,16 +1,3 @@
----
-date: "January, 2023"
-hedylink: "https://hedycode.com/hedy/l/h8QgJHH"
-python_windows: "https://apps.microsoft.com/store/detail/python-311/9NRWMJP3717K"
-python_osx: "https://www.python.org/ftp/python/3.11.1/python-3.11.1-macos11.pkg"
-release: "https://github.com/vibbits/gentle-hands-on-python/releases/download/2023-January/materials.zip"
-jitsi_link: "https://meet.jit.si/moderated/51e36cb70d35fdf5408db08ebe0a8cc5b09bfebc7abdaad5cbe9939acc81f231"
-moderators: "https://moderated.jitsi.net/c620cfbc848e4e35ac41581280801619d0c5c2e63fb04d77aa7a696eea5922a5"
-youtube_link_A: ""
-youtube_link_B: ""
-youtube_link_C: ""
----
-
 Dear Participant,
 
 You are receiving this email because you registered for the course, Gentle Hands-on Introduction to Python. If you cannot attend, please reply to this email as soon as possible.

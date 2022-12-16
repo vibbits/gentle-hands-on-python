@@ -57,6 +57,7 @@ jobs:
         run: |
           unzip materials.zip
           rm materials.zip
+          find ./ -type f -name '*.ipynb' -exec sed -i -e 's/attachment\://g' {} \;
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:

@@ -38,4 +38,31 @@ jobs:
           body_path: welcome.md
           files: |
             materials.zip
+      - name: Save materials
+        uses: actions/upload-artifact@v3
+        with:
+          name: materials
+          path: materials.zip
+
+  create_release_branch:
+    name: Release branch
+    runs-on: ubuntu-latest
+    needs: release
+    steps:
+      - name: Download materials
+        uses: actions/download-artifact@v3
+        with:
+          name: materials
+      - shell: bash
+        run: |
+          unzip materials.zip
+          rm materials.zip
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ github.ref_name }}
+          publish_dir: .
+          force_orphan: true
+
 ...

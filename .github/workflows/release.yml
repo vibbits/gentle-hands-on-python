@@ -23,7 +23,7 @@ jobs:
         with:
           pandoc-version: "2.19.2"
       - name: Add meterials link to settings
-        run: echo "${{ format('release{0}', ':') }} https://github.com/vibbits/gentle-hands-on-python/releases/download/${{ github.ref_name }}/materials.zip" >> settings.yml
+        run: echo "${{ format('release{0}', ':') }} {{ github.ref_name }}" >> settings.yml
       - name: Build materials
         run: make
       - name: Build Welcome email

@@ -20,14 +20,15 @@ There are 4 things we request that you do in preperation for the course.
      a [short pre-course questionnaire](https://forms.vib.be/anon/#/forms/8482af4b-072a-4f8b-a062-2849b5b41ba7).
      Please complete this form as soon as possible. It should not take more than a few minutes. If you cannot attend, please respond to this
      email as soon as possible so that your place can be taken by someone on the long waiting list.
-  2. Install software we will be using. A video tutorial is available via [YouTube](https://youtu.be/vLRAUHpeHtM).
+  2. Either: Install software we will be using. A video tutorial is available via [YouTube](https://youtu.be/vLRAUHpeHtM).
       * [VSCodium](https://vscodium.com/)
       * Python
           * [Windows]({{python_windows}})
           * [Apple OSX]({{python_osx}})
           * GNU/Linux: Install the appropriate package from your package manager
-     If, for whatever reason, these options do not work for you then you can use your Google account to access [Google Colab](https://colab.research.google.com/).
-  3. Download the course materials from [here]({{release}}). Then unzip somewhere on your computer that is not a network drive.
+
+     Or: if, for whatever reason, these options do not work for you then you can use your Google account to access [Google Colab](https://colab.research.google.com/). You can start [here](https://colab.research.google.com/github/vibbits/gentle-hands-on-python/blob/{{release}}/01_Introduction.ipynb).
+  3. Download the course materials from [here](https://github.com/vibbits/gentle-hands-on-python/releases/download/{{release}}/materials.zip). Then unzip somewhere on your computer that is not a network drive.
   4. Use [this link]({{hedylink}}) to join the class on hedycode.com and create an account. For detailed instructions see: https://github.com/vibbits/gentle-hands-on-python#hedy
 
 We look forward to programming with you soon. Until then, please feel free to contact us with any questions or concerns.

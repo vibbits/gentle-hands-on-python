@@ -138,7 +138,7 @@ You can also provide your own starting value.
 
 ::: {.cell .code}
 ```python
-for val in range(start=5, stop=10):
+for val in range(5, 10):
     print(val)
 ```
 :::
@@ -147,7 +147,7 @@ Finally, like with slicing, you can provide a `step`.
 
 ::: {.cell .code}
 ```python
-for val in range(start=9, stop=0, step=-1):
+for val in range(9, 0, -1):
     print(val)
 ```
 :::

@@ -14,13 +14,13 @@ You can access that link now to ensure it works for you. If not, we will have a 
 Though not required, it is useful to be able to use your microphone and webcam to ask questions. So please test these (if you have them)
 with the meeting link before the course starts.
 
-There are 4 things we request that you do in preperation for the course.
+There are 4 things we request that you do in preparation for the course.
 
   1. Confirm your participation and help us tailor the course to your needs by completing
      a [short pre-course questionnaire](https://forms.vib.be/anon/#/forms/8482af4b-072a-4f8b-a062-2849b5b41ba7).
      Please complete this form as soon as possible. It should not take more than a few minutes. If you cannot attend, please respond to this
      email as soon as possible so that your place can be taken by someone on the long waiting list.
-  2. Either: Install software we will be using. A video tutorial is available via [YouTube](https://youtu.be/vLRAUHpeHtM).
+  2. Either: Install the software we will be using. A video tutorial is available via [YouTube](https://youtu.be/vLRAUHpeHtM).
       * [VSCodium](https://vscodium.com/)
       * Python
           * [Windows]({{python_windows}})
@@ -28,10 +28,14 @@ There are 4 things we request that you do in preperation for the course.
           * GNU/Linux: Install the appropriate package from your package manager
 
      Or: if, for whatever reason, these options do not work for you then you can use your Google account to access [Google Colab](https://colab.research.google.com/). You can start [here](https://colab.research.google.com/github/vibbits/gentle-hands-on-python/blob/{{release}}/01_Introduction.ipynb).
-  3. Download the course materials from [here](https://github.com/vibbits/gentle-hands-on-python/releases/download/{{release}}/materials.zip). Then unzip somewhere on your computer that is not a network drive.
+  3. Download the course materials from [here](https://github.com/vibbits/gentle-hands-on-python/releases/download/{{release}}/materials.zip). Then unzip them somewhere on your computer that is not a network drive.
   4. Use [this link]({{hedylink}}) to join the class on hedycode.com and create an account. For detailed instructions see: https://github.com/vibbits/gentle-hands-on-python#hedy
 
+Once you're set up, you can read through the "01_Introduction" notebook. If something does not work for you, **please don't worry**. We will sort it out at the beginning of day 1.
+
+
 We look forward to programming with you soon. Until then, please feel free to contact us with any questions or concerns.
+
 
 James Collier
 On behalf of VIB and Elixir Belgium

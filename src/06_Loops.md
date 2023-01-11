@@ -138,6 +138,7 @@ You can also provide your own starting value.
 
 ::: {.cell .code}
 ```python
+# Start from 5, up to 10
 for val in range(5, 10):
     print(val)
 ```
@@ -147,6 +148,7 @@ Finally, like with slicing, you can provide a `step`.
 
 ::: {.cell .code}
 ```python
+# Start from 9, down to 0, in steps of -1
 for val in range(9, 0, -1):
     print(val)
 ```

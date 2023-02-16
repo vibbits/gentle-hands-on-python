@@ -13,34 +13,6 @@ C.  '4' * 2
 
 D.  int('8')
 
-# What is the result of this expression?
-
-```python
-[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd')][1:2]
-```
-
-A.  `[(1, 'a'), (2, 'b')]`
-
-B.  `[(2, 'b'), (3, 'c')]`
-
-C.  `[(2, 'b')]`
-
-D.  `(2, 'b')`
-
-
-# What data type is this expression?
-
-```python
-(1, 3, 5, 7, 9)
-```
-
-A.  List
-
-B.  String
-
-C.  Tuple
-
-D.  Collection
 
 
 # What is the index of the last value in this list?
@@ -75,7 +47,7 @@ D.  `TypeError`
 # What is the result of this expression?
 
 ```python
-4 in sorted((5, 9, 1, 7, 3), reverse=True)
+4 in sorted([5, 9, 1, 7, 3], reverse=True)
 ```
 
 A.  `IndexError`
@@ -92,7 +64,7 @@ D.  `[4, 1, 3, 5, 7, 9]`
 ```python
 data = []
 for val in range(10):
-    data += [val * 2]
+    data = data + [val * 2]
 
 print(-data[3])
 ```
@@ -120,17 +92,3 @@ C.  `45`
 
 D.  `14`
 
-
-# What is the result of this expression?
-
-```python
-list(zip("hello", "world"))[2]
-```
-
-A.  `[("llo", "rld")]`
-
-B.  `('e', 'o')`
-
-C.  `"lr"`
-
-D.  `('l', 'r')`

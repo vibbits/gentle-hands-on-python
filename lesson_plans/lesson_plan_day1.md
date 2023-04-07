@@ -65,6 +65,8 @@
 **NOTE**: Dependencies are: `matplotlib ipympl`
 **NOTE**: Special alternatives: Idle with a regular Python install, replit.com (whatever student is comfortable with).
 
+**CMD**: Introduce the objectives for the day.
+
 ### 10:30 (SWITCH INSTRUCTORS TO INSTRUCTOR 2)
 
 **CMD**: Start on the basics of programming and computing.
@@ -76,10 +78,12 @@
          with R or other programming languages, we hope you will still find these 2 sessions useful.
      
 **SAY**: A note for those of you who are already confident programmers. Today
-         may feel slow for you. We're covering the basics. Feel free to read ahead and try to complete some
-         exercises. There are links to more advanced exercises in several places. You're welcome to attempt these
+         may feel slow for you. We're covering the basics. Feel free to read
+         ahead and try to complete some exercises. There are links to more
+         advanced exercises in several places. You're welcome to attempt these
          and ask questions about them.
-         If you are a new programmer there are a lot of new concepts that we
+
+**SAY**: If you are a new programmer there are a lot of new concepts that we
          will cover today and you will feel exhausted soon enough. You might feel left behind at some point.
          If this happens please tell us! We are not in a hurry and telling us you need more time or help
          will not ruin the course for anyone else.

@@ -3,64 +3,43 @@ title: "Quiz: morning, day 1"
 mainfont: "Liberation Mono"
 ---
 
-# What is the result of this expression?
+# What are variables?
+
+A.  numbers
+
+B.  values
+
+C.  text
+
+D.  places to store values
+
+# What is printed to the console?
 
 ```python
-abs(-5) + 1 == 6
+name is ask What is your name? # User types in Hedy
+print Your name is name
 ```
 
-A.  True
+A.  Your name is name
 
-B.  -4
+B.  Your name is Hedy
 
-C.  6
+C.  Your Hedy is Hedy
 
-D.  "YES"
+D.  Nothing
 
-# What is the result of this expression?
+# How would you fix this error?
 
-```python
-5 = 6
+```
+We can`t run your program.
+Your code is incomplete. It contains blanks that you have to replace with code.
 ```
 
-A.  False
+A.  Replace the `_` with some value
 
-B.  True
+B.  Delete the program
 
-C.  SyntaxError
+C.  Finish the program
 
-D.  Not an expression
+D.  This is not an error
 
-# What is the result of this expression?
-
-```python
-5 != 5
-```
-
-A.  False
-
-B.  True
-
-C.  SyntaxError
-
-D.  Not an expression
-
-# What is the result of this expression?
-
-```python
-"Python" == "python"
-```
-
-- True
-
-- False
-
-# What is the result of this expression?
-
-```python
-'z' < 'a'
-```
-
-- True
-
-- False

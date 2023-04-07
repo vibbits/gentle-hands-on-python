@@ -4,6 +4,26 @@ topic: "Afternoon, day 1"
 mainfont: "Liberation Mono"
 ---
 
+# What is the type of `42`?
+
+A.  `str`
+
+B.  `float`
+
+C.  `int`
+
+D.  `None`
+
+# What is the type of `13 - 6.7`?
+
+A. `float`
+
+B. `None`
+
+C. `int`
+
+D. `str`
+
 # A block of code is a series of Python statements executed together?
 
 - Yes
@@ -17,24 +37,6 @@ mainfont: "Liberation Mono"
 
 - No
 
-
-# What is the result of this code?
-
-```python
-from operator import neg
-# neg(6) == -6
-
-nl = compose(neg, len)
-nl("Python")
-```
-
-A.  "Python"
-
-B.  6
-
-C.  -6
-
-D.  True
 
 # Why is testing useful?
 

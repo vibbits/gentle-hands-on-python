@@ -25,38 +25,13 @@ C.  True
 
 D.  False
 
-# Can you add an integer to a boolean value?
+# Why are quotation marks for strings useful?
 
-- Yes
+A.  To make them look pretty in the code editor
 
-- No
+B.  They're not. It's just a silly rule
 
-# What is the result of this expression?
+C.  Make errors more obvious
 
-```python
-8 % 4
-```
+D.  Distinguish between a variable and text
 
-A.  True
-
-B.  1
-
-C.  4
-
-D.  0
-
-# What is the result of this code?
-
-
-```python
-x = "GCA" * 2
-len(x)
-```
-
-A.  "GCAGCA"
-
-B.  "GCA2"
-
-C.  6
-
-D.  3

@@ -32,15 +32,6 @@ finally, a useful whole is produced.
 The "combining parts" of programs are called "functions". These are equivalent to mathematical functions but we will not use any more
 mathematical analogies here. Functions can be _defined_, _applied_ (or _used_, _called_), or _composed_.
 
----
-
-### Exercise 3-1: Computational thinking
-
-Describe, using plain natural language, how to draw a triangle. Try to break down your instructions into simpler parts and notice the potential ambiguities.
-Also notice that the _ordering_ of instructions is important. If possible, use these instructions on a friend.
-
----
-
 ## Function Application
 
 You can think of a function as a mystery box. At the top is an opening for you to put things into it. The mystery box transforms anything you put into it
@@ -51,8 +42,8 @@ and out the bottom it produces the transformed object.
 The inputs to a function can be a variety of things (some of which we've seen already): a string, a number, even another function, a mouse press, a video
 stream, signals from a sensor, a file containing sequence data, ...
 
-We've already been using some built-in Python functions, for example **abs()** or **len()**. As you've already seen, in Python you _apply_ a function
-by typing its name followed by an open parenthesis '(', followed by the argument list, and finally a closing parenthesis ')'.
+Two built-in Python functions are **abs()** and **len()**. In Python, you _apply_ a function
+by typing its name followed by an open parenthesis '(', a comma seperated list of arguments, and finally a closing parenthesis ')'.
 
 ::: {.cell .code}
 ```python
@@ -204,7 +195,7 @@ And proceed as above.
 
 ---
 
-### Exercise 3-2: Function arguments
+### Exercise 3-1: Function arguments
 Try to guess what will be printed before executing the cell.
 
 ::: {.cell .code}
@@ -218,7 +209,7 @@ print(a, b, c, d)
 ```
 :::
 
-[Advanced question](Advanced%20Exercises.ipynb#3-2)
+[Advanced question](Advanced%20Exercises.ipynb)
 
 ---
 
@@ -288,7 +279,7 @@ def start_of_a_block():
 
 ---
 
-### Exercise 3-3: To return or not to return?
+### Exercise 3-2: To return or not to return?
 In general your function should evaluate to some value using the `return` keyword. What happens if
 you forget to use a `return`? What happens if you `return` with no value?
 
@@ -302,7 +293,7 @@ print(a_function())
 ```
 :::
 
-[Advanced question](Advanced%20Exercises.ipynb#3-3)
+[Advanced question](Advanced%20Exercises.ipynb)
 
 ---
 
@@ -347,7 +338,7 @@ assert my_example_function.__doc__ is not None, "You should write a docstring fo
 
 ---
 
-### Exercise 3-4: Testing
+### Exercise 3-3: Testing
 
 How would you test the following function. Write some tests, try to discover a bug.
 You're seeing the syntax for annotating the _return data type_ of a function here for
@@ -366,7 +357,7 @@ def fractional_part(number: float) -> float:
 ```
 :::
 
-[Advanced question](Advanced%20Exercises.ipynb#3-8)
+[Advanced question](Advanced%20Exercises.ipynb)
 
 ---
 

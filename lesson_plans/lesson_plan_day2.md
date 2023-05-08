@@ -40,6 +40,8 @@
 
 ### 10:00 (START: INSTRUCTOR 1)
 
+**CMD**: Recall our fizz-buzz game project from last week. Motivate the collections topic.
+
 **CMD**: Start topic: Collections of Python values
 
 **SAY**: Using values like a number, text, an image, etc are great and useful. But often we need to collect

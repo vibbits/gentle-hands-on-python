@@ -27,7 +27,7 @@ C.  `TypeError`
 
 D.  `SyntaxError`
 
-# Tuples and Lists are exactly equivalent
+# Strings and Lists are exactly equivalent
 
 - Yes
 
@@ -42,7 +42,7 @@ D.  `SyntaxError`
 # What is the result of this expression?
 
 ```python
-[1, 2, 3] + (4, 5, 6)
+[1, 2, 3] + `4, 5, 6`
 ```
 
 A.  SyntaxError
@@ -51,4 +51,4 @@ B.  TypeError
 
 C.  [1, 2, 3, 4, 5, 6]
 
-D.  (1, 2, 3, 4, 5, 6)
+D.  "1, 2, 3, 4, 5, 6"

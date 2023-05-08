@@ -3,12 +3,6 @@ title: "Quiz: morning, day 3"
 mainfont: "Liberation Mono"
 ---
 
-# I can perform the same operations on web resources and file resources
-
-- True
-
-- False
-
 
 # Python provides a library for representing and using dates called...
 

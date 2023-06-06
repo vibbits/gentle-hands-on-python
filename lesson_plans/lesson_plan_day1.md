@@ -99,11 +99,7 @@
 ### 11:00
 **CMD**: Break for 10 minutes
 
-### 11:10
-
-**QUIZ**: Load `day1_morning_break.pdf`
-
-### 11:15 (SWITCH INSTRUCTORS TO INSTRUCTOR 1)
+### 11:10 (SWITCH INSTRUCTORS TO INSTRUCTOR 1)
 
 **CMD**: Continue with Hedy
 

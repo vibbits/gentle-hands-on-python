@@ -1,0 +1,12 @@
+{
+    "description": {
+      "names": {
+        "en": "Types",
+        "nl": "Types"
+      }
+    },
+    "evaluation": {
+      "pythia_judge": "output"
+    },
+    "labels": []
+  }

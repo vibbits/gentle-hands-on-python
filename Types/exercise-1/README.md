@@ -1,0 +1,1 @@
+en: This is a basic exercise; read the input and print it out again.

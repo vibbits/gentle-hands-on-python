@@ -6,6 +6,5 @@
       return: 42
     - expression: 'identity("A\nstring\nwith\nnewlines")'
       return: "A\nstring\nwith\nnewlines"
-    - expression: 'submission.identity.__doc__.__class__'
-      return: |
-        (<class 'type'>) <class 'str'>
+    - expression: 'submission.identity.__doc__ is not None'
+      return: true

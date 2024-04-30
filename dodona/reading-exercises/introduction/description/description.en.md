@@ -1,5 +1,10 @@
 # Introduction
 
+<video width="100%" controls>
+  <source src="https://storage.googleapis.com/vib-training-data/VIDEOS/Python/lesson1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+ </video>
+
 Welcome. Learning how to write programs is a daunting but extremely useful skill and you've all
 taken the first step. It will be a long journey but you will soon notice that the skills you
 acquire along the way can already be put to good use. This course is designed as an introduction

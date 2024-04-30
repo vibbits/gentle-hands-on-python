@@ -7,4 +7,5 @@
     - expression: 'identity("A\nstring\nwith\nnewlines")'
       return: "A\nstring\nwith\nnewlines"
     - expression: 'submission.identity.__doc__.__class__'
-      return: "<class 'str'>"
+      return: |
+        (<class 'type'>) <class 'str'>

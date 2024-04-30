@@ -3,7 +3,9 @@
 <video width="100%" controls>
   <source src="https://storage.googleapis.com/vib-training-data/VIDEOS/Python/lesson3.mp4" type="video/mp4">
   Your browser does not support the video tag.
- </video>
+</video>
+ 
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
 
 ## Data Types
 
@@ -23,8 +25,6 @@ understand why thinking about data types is useful.
 "hello" + 5
 ~~~
 {: .runnable}
-
-<iframe style="width: 100%; height:380px" src="https://pyodide.org/en/stable/console.html"></iframe>
 
 ---
 

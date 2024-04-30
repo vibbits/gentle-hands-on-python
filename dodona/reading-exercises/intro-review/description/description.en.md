@@ -18,6 +18,7 @@ x is ask "What is x?" # This is also a comment
 ```
 
 Comments are text that is ignored by the program interpreter so you can write whatever you like.
+In Python, everything after `#` character is ignored. So write descriptions prefixed by a `#`.
 Sometimes it can even be useful to draw diagrams in comments!
 
 ```python

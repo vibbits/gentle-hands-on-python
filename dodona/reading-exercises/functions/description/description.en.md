@@ -31,7 +31,7 @@ a number, even another function, a mouse press, a video stream, signals from a s
 containing sequence data, ...
 
 Two built-in Python functions are `abs()` and `len()`. In Python, you _apply_ a function
-by typing its name followed by an open parenthesis `(`, a comma seperated list of arguments,
+by typing its name followed by an open parenthesis `(`, a comma separated list of arguments,
 and finally a closing parenthesis `)`.
 
 ```python
@@ -108,7 +108,7 @@ The _type_ of `my_square` is a _function_ that accepts a single integer paramete
 ## Function Arguments
 
 When you apply a function to some arguments you can also say that the arguments are "_passed_" to
-the function. You can think of this as dropping the number `7` into the mystery box labaled
+the function. You can think of this as dropping the number `7` into the mystery box labelled
 `my_square`. So what happens to arguments when they're "passed" to a function? Where do they come
 from? And where do they go? Let us try to build an intuition.
 
@@ -147,7 +147,7 @@ you a long way.
 # This mental model also works for passing variables as arguments:
 my_var = 7
 my_square(my_var)
-# Once again, Python places the value in the "my_var" box into the variable or box called nnumber.
+# Once again, Python places the value in the "my_var" box into the variable or box called number.
 ```
 
 The next substitution step is to replace everywhere we see the name "my_var" with its definition: `7`.

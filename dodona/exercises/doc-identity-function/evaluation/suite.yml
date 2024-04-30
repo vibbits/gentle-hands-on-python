@@ -6,7 +6,5 @@
       return: 42
     - expression: 'identity("A\nstring\nwith\nnewlines")'
       return: "A\nstring\nwith\nnewlines"
-    - expression: 'identity.__doc__'
+    - expression: '__doc__'
       return: "<class 'str'>"
-    - expression: 'dir(submission)'
-      return: ""

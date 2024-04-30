@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Introduction - Review"
+    }
+  },
+  "labels": ["introduction"],
+  "internals": {
+    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

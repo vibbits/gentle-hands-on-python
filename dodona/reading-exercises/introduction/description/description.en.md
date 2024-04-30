@@ -5,7 +5,7 @@
   Your browser does not support the video tag.
  </video>
 
-Welcome!
+## Welcome!
 
 Learning how to write programs is a daunting but extremely useful skill and you've
 taken the first step. It will be a long journey but you will soon notice that the skills you

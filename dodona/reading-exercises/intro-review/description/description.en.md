@@ -44,3 +44,5 @@ intimidating after using Hedy?
 You're welcome to continue to explore Hedy, it's a great way to gradually build concepts.
 However, you will not use Hedy for this course. From now on you will be using the Python programming
 language.
+
+[^1]: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-7.html#%_chap_Temp_4

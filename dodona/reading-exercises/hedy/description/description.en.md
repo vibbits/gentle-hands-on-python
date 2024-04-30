@@ -16,27 +16,27 @@ programming.
 *Please use the link shared by your instructor to join the class on Hedy.*
 
 
-![Hedy interface](media/hedy_1.png)
+<img src="media/hedy_1.png" alt="Hedy interface" style="width:100%;height:auto">
 
 Within the Hedy interface you will find an area for writing program code:
 
-![Hedy interface with text editing area highlighted](media/hedy_2.png)
+<img src="media/hedy_2.png" alt="Hedy interface with text editing area highlighted" style="width:100%;height:auto">
 
 A place for your program to display text:
 
-![Hedy interface with the output area highlighted](media/hedy_3.png)
+<img src="media/hedy_3.png" alt="Hedy interface with output area highlighted" style="width:100%;height:auto">
 
 In order to run the program that you type in, you can press the "Run Code" button:
 
-![Hedy interface with the Run Code button highlighted](media/hedy_run_code.png)
+<img src="media/hedy_run_code.png" alt="Hedy interface with Run Code button highlighted" style="width:100%;height:auto">
 
 Read the introductory description. Three commands are introduced: `print`, `ask`, and `echo`.
 Using these three commands you can print text to the output area. Once you have tried writing
 a program to print text to the output area with Hedy, explore some challenges in the tabs here:
 
-![Hedy interface with the challenge tabs highlighted](media/hedy_4.png)
+<img src="media/hedy_4.png" alt="Hedy interface with the challenge tabs highlighted" style="width:100%;height:auto">
 
 Finally, once you have solved a few challenges and you feel comfortable with this level you can
 move onto the next level by pressing this button:
 
-![Hedy interface with the next level button highlighted](media/hedy_next_level.png)
+<img src="media/hedy_next_level.png" alt="Hedy interface with the next level button highlighted" style="width:100%;height:auto">

@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "en": "Identity function",
+      "nl": "Identiteitsfunctie"
+    }
+  },
+  "labels": [
+    "template"
+  ],
+  "internals": {
+    "token": "ERDFBybUX_YZT2TaU74BtIgwM68X_2pcxXUvBKZc4E2ImtEXEYRbFJbV2SfENgH3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

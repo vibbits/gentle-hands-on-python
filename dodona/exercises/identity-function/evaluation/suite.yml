@@ -1,0 +1,8 @@
+- tab: "identity"
+  testcases:
+    - expression: 'identity("Hola!")'
+      return: 'Hola!'
+    - expression: 'identity(42)'
+      return: 42
+    - expression: 'identity("A\nstring\nwith\nnewlines")'
+      return: "A\nstring\nwith\nnewlines"

@@ -1,0 +1,7 @@
+{
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yml"
+  },
+  "programming_language": "python"
+}

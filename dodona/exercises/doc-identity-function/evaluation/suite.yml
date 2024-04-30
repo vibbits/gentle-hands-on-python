@@ -6,5 +6,5 @@
       return: 42
     - expression: 'identity("A\nstring\nwith\nnewlines")'
       return: "A\nstring\nwith\nnewlines"
-    - expression: 'import pydoc;pydoc.getdoc(identity)'
+    - expression: 'submission.identity.__doc__'
       return: "<class 'str'>"

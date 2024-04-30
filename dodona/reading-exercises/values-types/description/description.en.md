@@ -7,8 +7,6 @@
  
 <iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
 
-## Data Types
-
 Using Hedy, you were able to `print` text to the program output area.
 You even discovered a special syntax for writing literal text in your programs: you
 surrounded the text with quotation marks (`"`). Programmers refer to text between quotation

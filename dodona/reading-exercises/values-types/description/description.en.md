@@ -27,5 +27,5 @@ understand why thinking about data types is useful.
 ---
 
 
-<link rel="stylesheet" href="/media/style.css">
-<script src="/media/main.js"></script>
+<link rel="stylesheet" href="media/style.css">
+<script src="media/main.js"></script>

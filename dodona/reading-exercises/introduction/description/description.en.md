@@ -42,7 +42,7 @@ You will start off with concepts such as:
  - Fundamentals: values, variables, and functions
  - Correctness with types, testing, and documentation
  
-When you are more confident we will more advanced practicalities:
+When you are more confident you will see more practicalities:
 
  - Decision making
  - Operating on collections of data

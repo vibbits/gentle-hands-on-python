@@ -24,6 +24,8 @@ understand why thinking about data types is useful.
 ~~~
 {: .runnable}
 
+<iframe style="width: 100%; height:380px" src="https://pyodide.org/en/stable/console.html"></iframe>
+
 ---
 
 

@@ -140,7 +140,7 @@ Finally, we're left with a mathematical expression that Python can trivially eva
 
 
 What we just did together is use a _metal model_ of how Python evaluates programs which is known as
-the "substitution model of execution" [^2], though it is an imprecise model in this case it will get
+the "substitution model of execution" [^2], though it is an imprecise model for Python, it will get
 you a long way.
 
 ```python

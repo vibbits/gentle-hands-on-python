@@ -1,6 +1,6 @@
 # Building Programs
 
-<div style="display:flex; align-items:center; justify-content:center; width:100%;">
+<div style="display:flex; align-items:center; justify-content:center; width:100%; height: 15rem; background-color:lightsteelblue">
 Video placeholder
 </div>
 
@@ -44,11 +44,9 @@ len("hello")
 
 These functions take a single argument. Here is one that takes a list of several arguments.
 
-::: {.cell .code}
 ```python
 print(True, "A string", 55)
 ```
-:::
 
 
 ## Function Definition
@@ -145,32 +143,26 @@ What we just did together is use a _metal model_ of how Python evaluates program
 the "substitution model of execution" [^2], though it is an imprecise model in this case it will get
 you a long way.
 
-::: {.cell .code}
 ```python
 # This mental model also works for passing variables as arguments:
 my_var = 7
 my_square(my_var)
 # Once again, Python places the value in the "my_var" box into the variable or box called nnumber.
 ```
-:::
 
 The next substitution step is to replace everywhere we see the name "my_var" with its definition: `7`.
 
-::: {.cell .code}
 ```python
 # 7 = 7  Initial variable assignment
 my_square(7)
 ```
-:::
 
 Next, replace the name "my_square" with its definition.
 
-::: {.cell .code}
 ```python
 number = 7 # Argument passed to the my_square function
 number ** 2 # Body of the my_square function
 ```
-:::
 
 And proceed as above.
 

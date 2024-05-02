@@ -9,6 +9,7 @@ def fizzbuzz(number: int) -> str:
 
 
 def test_fizzbuzz():
+    "Tests for the fizzbuzz function."
     assert "Fizz" == fizzbuzz(33), 'Expected: "Fizz", got: ' + str(fizzbuzz(33))
     assert "Fizz Buzz" == fizzbuzz(30), 'Expected: "Fizz Buzz", got: ' + str(
         fizzbuzz(30)

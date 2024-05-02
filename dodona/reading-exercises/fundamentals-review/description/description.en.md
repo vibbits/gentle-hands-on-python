@@ -16,8 +16,9 @@ are here to help you practice. In some sense they are just more details of what 
 ## Review Questions
 
 <details>
-  <summary>What is a <code>str</code></summary>
-  A <code>str</code> is the <em>data type</em> of all text.
+  <summary>What is a <code>str</code>?</summary>
+  A <code>str</code> is the <em>data type</em> of all text. The word "string" is a historical artifact
+  that comes from the idea that letters are "strung" together.
 </details>
 
 <details>
@@ -33,13 +34,13 @@ are here to help you practice. In some sense they are just more details of what 
 </details>
 
 <details>
-    <summary>What is a function</summary>
+    <summary>What is a function?</summary>
     A <em>function</em> is a block of re-usable code with a name, that can be called using that name.
 </details>
 
 <details>
     <summary>What is the result of evaluating a function called?</summary>
-    The <em>return value</em>. Or the value <em>returned by the function</em>.
+    The <em>return value</em>. Or the value <em>returned by the function</em>. Or the <em>result</em>.
 </details>
 
 <details>

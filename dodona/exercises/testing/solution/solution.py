@@ -10,3 +10,4 @@ def test_fractional_part():
     assert abs(fractional_part(5.2) - 0.2) < 0.00001
     assert abs(fractional_part(-2.26) - 0.26) < 0.00001
     assert abs(fractional_part(-0.111) - 0.111) < 0.00001
+    return "Success"

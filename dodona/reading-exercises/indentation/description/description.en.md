@@ -23,7 +23,6 @@ def start_of_a_block():
    a_variable = 0
     another = 6
 ```
-:::
 
 
 ### Exercise
@@ -38,4 +37,5 @@ def a_function():
 print(a_function())
 ```
 
-You can use the console above to discover the answers to these questions.
+You can use the console above to discover the answers to these questions. Notice that, in the Python
+console, the prompt changes from `>>>` to `...` when indentation is expected.

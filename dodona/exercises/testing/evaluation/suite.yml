@@ -1,0 +1,13 @@
+- tab: "fractional_part"
+  testcases:
+    - expression: 'fractional_part(1.0)'
+      return: 0.0
+    - expression: 'fractional_part(2.5)'
+      return: 0.5
+    - expression: 'fractional_part(-1.5)'
+      return: 0.5
+
+- tab: "test_fractional_part"
+  testcases:
+    - expression: 'test_fractional_part()'
+      return: "Success"

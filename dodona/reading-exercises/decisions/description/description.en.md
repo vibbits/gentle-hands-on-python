@@ -36,10 +36,7 @@ Fizz
 Fizz Buzz
 ```
 
-<figure>
-  <img src="media/fizzbuzz_flowchart.svg" style="height: 800px; width:auto" alt="Fizzbuzz flowchart" />
-    <figcaption>A flowchart to tell you how to play Fizzbuzz</figcaption>
-</figure>
+<img src="media/fizzbuzz_flowchart.svg" style="height: 800px; width:auto; background-color:white" alt="Fizzbuzz flowchart" />
 
 We're going to begin to implement this `fizzbuzz` function. Although you're already familiar
 with universally applicable programming concepts, we will introduce some Python specifics that
@@ -50,7 +47,7 @@ will help us to write a `fizzbuzz` function. This begins with _conditional logic
 The **if** statement allows you to only execute an indented _block_ of code if a boolean condition is
 satisfied (if the answer to a question is "YES"). You can think of **if** as _guarding_ its indented block.
 
-![Python if statement](https://files.realpython.com/media/t.78f3bacaa261.png)
+<img src="https://files.realpython.com/media/t.78f3bacaa261.png" alt="Python if statement" style="width:100%;height:auto">
 
 Just as with function definitions, Python syntax requires that you put a colon `:` after the condition,
 and that the block of code guarded by the conditional be **equally indented** to the same **indentation level**.

@@ -36,3 +36,5 @@ called `test_fizzbuzz` that returns `"Success"` if the `fizzbuzz` function passe
     %
   </code>
 </details>
+
+Think about why "Fizz Buzz" returned first? What happens if you check the "Fizz Buzz" condition last?

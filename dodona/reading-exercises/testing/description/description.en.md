@@ -16,7 +16,6 @@ def test_my_square():
   assert 4 == my_square(2)
   return "Success"
 ```
-:::
 
 Successfully passing these tests will result in the function returning the string "Success".
 Failing will result in an **`AssertionError`**.
@@ -26,3 +25,6 @@ Failing will result in an **`AssertionError`**.
 Your tests become more useful when they check both expected values and unexpected (edge-case) values.
 If your function expects numbers, does it cope well with very large numbers? What about very small
 numbers? What about negative numbers? What about zero?
+
+You should not expect to test all possible inputs unless size of the domain of your input type is
+very small (for example, the size of the domain of the `bool` type is only `2`).

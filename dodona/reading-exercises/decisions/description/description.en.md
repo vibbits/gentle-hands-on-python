@@ -37,7 +37,7 @@ Fizz Buzz
 ```
 
 <figure>
-  <img src="images/fizzbuzz_flowchart.svg" style="height: 800px; width:auto" alt="Fizzbuzz flowchart" />
+  <img src="media/fizzbuzz_flowchart.svg" style="height: 800px; width:auto" alt="Fizzbuzz flowchart" />
     <figcaption>A flowchart to tell you how to play Fizzbuzz</figcaption>
 </figure>
 

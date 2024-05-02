@@ -1,0 +1,10 @@
+- tab: "identity"
+  testcases:
+    - expression: 'submission.a'
+      return: 5
+    - expression: 'submission.b'
+      return: "blob"
+    - expression: 'submission.c'
+      return: 9
+    - expression: 'submission.d'
+      return: 16

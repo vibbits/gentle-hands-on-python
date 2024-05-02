@@ -6,6 +6,6 @@ function evaluates to its argument. The function should only accept a single arg
 ```console?lang=python&prompt=>>>
 >>> identity("Hola!")
 "Hola!"
->>> echo(42)
+>>> identity(42)
 42
 ```

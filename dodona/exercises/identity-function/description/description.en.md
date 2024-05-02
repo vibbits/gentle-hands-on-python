@@ -5,6 +5,6 @@ Write a function called `identity` that evaluates to its argument. The function 
 ```console?lang=python&prompt=>>>
 >>> identity("Hola!")
 "Hola!"
->>> echo(42)
+>>> identity(42)
 42
 ```

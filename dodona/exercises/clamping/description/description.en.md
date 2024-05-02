@@ -19,9 +19,9 @@ def clamp(number: int, lower: int, upper: int) -> int:
 0
 >>> clamp(-1, 0, 10)
 0
->>>clamp(10, 0, 10)
+>>> clamp(10, 0, 10)
 10
->>>clamp(11, 0, 10)
+>>> clamp(11, 0, 10)
 10
 ```
 

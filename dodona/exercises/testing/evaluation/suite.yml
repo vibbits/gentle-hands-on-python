@@ -6,8 +6,14 @@
       return: 0.5
     - expression: 'fractional_part(-1.5)'
       return: 0.5
+    - expression:
+        python: 'fractional_part.__doc__ is not None'
+      return: true
 
 - tab: "test_fractional_part"
   testcases:
     - expression: 'test_fractional_part()'
       return: "Success"
+    - expression:
+        python: 'test_fractional_part.__doc__ is not None'
+      return: true

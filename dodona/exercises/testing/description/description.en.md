@@ -29,7 +29,6 @@ in my incorrect definition of the `fractional_parts` function.
 
 If all of your tests pass, your `test_fractional_part` function should return the string `"Success"`.
 
-## Why am I getting very slightly wrong answers?
 <details>
   <summary>Why am I getting a very slightly wrong answer?</summary>
   Decimal fractional (a.k.a. floating point) numbers are represented in binary by the computer. Also,
@@ -38,6 +37,6 @@ If all of your tests pass, your `test_fractional_part` function should return th
   "close enough" (within some small number) to the result you expected like this:
   
   <code>
-    <span class="k">assert</span> <span class="nf">abs</span><span class="p">(</span><span class="nf">expected</span> <span class="o">-</span> <span class="nf">result</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0.0001</span>
+    assert abs(expected - result) < 0.000001
   </code>
 </details>

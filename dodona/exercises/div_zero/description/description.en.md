@@ -4,7 +4,7 @@ Along with the specific binary representation of these numbers, IEEE-754 defines
 can be performed on them and the possible errors that can occur.
 
 One of these errors is division by zero. Mathematically, a division by zero is undefined but IEEE-754
-defines it to be positive infinity. In Python however, your program will crash if you attempt to
+defines it to be positive infinity. [^2] In Python however, your program will crash if you attempt to
 divide a number by zero.
 
 Your task here is to write a "safe" division function called `safe_div` that does not crash
@@ -29,3 +29,7 @@ def safe_div(dividend: float, divisor: float) -> float:
 
 Don't forget to include a docstring and a test function called `test_safe_div` that returns
 `"Success"` if the `safe_div` function passes all tests.
+
+[^1]: https://en.wikipedia.org/wiki/IEEE_754
+
+[^2]: Details about this can be found here: https://people.eecs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF

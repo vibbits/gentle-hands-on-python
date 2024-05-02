@@ -30,6 +30,6 @@ def safe_div(dividend: float, divisor: float) -> float:
 Don't forget to include a docstring and a test function called `test_safe_div` that returns
 `"Success"` if the `safe_div` function passes all tests.
 
-[^1]: https://en.wikipedia.org/wiki/IEEE_754
+[^1]: [https://en.wikipedia.org/wiki/IEEE_754](https://en.wikipedia.org/wiki/IEEE_754)
 
-[^2]: Details about this can be found here: https://people.eecs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF
+[^2]: Details about this can be found here: [https://people.eecs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF](https://people.eecs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF)

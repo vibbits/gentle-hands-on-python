@@ -1,0 +1,16 @@
+- tab: "safe_div"
+  testcases:
+    - expression: 'safe_div(5, 2)'
+      return: 2.5
+    - expression: 'safe_div(5, 0)'
+      return: "You cannot divide by zero"
+    - expression:
+        python: "submission.safe_div.__doc__ is not None"
+      return: true
+- tab: "test_safe_div"
+  testcases:
+    - expression: "test_safe_div()"
+      return: "Success"
+    - expression:
+        python: "submission.test_safe_div.__doc__ is not None"
+      return: true

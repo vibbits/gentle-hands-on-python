@@ -1,0 +1,24 @@
+- tab: "min3"
+  testcases:
+    - expression: 'min3(3, 6, 9)'
+      return: 3
+    - expression: 'min3(-1, -5, 7)'
+      return: -5
+    - expression: 'min3(-1, -12, -47)'
+      return: -47
+    - expression: 'min3(-2, 1, -19)'
+      return: -19
+    - expression: 'min3(11, 55, 0)'
+      return: 0
+    - expression: 'min3(-100, -293, -551)'
+      return: -551
+    - expression:
+        python: "submission.min3.__doc__ is not None"
+      return: true
+- tab: "test_min3"
+  testcases:
+    - expression: "test_min3()"
+      return: "Success"
+    - expression:
+        python: "submission.test_min3.__doc__ is not None"
+      return: true

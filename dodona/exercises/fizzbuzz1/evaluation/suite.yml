@@ -1,0 +1,18 @@
+- tab: "fizzbuzz"
+  testcases:
+    - expression: 'fizzbuzz(33)'
+      return: 'Fizz'
+    - expression: 'fizzbuzz(30)'
+      return: 'Fizz Buzz'
+    - expression: 'fizzbuzz(20)'
+      return: "Buzz"
+    - expression:
+        python: "fizzbuzz.__doc__ is not None"
+      return: true
+- tab: "test_fizzbuzz"
+  testcases:
+    - expression: "test_fizzbuzz()"
+      return: "Success"
+    - expression:
+        python: "test_fizzbuzz.__doc__ is not None"
+      return: true

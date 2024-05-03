@@ -4,9 +4,11 @@
       "en": "Fizzbuzz (attempt 2)"
     }
   },
-  "labels": ["control flow"],
+  "labels": [
+    "control flow"
+  ],
   "internals": {
-    "token": "ERDFBybUX_YZT2TaU74BtIgwM68X_2pcxXUvBKZc4E2ImtEXEYRbFJbV2SfENgH3",
+    "token": "aR4MRJGznI9yseIZq-ppGv8Vcp2AahtQatGCgf7a7sgmBf6i_afzBCPQPypmsbaG",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

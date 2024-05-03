@@ -6,7 +6,7 @@ def second_highest(citations: list[list[str | float]]) -> str | None:
     if len(citations) < 2:
         return None
 
-    return sorted(citations, key=operator.itemgetter(1), reverse=True)[1]
+    return sorted(citations, key=operator.itemgetter(1), reverse=True)[1][0]
 
 
 def test_bronze_medal():

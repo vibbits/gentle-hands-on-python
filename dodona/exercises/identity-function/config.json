@@ -4,9 +4,11 @@
       "en": "Identity function"
     }
   },
-  "labels": ["template"],
+  "labels": [
+    "template"
+  ],
   "internals": {
-    "token": "ERDFBybUX_YZT2TaU74BtIgwM68X_2pcxXUvBKZc4E2ImtEXEYRbFJbV2SfENgH3",
+    "token": "RhqMMEM6Bv7eQpbZzbZ6PMuavrIYDKdrTXvhH56npiKb6cJm2C58MNIrD-sKQ3ZF",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

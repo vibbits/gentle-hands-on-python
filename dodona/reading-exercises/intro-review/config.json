@@ -4,9 +4,11 @@
       "en": "Introduction - Review"
     }
   },
-  "labels": ["introduction"],
+  "labels": [
+    "introduction"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "fwe_DA_uBbcRbRIUDxZaEg5iwrdqFVIrguYz_u7m5HR9PIK9-9k7_uY-yPXNS_hs",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

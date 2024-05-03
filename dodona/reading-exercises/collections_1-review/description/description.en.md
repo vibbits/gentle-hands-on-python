@@ -1,8 +1,6 @@
 # Review
 
-<div style="display:flex; align-items:center; justify-content:center; width:100%; height: 15rem; background-color:lightsteelblue">
-Video placeholder
-</div>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
 
 In this chapter you learned how to store multiple values into an ordered, mutable collection called
 a `list`. You learned how to access individual values and slices of values. You also learned how to

@@ -4,9 +4,11 @@
       "en": "Indexing and slicing"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "VCHf6TtinpaIrSUNeSi9bvIj_fsHcwPMqx59_i-R-SaraqQS_-nvhkab-9vGcuQ4",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

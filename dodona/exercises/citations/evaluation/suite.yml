@@ -1,0 +1,20 @@
+- tab: "second_highest"
+  testcases:
+    - expression: 'second_highest([])'
+      return: !expression "None"
+    - expression: 'second_highest([["A", 1.0], ["B", 1.5]])'
+      return: "A"
+    - expression: 'second_highest([["A", 1.5], ["B", 1.0]])'
+      return: "B"
+    - expression: 'second_highest([["A", 1.0], ["B", 1.5], ["C", 1.2]])'
+      return: "C"
+    - expression:
+        python: "submission.second_highest.__doc__ is not None"
+      return: true
+- tab: "test_second_highest"
+  testcases:
+    - expression: "test_second_highest()"
+      return: "Success"
+    - expression:
+        python: "submission.test_second_highest.__doc__ is not None"
+      return: true

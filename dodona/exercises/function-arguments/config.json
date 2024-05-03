@@ -4,9 +4,11 @@
       "en": "Function arguments"
     }
   },
-  "labels": ["fundamentals"],
+  "labels": [
+    "fundamentals"
+  ],
   "internals": {
-    "token": "ERDFBybUX_YZT2TaU74BtIgwM68X_2pcxXUvBKZc4E2ImtEXEYRbFJbV2SfENgH3",
+    "token": "yYzBUQeSybugrfRAPKibJ7jeMVm-CkGCXwSr6j42TD5BaWvgdAY297wnuegnSZr_",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

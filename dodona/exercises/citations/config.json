@@ -4,9 +4,11 @@
       "en": "Citations"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "pCbmiwQXNfv7vUX2884ZcnppyZI9EeHz6sh9Pb-A67BXNbYCMHhT3wydtuQzuG5g",
+    "token": "Pk294mV6wss__PtEVGNPWSTxNKsdQcJ6apn8ikkk6YZbJy9QDfcyPvDU-4szEGEe",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

@@ -1,0 +1,22 @@
+- tab: "bronze_medal"
+  testcases:
+    - expression: 'bronze_medal([])'
+      return: !expression "None"
+    - expression: 'bronze_medal([9, 15])'
+      return: !expression "None"
+    - expression: 'bronze_medal([20, 4, 17])'
+      return: 4
+    - expression: 'bronze_medal([21, 15, 9, 19])'
+      return: 15
+    - expression: 'bronze_medal([54,56,2,1,5223,6,23,57,3,7,3344])'
+      return: 57
+    - expression:
+        python: "submission.bronze_medal.__doc__ is not None"
+      return: true
+- tab: "test_bronze_medal"
+  testcases:
+    - expression: "test_bronze_medal()"
+      return: "Success"
+    - expression:
+        python: "submission.test_bronze_medal.__doc__ is not None"
+      return: true

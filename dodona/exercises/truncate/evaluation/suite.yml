@@ -1,12 +1,12 @@
 - tab: "truncate"
   testcases:
-    - expression: 'truncate("Hello World", 11)'
+    - expression: 'truncate("Hello World!", 11)'
       return: 'Hello Wo...'
     - expression: 'truncate("Python", 10)'
       return: 'Python'
     - expression: 'truncate("Python3", 7)'
       return: 'Python3'
-    - expression: 'truncate("Nina", 3)'
+    - expression: 'truncate("Nina?", 4)'
       return: 'N...'
     - expression: 'truncate("", 2)'
       return: ''

@@ -12,10 +12,10 @@ def truncate(text: str, max_len: int) -> str:
 
 def test_truncate():
     "Tests for the truncate function."
-    assert truncate("Hello World", 11) == "Hello Wo..."
+    assert truncate("Hello World!", 11) == "Hello Wo..."
     assert truncate("Python", 10) == "Python"
     assert truncate("Python3", 7) == "Python3"
-    assert truncate("Nina", 3) == "N..."
+    assert truncate("Nina?", 4) == "N..."
     assert truncate("", 2) == ""
     assert truncate("Test", 3) == "..."
     assert truncate("Test", 2) == ".."

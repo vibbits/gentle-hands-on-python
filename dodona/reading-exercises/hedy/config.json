@@ -4,9 +4,11 @@
       "en": "Thinking like a programmer"
     }
   },
-  "labels": ["introduction"],
+  "labels": [
+    "introduction"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "bpger2WCRFfFGcmyF4nq2cZqfNFJKKWy2xjkeHfKsJGZxNYzfkrPkjKtA8pg5fBA",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

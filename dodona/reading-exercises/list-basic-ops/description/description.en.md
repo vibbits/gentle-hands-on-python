@@ -30,7 +30,6 @@ You can replace a value in a list by combining the index operator with the assig
 >>> my_list
 [42, 'E', 'I', 'O', 'U', 'Y']
 ```
-:::
 
 _Slicing_ is a generalisation of _indexing_ which allows you to view a _slice_ of the list.
 If you think of the list as a loaf of bread, you can slice out a part of the loaf as small or
@@ -118,7 +117,6 @@ What does a step of `-1` do?
 >>> my_list[::-1]
 ['Y', 'U', 'O', 'I', 'E', 42]
 ```
-:::
 
 You can also assign to slices.
 

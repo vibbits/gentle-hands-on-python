@@ -1,4 +1,5 @@
 - tab: "fizzbuzz"
   testcases:
-    - expression: 'fizzbuzz_game'
+    - expression:
+        python: 'submission.fizzbuzz_game'
       return: !expression '["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "Fizz Buzz"]'

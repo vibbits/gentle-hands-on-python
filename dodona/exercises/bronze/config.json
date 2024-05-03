@@ -4,9 +4,11 @@
       "en": "Bronze medal"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "pCbmiwQXNfv7vUX2884ZcnppyZI9EeHz6sh9Pb-A67BXNbYCMHhT3wydtuQzuG5g",
+    "token": "w-F7UwWzfwB_KgnUgDT_JkSXidDfEUFrM2R56n2EXY9JjIDhrdEjdMUmIJjcppDk",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

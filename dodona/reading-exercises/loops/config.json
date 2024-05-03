@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Loops"
+    }
+  },
+  "labels": ["control flow"],
+  "internals": {
+    "token": "UurWyyN8VyydH7sBs_AtPriwpywTeAbm222bjcjiRpaCU-7feg5TIyeTITYsSw7Y",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

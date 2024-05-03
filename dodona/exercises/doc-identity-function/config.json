@@ -4,9 +4,11 @@
       "en": "Documented identity function"
     }
   },
-  "labels": ["template"],
+  "labels": [
+    "template"
+  ],
   "internals": {
-    "token": "ERDFBybUX_YZT2TaU74BtIgwM68X_2pcxXUvBKZc4E2ImtEXEYRbFJbV2SfENgH3",
+    "token": "q6Z9VYmVsK6bNVeRf69bW3AX8ytKHxZ-kDIYVJCeSRrA6i6B8a29srZEn7dk9Sza",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

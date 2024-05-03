@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Operations on lists"
+    }
+  },
+  "labels": ["collections"],
+  "internals": {
+    "token": "VCHf6TtinpaIrSUNeSi9bvIj_fsHcwPMqx59_i-R-SaraqQS_-nvhkab-9vGcuQ4",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

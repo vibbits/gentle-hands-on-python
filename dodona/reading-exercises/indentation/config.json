@@ -4,9 +4,11 @@
       "en": "Indentation"
     }
   },
-  "labels": ["fundamentals"],
+  "labels": [
+    "fundamentals"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "5pPITUuR_drzez8tKG9nvQ3um_dhwjyxFtRrCe-bYRfEdqRNUw9MnVa7pNtCwWEG",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

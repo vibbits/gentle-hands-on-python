@@ -4,9 +4,11 @@
       "en": "Lists"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "UurWyyN8VyydH7sBs_AtPriwpywTeAbm222bjcjiRpaCU-7feg5TIyeTITYsSw7Y",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

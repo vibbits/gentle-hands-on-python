@@ -40,7 +40,9 @@ as large as you like.
 my_list[start_index : end_index : step]
 ```
 
-Here are some examples of indexing and slicing. Try to guess the output before you execute each cell.
+Here are some examples of indexing and slicing. You should copy these examples into the console above
+and experiment with what they do until you feel comfortable that you have an intuition for the
+correct results.
 
 ```console?lang=python&prompt=>>>
 >>> my_list[1]  # Indexing

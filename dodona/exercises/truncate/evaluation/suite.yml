@@ -5,7 +5,7 @@
     - expression: 'truncate("Python", 10)'
       return: 'Python'
     - expression: 'truncate("Python3", 7)'
-      retern: 'Python3'
+      return: 'Python3'
     - expression: 'truncate("Nina", 3)'
       return: 'N...'
     - expression: 'truncate("", 2)'

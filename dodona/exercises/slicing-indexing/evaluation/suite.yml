@@ -1,0 +1,24 @@
+- tab: "reverse_second"
+  testcases:
+    - expression: 'reverse_second([])'
+      return: []
+    - expression: 'reverse_second([[9]])'
+      return: [[9]]
+    - expression: 'reverse_second([["a"], ["b"]])'
+      return: [["a"], ["b"]]
+    - expression: 'reverse_second(["q", [-1, 0, 1]])'
+      return: ["q", [1, 0, -1]]
+    - expression: 'reverse_second([1, [2], 3])'
+      return: [1, [2], 3]
+    - expression: 'reverse_second([-1, [11, 22, 33, 44, 55, 66], 77, 88, 99])'
+      return: [-1, [66, 55, 44, 33, 22, 11], 77, 88, 99]
+    - expression:
+        python: "submission.reverse_second.__doc__ is not None"
+      return: true
+- tab: "test_reverse_second"
+  testcases:
+    - expression: "test_reverse_second()"
+      return: "Success"
+    - expression:
+        python: "submission.test_reverse_second.__doc__ is not None"
+      return: true

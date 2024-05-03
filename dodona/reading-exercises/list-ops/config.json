@@ -4,9 +4,11 @@
       "en": "Operations on lists"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "VCHf6TtinpaIrSUNeSi9bvIj_fsHcwPMqx59_i-R-SaraqQS_-nvhkab-9vGcuQ4",
+    "token": "WSJg9MPJABJpg5NctBng4Uv5HdZaxBVGaKnuzRVQYc2-TMV72QZdNrvFCbSCknPY",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

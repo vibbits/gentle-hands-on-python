@@ -4,9 +4,11 @@
       "en": "Fizzbuzz (attempt 4)"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "ssyakh_XAzVU_-KyvYe6Zc6JJQBibT2MX7jtBGFdta5KvYU7VKjka7AbKgMMfHRh",
+    "token": "Ap7vjBSNhEuCvbN5A_gjrM7DYGXKhJy_gKaf6Eu87TH6Ag8N9u9EBj9GskG3f-rn",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

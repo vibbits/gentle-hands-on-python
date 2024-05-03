@@ -2,7 +2,7 @@ import operator
 
 
 def second_highest(citations: list[list[str | float]]) -> str | None:
-    "Find the contry with the second most average citations per citable document."
+    "Find the country with the second most average citations per citable document."
     if len(citations) < 2:
         return None
 
@@ -10,7 +10,7 @@ def second_highest(citations: list[list[str | float]]) -> str | None:
 
 
 def test_second_highest():
-    "Tests for the bronze_medal function."
+    "Tests for the second_highest function."
     assert second_highest([]) == None
     assert second_highest([["Barbados", 33.28]]) == None
     assert second_highest([["A", 1.0], ["B", 1.5]]) == "A"

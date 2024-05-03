@@ -9,7 +9,7 @@ def second_highest(citations: list[list[str | float]]) -> str | None:
     return sorted(citations, key=operator.itemgetter(1), reverse=True)[1][0]
 
 
-def test_bronze_medal():
+def test_second_highest():
     "Tests for the bronze_medal function."
     assert second_highest([]) == None
     assert second_highest([["Barbados", 33.28]]) == None

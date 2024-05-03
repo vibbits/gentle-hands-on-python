@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Fizzbuzz (attempt 4)"
+    }
+  },
+  "labels": ["collections"],
+  "internals": {
+    "token": "ssyakh_XAzVU_-KyvYe6Zc6JJQBibT2MX7jtBGFdta5KvYU7VKjka7AbKgMMfHRh",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

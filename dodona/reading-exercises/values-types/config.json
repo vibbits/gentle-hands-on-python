@@ -4,9 +4,11 @@
       "en": "Values and their Data Types"
     }
   },
-  "labels": ["fundamentals"],
+  "labels": [
+    "fundamentals"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "bC_jdI-igbdxhgAuPRssh5M3vcDMQfIkE72cAf6kp2_vYn9tx7SAqPVgb8W_Yu5h",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

@@ -4,9 +4,11 @@
       "en": "Making decisions"
     }
   },
-  "labels": ["control flow"],
+  "labels": [
+    "control flow"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "C6b6QsaJvhGWXfYg_T_KyDrwEcWjwbUwMyAADBRvAbjUkH7UCUH52Smum6Ebt-3-",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

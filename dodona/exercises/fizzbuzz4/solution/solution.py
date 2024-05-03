@@ -1,7 +1,7 @@
 def fizzbuzz(counted: list[int]) -> list[int | str]:
     "Check an answer for the fizzbuzz game."
-    counted[::3] = ["Fizz"] * (len(counted) // 3)
-    counted[::5] = ["Buzz"] * (len(counted) // 5)
+    counted[2::3] = ["Fizz"] * (len(counted) // 3)
+    counted[4::5] = ["Buzz"] * (len(counted) // 5)
     return counted
 
 

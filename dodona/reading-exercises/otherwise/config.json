@@ -4,9 +4,11 @@
       "en": "Otherwise: a catch all alternative"
     }
   },
-  "labels": ["control flow"],
+  "labels": [
+    "control flow"
+  ],
   "internals": {
-    "token": "SSYz77yiQcfCpCaNSts2sAfAv2EVqzWzYgsEiTyeMYwrXgcQWEUqXYFTKc-RH4ij",
+    "token": "Iq-PfadaT6v5-T9isGsY8XkT_e3J9H3SwbtxPpp-CPQiUgqfPhEuSRA33wZRifxQ",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

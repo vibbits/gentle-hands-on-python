@@ -4,9 +4,11 @@
       "en": "Fetch CSV"
     }
   },
-  "labels": ["real-world"],
+  "labels": [
+    "real-world"
+  ],
   "internals": {
-    "token": "7GiZvW3vFPQCCbWs_a6nHVV3vdci_PGGZGyyKtSuc3gHIsp9C7GsWBsQBIsGf4kj",
+    "token": "TiMzKKMD7EMh_TwDXKFXUJJPeQ7UsJmQpQGaw3QUstzRMPeuSD2rN7_Mj_ixqFq9",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

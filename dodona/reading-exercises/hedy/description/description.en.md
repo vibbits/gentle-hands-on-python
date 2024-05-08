@@ -12,8 +12,7 @@ Hedy will gradually introduce new concepts to you. In fact each "level" introduc
 commands. Today we will work through the first 4 levels of Hedy in order to understand the basics of
 programming.
 
-
-*Please use the link shared by your instructor to join the class on Hedy.*
+Join the Hedy classroom by clicking on [this link](https://hedy.org/hedy/l/VkSgeKC).
 
 
 <img src="media/hedy_1.png" alt="Hedy interface" style="width:100%;height:auto">

@@ -57,7 +57,4 @@ Not only is a loop more concise, but it's easier to read and understand than the
 Imagine having to type out all the indexes in a list that contains 100 elements! Then imagine if
 you had to change the size of the list... that's a LOT OF WORK!!!
 
-Lets use our new knowledge of loops to try to play the Fizz Buzz game again. This time, checking
-each number as we come accross it in a loop.
-
 [^1]: [Zen of Python](https://www.python.org/dev/peps/pep-0020/)

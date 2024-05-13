@@ -4,9 +4,9 @@ def fizzbuzz(numbers: list[int]) -> list[str]:
     for number in numbers:
         if number % 3 == 0 and number % 5 == 0:
             game += ["Fizz Buzz"]
-        if number % 3 == 0:
+        elif number % 3 == 0:
             game += ["Fizz"]
-        if number % 5 == 0:
+        elif number % 5 == 0:
             game += ["Buzz"]
         else:
             game += [str(number)]

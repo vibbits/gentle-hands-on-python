@@ -33,3 +33,6 @@ called `test_fizzbuzz` that returns `"Success"` if the `fizzbuzz` function passe
 []
 ```
 
+Although this is the last time we will look at the Fizz Buzz game, it is useful to reflect
+on your final implementation. What is good about it? What could be improved? How easy
+is it to change if requirements change (say if we add the third condition on multiples of `7`)?

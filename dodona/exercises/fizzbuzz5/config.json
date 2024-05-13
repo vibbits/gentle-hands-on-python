@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Fizzbuzz (attempt 5)"
+    }
+  },
+  "labels": ["control flow"],
+  "internals": {
+    "token": "YzKI_HVB6x-kKqMwfqVf7sxWXQfm6mie2ugBWjt-P3xDsC2qEHZ4cbdGZHKEjthH",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

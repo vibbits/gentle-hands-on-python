@@ -4,9 +4,11 @@
       "en": "Factorial"
     }
   },
-  "labels": ["control flow"],
+  "labels": [
+    "control flow"
+  ],
   "internals": {
-    "token": "f2RwSvqadyBjwrie8AT3HCsjurmmXsMdSGzWAWt9PPmEBQfUisy2bQVnknpBGv7U",
+    "token": "9wtBTS3AqIRaqQNeCtqaDGaM-HwfpxjqdftKsKb2I-qm5SThDFsWAKaDM_2Y9g__",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

@@ -1,0 +1,30 @@
+- tab: "joining"
+  testcases:
+    - expression:
+        python: 'submission.joining([], " ")'
+      return: ''
+    - expression:
+        python: 'submission.joining(["Hello"], "+++")'
+      return: 'Hello'
+    - expression:
+        python: 'submission.joining(["My", "name", "is"], "--")'
+      return: 'My--name--is'
+    - expression:
+        python: 'submission.joining(["1", "+", "3"], ", ")'
+      return: '1, +, 3'
+    - expression:
+        python: 'submission.joining(["a", "b", "c", "d"], " ~ ")'
+      return: 'a ~ b ~ c ~ d'
+    - expression:
+        python: 'submission.joining(["A", "B", "C", "D"], "")'
+      return: 'ABCD'
+    - expression:
+        python: "submission.joining.__doc__ is not None"
+      return: true
+- tab: "test_joining"
+  testcases:
+    - expression: "test_joining()"
+      return: "Success"
+    - expression:
+        python: "submission.test_joining.__doc__ is not None"
+      return: true

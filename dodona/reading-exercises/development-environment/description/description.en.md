@@ -41,7 +41,8 @@ Type in a simple test script like this:
 
 ```python
 print("My development environment is working!")
-``
+```
+
 Then save the file. When you save the file, you'll be prompted for a name. Use a simple name ending
 in `.py`. Something like `main.py` is perfect.
 

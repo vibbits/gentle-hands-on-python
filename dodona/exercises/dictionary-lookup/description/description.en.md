@@ -3,7 +3,7 @@ an input argument and returns the associated three-letter-code. If your user sup
 single-letter-code you should return `None`.
 
 ```python
-def lookup_three_letter_code(single_letter_code: str) -> str:
+def lookup_three_letter_codes(single_letter_code: str) -> str:
     ...
 ```
 
@@ -41,12 +41,12 @@ function passes all tests.
 ## Example
 
 ```console?lang=python&prompt=>>>
->>> lookup_three_letter_code('A')
+>>> lookup_three_letter_codes('A')
 'Ala'
->>> lookup_three_letter_code('R')
+>>> lookup_three_letter_codes('R')
 'Arg'
->>> lookup_three_letter_code('X') == None
+>>> lookup_three_letter_codes('X') == None
 True
->>> lookup_three_letter_code('James') == None
+>>> lookup_three_letter_codes('James') == None
 True
 ```

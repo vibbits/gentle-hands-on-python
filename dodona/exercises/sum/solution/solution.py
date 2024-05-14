@@ -7,6 +7,9 @@ def summing(ns: list[int | float]) -> int | float:
     return result
 
 
+python_sum = sum
+
+
 def test_summing():
     "Tests for the summing function."
     assert summing([]) == 0

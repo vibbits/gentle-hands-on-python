@@ -20,7 +20,7 @@ def test_my_square():
 Successfully passing these tests will result in the function returning the string "Success".
 Failing will result in an **`AssertionError`**.
 
-<img src="media/testing.png" alt="Testing" style="width:100%;height:auto">
+<img src="media/testing.png" alt="Testing" style="width:95%;height:auto">
 
 Your tests become more useful when they check both expected values and unexpected (edge-case) values.
 If your function expects numbers, does it cope well with very large numbers? What about very small

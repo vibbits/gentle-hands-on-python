@@ -20,7 +20,7 @@ You have some data sources:
 
 At the end of this project you will produce a plot like this one:
 
-<img src="media/global_climate_plot.png" alt="Global temperature anomally 1961-90" style="width: 100%;height:auto">
+<img src="media/global_climate_plot.png" alt="Global temperature anomally 1961-90" style="width:95%;height:auto">
 
 The task essentially breaks down into these high-level steps:
 

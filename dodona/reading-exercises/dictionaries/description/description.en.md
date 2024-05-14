@@ -18,7 +18,7 @@ creating dictionaries is: `{}`, and each `key:value` pair is separated with a co
 often see strings as keys, but many other values can also be keys, as long as they're
 <abbr title="You cannot change the value">_immutable_</abbr>.
 
-<img src="media/myDictionary-cropped.png" alt="A Python dictionary" style="width:100%;height:auto">
+<img src="media/myDictionary-cropped.png" alt="A Python dictionary" style="width:95%;height:auto">
 
 ```python
 three_letter_codes = {

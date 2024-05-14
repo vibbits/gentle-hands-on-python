@@ -40,6 +40,3 @@ def test_frequencies():
         "Y": 2,
     }
     return "Success"
-
-
-test_frequencies()

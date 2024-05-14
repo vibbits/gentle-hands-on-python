@@ -4,9 +4,11 @@
       "en": "Fetching and storing data"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "36_AW7BmM2EWu9s4DCAMBW2xxR5x9vaP89GsNpTPXBmPQPnGgcgj3jhzzFy-fJpP",
+    "token": "j43dxntI5mApiQJ--NSs5xacDA5WPCcHit9NWj25yDkU9htreAe8zzbPWgEmhWvH",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

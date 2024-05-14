@@ -1,4 +1,4 @@
-# Repeating tasks
+# Dictionaries
 
 <div style="display:flex; align-items:center; justify-content:center; width:100%; height: 15rem; background-color:lightsteelblue">
 Video placeholder

@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Frequency"
+    }
+  },
+  "labels": ["collections"],
+  "internals": {
+    "token": "HSRqrDjfP93bfpu9IW9dRvp82WCDDgasjh9F6zzKxcAJJpbYtmKRZi77_jSTaQ6h",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

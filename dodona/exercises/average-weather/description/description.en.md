@@ -4,6 +4,10 @@ Your function should return an observation with the average values for each key.
 with the union of all keys in the input dictionaries. You should not make any assumptions about
 which keys (if any) exist in the observation dictionaries.
 
+To complete this exercise you will need to loop over dictionaries. Thankfully this operation will
+feel very familiar to you because it works the same way as with lists. The loop variable gets
+the keys from the dictionary.
+
 You can use this template:
 
 ```python

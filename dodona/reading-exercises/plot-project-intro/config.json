@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "A New Project"
+    }
+  },
+  "labels": ["collections"],
+  "internals": {
+    "token": "36_AW7BmM2EWu9s4DCAMBW2xxR5x9vaP89GsNpTPXBmPQPnGgcgj3jhzzFy-fJpP",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

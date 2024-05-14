@@ -1,0 +1,32 @@
+- tab: "summing"
+  testcases:
+    - expression:
+        python: 'submission.summing(list(range(1))) == sum(range(1))'
+      return: true
+    - expression:
+        python: 'submission.summing([])'
+      return: 0
+    - expression:
+        python: 'submission.summing([0])'
+      return: 0
+    - expression:
+        python: 'submission.summing([2])'
+      return: 2
+    - expression:
+        python: 'submission.summing([2, 4, 6])'
+      return: 12
+    - expression:
+        python: "submission.summing.__doc__ is not None"
+      return: true
+- tab: "python_sum"
+  testcases:
+    - expression:
+        python: 'submission.python_sum == sum'
+      return: true
+- tab: "test_summing"
+  testcases:
+    - expression: "test_summing()"
+      return: "Success"
+    - expression:
+        python: "submission.test_summing.__doc__ is not None"
+      return: true

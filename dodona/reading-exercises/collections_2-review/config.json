@@ -4,9 +4,11 @@
       "en": "Collections (Part 2) - Review"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "5Ww35DXrjyQgY_7-XkrewUpn4gWyfcrJ4uR3bUZV7gtMiy7UfUE7zQ9e-iJK4iSS",
+    "token": "Cu8xTNyrAv47uw3NfJmspdCScbE8Pf8DH7dz2gyE67uaB9_mUs4bTa2AKcsDrghI",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

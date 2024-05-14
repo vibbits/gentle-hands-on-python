@@ -4,9 +4,11 @@
       "en": "Dictionaries"
     }
   },
-  "labels": ["collections"],
+  "labels": [
+    "collections"
+  ],
   "internals": {
-    "token": "GjzW2yFgti2p6PS9Js8a7SGbA2bd5HZzKSEJsaB_ngyxU5fwSw2dNynGQZiAxGT4",
+    "token": "36_AW7BmM2EWu9s4DCAMBW2xxR5x9vaP89GsNpTPXBmPQPnGgcgj3jhzzFy-fJpP",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

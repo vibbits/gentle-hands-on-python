@@ -1,0 +1,20 @@
+- tab: "observation"
+  testcases:
+    - expression:
+        python: 'type(submission.observation) == dict'
+      return: true
+    - expression:
+        python: 'sorted(list(submission.observation.keys()))'
+      return: ['AUS', 'BEL', 'GLO', 'RUS']
+    - expression:
+        python: 'type(list(submission.observation.values())[0]) == float'
+      return: true
+    - expression:
+        python: 'type(list(submission.observation.values())[1]) == float'
+      return: true
+    - expression:
+        python: 'type(list(submission.observation.values())[2]) == float'
+      return: true
+    - expression:
+        python: 'type(list(submission.observation.values())[3]) == float'
+      return: true

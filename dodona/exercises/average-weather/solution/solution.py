@@ -38,7 +38,7 @@ def test_average_temperature():
             {"BEL": 14.7, "RUS": 1.3, "AUS": 18.3, "GLO": 23.6},
         ]
     ) == {"BEL": 10.2, "RUS": -4.5, "AUS": 32.9, "GLO": 22.3}
-    assert average_temperature([{}, {"A": 1.5}, {"B", 0.5}, {"A": 2.5}]) == {
+    assert average_temperature([{}, {"A": 1.5}, {"B": 0.5}, {"A": 2.5}]) == {
         "A": 2.0,
         "B": 0.5,
     }

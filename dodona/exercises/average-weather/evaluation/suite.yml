@@ -13,7 +13,7 @@
         python: 'submission.average_temperature([{"BEL": 5.7, "RUS": -12.8, "AUS": 42.6, "GLO": 22.1}, {"BEL": 10.2, "RUS": -2.0, "AUS": 37.8, "GLO": 21.2}, {"BEL": 14.7, "RUS": 1.3, "AUS": 18.3, "GLO": 23.6}])'
       return: {"BEL": 10.2, "RUS": -4.5, "AUS": 32.9, "GLO": 22.3}
     - expression:
-        python: 'submission.average_temperature([{}, {"A": 1.5}, {"B", 0.5}, {"A": 2.5}])'
+        python: 'submission.average_temperature([{}, {"A": 1.5}, {"B": 0.5}, {"A": 2.5}])'
       return: {"A": 2.0, "B": 0.5}
     - expression:
         python: "submission.average_temperature.__doc__ is not None"

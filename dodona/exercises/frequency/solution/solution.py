@@ -1,4 +1,5 @@
 def frequencies(text: str) -> dict[str, int]:
+    "Count the frequency of letters in the input string."
     freq = {}
     for letter in text:
         if letter in freq:

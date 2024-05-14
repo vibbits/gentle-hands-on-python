@@ -4,9 +4,11 @@
       "en": "Summing numbers"
     }
   },
-  "labels": ["control flow"],
+  "labels": [
+    "control flow"
+  ],
   "internals": {
-    "token": "9wtBTS3AqIRaqQNeCtqaDGaM-HwfpxjqdftKsKb2I-qm5SThDFsWAKaDM_2Y9g__",
+    "token": "h55iRfRDBGAMUZItpMj2ni4tzBB__XPv8zpcnJ5nehhhxfgpYvg2K2dX7THcs3vq",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

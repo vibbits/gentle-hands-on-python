@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Parsing data formats"
+    }
+  },
+  "labels": ["real-world programming"],
+  "internals": {
+    "token": "X5rVj9e4R7tbj4SxX78RXrS93eTq5CkKfT6HWTJrer2I-N33yqry9dj-nSRfzHct",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

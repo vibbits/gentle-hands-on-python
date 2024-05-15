@@ -37,7 +37,7 @@ Given this file as input, your function should produce:
 ```
 
 <details>
-  <summary>Hint: A useful function for this exercise<summary>
+  <summary>Hint: A useful function for this exercise</summary>
   You can "split" a string by a delimiter (for example a <code>","</code> character) you can use the
   <code>.split()</code> method on strings like this: <code>"123,456".split(",") == ["123", "456"]</code>
 </details>

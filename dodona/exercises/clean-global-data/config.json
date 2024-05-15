@@ -4,9 +4,11 @@
       "en": "Data cleaning: global climate data"
     }
   },
-  "labels": ["real-world programming"],
+  "labels": [
+    "real-world programming"
+  ],
   "internals": {
-    "token": "vDQZjzmJuN4mmnXDQbQYEtpYPc3xbpfXrC3sCacihsGVNwb8yCjFmTr7fFVY-7-i",
+    "token": "n4nH3mpZMfEQVjXPvEApNZIBkjHxy7Nz6GQcZNmuFJ5Hn2YddUIrFPfajyxWH3sY",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

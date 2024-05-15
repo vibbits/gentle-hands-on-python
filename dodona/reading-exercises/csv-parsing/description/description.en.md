@@ -58,6 +58,8 @@ global_data[:5]
 The output contains the first 5 data rows of the global data table. You should notice that it's a list
 of dictionaries similar to what you produced yourself in the last exercise!
 
+HERE
+
 The `csv` module provides a `DictReader` function that accepts anything that can be looped over to
 produce _rows_ from the CSV data. So I first read all the data from the file resource, then
 I turned it into a list of strings with `splitlines()`, one string for each line of the file.

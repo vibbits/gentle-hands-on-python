@@ -3,7 +3,11 @@
     - statement: !expression "from datetime import datetime"
     - expression:
         python: "submission.clean_global_data({'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'})"
-      return: !expression "{'Time': datetime(1901, 5, 1),'Temperature': -0.24934465}"
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "evaluate_test"
+        arguments: [{'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'}]
     - expression:
         python: "submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''})"
       return: !expression "{'Time': datetime(2021, 12, 1), 'Temperature': 1.0}"

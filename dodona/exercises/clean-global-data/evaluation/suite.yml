@@ -6,6 +6,7 @@
         oracle: "custom_check"
         file: "test.py"
         name: "evaluate_test"
+        value: "'nonsense'"
         arguments: [{'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'}]
     - expression:
         python: "submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''})"

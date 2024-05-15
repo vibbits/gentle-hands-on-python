@@ -1,6 +1,5 @@
 - tab: "clean_global_data"
   testcases:
-    - statement: !expression "from datetime import datetime"
     - expression:
         python: "submission.clean_global_data({'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'})"
       return: !oracle

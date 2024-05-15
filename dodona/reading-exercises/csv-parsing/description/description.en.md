@@ -55,6 +55,15 @@ with open("HadCRUT.5.0.1.0.analysis.summary_series.global.monthly.csv") as globa
 global_data[:5]
 ```
 
+The output contains the first 5 data rows of the global data table. You should notice that it's a list
+of dictionaries similar to what you produced yourself in the last exercise!
+
+The `csv` module provides a `DictReader` function that accepts anything that can be looped over to
+produce _rows_ from the CSV data. So I first read all the data from the file resource, then
+I turned it into a list of strings with `splitlines()`, one string for each line of the file.
+These lines are the _rows_ that `DictReader` needs. I can then loop over the `reader` which gives
+me a dictionary for each row of the data. These dictionaries I add to a list of data.
+
 This is a great start. The next step is to clean these data up a little. Here are a few things we
 can do to make them easier to work with:
 

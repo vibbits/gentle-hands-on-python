@@ -11,10 +11,12 @@
       return: {"Header1": "123", "Header2": "456"}
       files:
         - name: "test1.csv"
+          url: "media/test1.csv"
     - expression:
         python: "submission.parse_csv('test2.csv')"
       return: {"James": "1.1", "Nina": "2.2", "Bruna": "3.3"}
       files:
         - name: "test2.csv"
+          url: "test2.csv"
 
 

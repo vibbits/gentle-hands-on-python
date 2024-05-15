@@ -8,7 +8,7 @@
       return: -0.24934465
     - expression:
         python: "repr(submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''}).get('Time'))"
-      return: "datetime.datetime(2012, 12, 1, 0, 0)"
+      return: "datetime.datetime(2021, 12, 1, 0, 0)"
     - expression:
         python: "submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''}).get('Temperature')"
       return: 1.0

@@ -1,16 +1,17 @@
 - tab: "clean_global_data"
   testcases:
     - expression:
-        python: "submission.clean_global_data({'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'})"
-      return: !oracle
-        oracle: "custom_check"
-        file: "test.py"
-        name: "evaluate_test"
-        value: "'nonsense'"
-        arguments: [{'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'}]
+        python: "str(submission.clean_global_data({'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'}).get('Time'))"
+      return: !expression "'1901-05-01 00:00:00'"
     - expression:
-        python: "submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''})"
-      return: !expression "{'Time': datetime(2021, 12, 1), 'Temperature': 1.0}"
+        python: "submission.clean_global_data({'Time': '1901-05','Anomaly (deg C)': '-0.24934465','Lower confidence limit (2.5%)': '-0.44425672','Upper confidence limit (97.5%)': '-0.05443258'}).get('Temperature')"
+      return: -0.24934465
+    - expression:
+        python: "str(submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''}).get('Time'))"
+      return: !expression "'2021-12-01 00:00:00'"
+    - expression:
+        python: "str(submission.clean_global_data({'Time': '2021-12','Anomaly (deg C)': '1.0','Lower confidence limit (2.5%)': '','Upper confidence limit (97.5%)': ''}).get('Temperature')"
+      return: 1.0
     - expression:
         python: "submission.clean_global_data.__doc__ is not None"
       return: true
@@ -21,3 +22,4 @@
     - expression:
         python: "submission.test_clean_global_data.__doc__ is not None"
       return: true
+  

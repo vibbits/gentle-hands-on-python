@@ -8,7 +8,7 @@
           url: "media/HadCRUT.5.0.1.0.analysis.summary_series.global.monthly.csv"
     - expression:
         python: "submission.parse_csv('test1.csv')"
-      return: {"Header1": "123", "Header2\n": "456\n"}
+      return: {"Header1": "123", "Header2\n": "456"}
       files:
         - name: "test1.csv"
           url: "media/test1.csv"

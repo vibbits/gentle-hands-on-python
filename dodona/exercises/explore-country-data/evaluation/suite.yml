@@ -4,22 +4,22 @@ tabs:
   testcases:
     - statement: "import io"
     - expression:
-        python: "submission.parse_csv('ABC,DEF\n12.3,45,6')"
+        python: !expression "submission.parse_csv('ABC,DEF\n12.3,45,6')"
       return: [{"ABC": "12.3", "DEF": "45.6"}]
     - expression:
-        python: "submission.parse_csv(io.StringIO('ABC,DEF\n12.3,45,6'))"
+        python: !expression "submission.parse_csv(io.StringIO('ABC,DEF\n12.3,45,6'))"
       return: [{"ABC": "12.3", "DEF": "45.6"}]
     - expression:
-        python: "submission.parse_csv(io.BytesIO(b'ABC,DEF\n12.3,45,6'))"
+        python: !expression "submission.parse_csv(io.BytesIO(b'ABC,DEF\n12.3,45,6'))"
       return: [{"ABC": "12.3", "DEF": "45.6"}]
     - expression:
-        python: "submission.parse_csv('ABC,DEF\n12.3,45,6\n-1,-3')"
+        python: !expression "submission.parse_csv('ABC,DEF\n12.3,45,6\n-1,-3')"
       return: [{"ABC": "12.3", "DEF": "45.6"}, {"ABC": "-1", "DEF": "-3"}]
     - expression:
-        python: "submission.parse_csv(io.StringIO('ABC,DEF\n12.3,45,6\n-1,-3'))"
+        python: !expression "submission.parse_csv(io.StringIO('ABC,DEF\n12.3,45,6\n-1,-3'))"
       return: [{"ABC": "12.3", "DEF": "45.6"}, {"ABC": "-1", "DEF": "-3"}]
     - expression:
-        python: "submission.parse_csv(io.BytesIO(b'ABC,DEF\n12.3,45,6\n-1,-3'))"
+        python: !expression "submission.parse_csv(io.BytesIO(b'ABC,DEF\n12.3,45,6\n-1,-3'))"
       return: [{"ABC": "12.3", "DEF": "45.6"}, {"ABC": "-1", "DEF": "-3"}]
 
 

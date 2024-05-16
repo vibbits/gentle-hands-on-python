@@ -56,3 +56,26 @@ def parse_csv(csv_source) -> list[dict[str, str]]:
 
 Do not forget to include a docstring and a test function
 called `test_fizzbuzz` that returns `"Success"` if the `fizzbuzz` function passes all tests.
+
+You can test your code with these country URLS:
+
+Belgium
+: https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/bel_data_orig.csv
+
+Russia
+: https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/rus_data_orig.csv
+
+Australia
+: https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/aus_data_orig.csv
+
+In the sandbox use this to open the internet resource:
+```python
+from pyodide.http import open_url
+open_url(url)
+```
+
+If you're using VSCodium you can use this to open the internet resource:
+```python
+from urllib import request
+request.urlopen(url)
+```

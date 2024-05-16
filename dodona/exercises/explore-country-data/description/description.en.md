@@ -60,13 +60,13 @@ called `test_fizzbuzz` that returns `"Success"` if the `fizzbuzz` function passe
 You can test your code with these country URLS:
 
 Belgium
-: https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/bel_data_orig.csv
+: [https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/bel_data_orig.csv](https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/bel_data_orig.csv)
 
 Russia
-: https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/rus_data_orig.csv
+: [https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/rus_data_orig.csv](https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/rus_data_orig.csv)
 
 Australia
-: https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/aus_data_orig.csv
+: [https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/aus_data_orig.csv](https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/aus_data_orig.csv)
 
 In the sandbox use this to open the internet resource:
 ```python

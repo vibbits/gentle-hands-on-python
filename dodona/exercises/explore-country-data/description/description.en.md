@@ -52,7 +52,7 @@ def parse_csv(csv_source) -> list[dict[str, str]]:
     
     You can check the type of a variable by using the <code>type()</code> function like this:
     <code>type(variable_name) == bytes</code>
-<details>
+</details>
 
 Do not forget to include a docstring and a test function
 called `test_fizzbuzz` that returns `"Success"` if the `fizzbuzz` function passes all tests.

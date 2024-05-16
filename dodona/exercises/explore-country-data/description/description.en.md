@@ -54,10 +54,7 @@ def parse_csv(csv_source) -> list[dict[str, str]]:
     <code>type(variable_name) == bytes</code>
 </details>
 
-Do not forget to include a docstring and a test function
-called `test_fizzbuzz` that returns `"Success"` if the `fizzbuzz` function passes all tests.
-
-You can test your code with these country URLS:
+You can experiment with your code using these country URLS:
 
 Belgium
 : [https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/bel_data_orig.csv](https://cdn.jsdelivr.net/gh/vibbits/gentle-hands-on-python/data/bel_data_orig.csv)

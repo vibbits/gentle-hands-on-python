@@ -4,9 +4,11 @@
       "en": "Plotting"
     }
   },
-  "labels": ["real-world programming"],
+  "labels": [
+    "real-world programming"
+  ],
   "internals": {
-    "token": "X5rVj9e4R7tbj4SxX78RXrS93eTq5CkKfT6HWTJrer2I-N33yqry9dj-nSRfzHct",
+    "token": "2GryaiX5UdM_DmEXChIvbPwFutwvdbqw6UvkDYNMurZRGHxPzFc4KYhi5XXDGjxw",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

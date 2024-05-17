@@ -2,9 +2,20 @@
 
 <iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
 
-<div id="plot-output" style="width: 100%; min-height: 200px"></div>
+<div style="width: 100%; min-height: 200px">
+<img id="plot-output" src="">
+</div>
 
 <br>
+
+ <script>
+ window.addEventListener("message", (evt) => {
+   if (evt.data.startsWith("imagedata:")) {
+     const data = evt.data.slice(10);
+     document.querySelector("#plot-output").src = `data:image/png;base64,${data}`
+   }
+ });
+ </script>
 
 > _"[...] the most important part of [...] research [is] being able to successfully communicate [...] results to clinicians"_
 >

@@ -11,7 +11,7 @@ def clean_global_data(observation: dict[str, str]) -> dict[str, float | datetime
 
 def test_clean_global_data():
     "Test the clean_global_data function."
-    assert clean_global_data({"Time": "2021-05", "Anomaly (deg C)": -1.5}) == {
+    assert clean_global_data({"Time": "2021-05", "Anomaly (deg C)": "-1.5"}) == {
         "Time": datetime(2021, 5, 1),
         "Temperature": -1.5,
     }

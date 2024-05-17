@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "Data cleaning: per-country climate data"
+    }
+  },
+  "labels": ["real-world programming"],
+  "internals": {
+    "token": "n4nH3mpZMfEQVjXPvEApNZIBkjHxy7Nz6GQcZNmuFJ5Hn2YddUIrFPfajyxWH3sY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

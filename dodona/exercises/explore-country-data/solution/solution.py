@@ -11,7 +11,7 @@ def parse_csv(csv_source) -> list[dict[str, str]]:
         source = csv_source.read()
 
     if type(source) == bytes:
-        source = csv_source.decode()
+        source = source.decode()
 
     for row in csv.DictReader(source.splitlines()):
         result = result + [row]

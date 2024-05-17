@@ -16,6 +16,7 @@ tabs:
         description: "Does your function work on a single row from a text file?"
 
     - testcases:
+      - statement: "import io"
       - expression:
           python: "submission.parse_csv(io.BytesIO(b'ABC,DEF\\n12.3,45.6'))"
         return: [{"ABC": "12.3", "DEF": "45.6"}]
@@ -28,12 +29,14 @@ tabs:
         description: "Does your function work on a multi-row string?"
 
     - testcases:
+      - statement: "import io"
       - expression:
           python: "submission.parse_csv(io.StringIO('ABC,DEF\\n12.3,45.6\\n-1,-3'))"
         return: [{"ABC": "12.3", "DEF": "45.6"}, {"ABC": "-1", "DEF": "-3"}]
         description: "Does your function work on a multi-row csv in a text file?"
 
     - testcases:
+      - statement: "import io"
       - expression:
           python: "submission.parse_csv(io.BytesIO(b'ABC,DEF\\n12.3,45.6\\n-1,-3'))"
         return: [{"ABC": "12.3", "DEF": "45.6"}, {"ABC": "-1", "DEF": "-3"}]

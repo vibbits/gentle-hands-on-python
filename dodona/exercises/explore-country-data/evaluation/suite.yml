@@ -2,7 +2,7 @@ language: "python"
 tabs:
 - tab: "parse_csv"
   contexts:
-    testcases:
+    - testcases:
       - expression:
           python: "submission.parse_csv('ABC,DEF\\n12.3,45.6')"
         return: [{"ABC": "12.3", "DEF": "45.6"}]

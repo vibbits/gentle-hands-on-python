@@ -1,6 +1,7 @@
 - tab: "Scatter plot of global data"
   testcases:
-    - expression: "submission.scatter_plot_global_data([]) == None"
+    - expression:
+        python: "submission.scatter_plot_global_data([]) == None"
       return: true
     - expression:
         python: "submission.fetch_csv.__doc__ is not None"

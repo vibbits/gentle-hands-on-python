@@ -55,8 +55,22 @@ def plot_global_data(data: list[dict[str, float | datetime]]) -> None:
     plt.savefig("output.png")
 
 
+def plot_country_data(country, data, lim):
+    original = split_data(data)
+    smooth = split_data(smoothed(data, 84))
+
+    plt.plot(original["Dates"], original["Temperatures"], color="lightblue")
+    plt.ylim(*lim)
+    plt.plot(smooth["Dates"], smooth["Temperatures"], color="darkblue")
+    plt.xlabel("Time")
+    plt.ylabel("Temperature")
+    plt.title(f"Average {country.upper()} temperature")
+    plt.savefig(f"{country}-output.png")
+
+
 if __name__ == "__main__":
-    with open(sys.argv[1]) as f:
+    basepath = sys.argv[1]
+    with open(f"{basepath}/global_data.csv") as f:
         reader = csv.DictReader(f)
         data = []
         for reading in reader:
@@ -68,3 +82,16 @@ if __name__ == "__main__":
             ]
 
     plot_global_data(data)
+
+    for country, lim in (("aus", (21, 23)), ("bel", (8.5, 12)), ("rus", (-6.5, -2.5))):
+        with open(f"{basepath}/{country}_data.csv") as f:
+            reader = csv.DictReader(f)
+            data = []
+            for reading in reader:
+                data = data + [
+                    {
+                        "Time": datetime.fromisoformat(reading["Time"]),
+                        "Temperature": float(reading["Temperature"]),
+                    }
+                ]
+            plot_country_data(country, data, lim)

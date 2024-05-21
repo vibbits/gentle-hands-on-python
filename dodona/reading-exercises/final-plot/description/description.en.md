@@ -20,6 +20,21 @@ When drawing this plot, your result should look like this:
 
 Experiment with adding and changing line colours with the `color` parameter.
 
+When you have completed this for the global data, repeat for the per-country data. You may want to
+limit the range of the y-axis so that you can see the data (you can use the `ylim` function for
+this).
+
+## Australia
+<img src="media/aus-output.png" alt="Scatter plot output" style="width:80;height:auto">
+
+## Belgium
+<img src="media/bel-output.png" alt="Scatter plot output" style="width:80;height:auto">
+
+
+## Russia
+<img src="media/rus-output.png" alt="Scatter plot output" style="width:80;height:auto">
+
+
 [^1]: [Data smoothing](https://www.climate4you.com/DataSmoothing.htm)
 
 ## Supporting material

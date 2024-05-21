@@ -1,25 +1,16 @@
 # Visualising data
 
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
-
-<div style="width: 100%; min-height: 200px">
-<img id="plot-output" src="">
-</div>
-
-<br>
-
- <script>
- window.addEventListener("message", (evt) => {
-   if (evt.data.startsWith("imagedata:")) {
-     const data = evt.data.slice(10);
-     document.querySelector("#plot-output").src = `data:image/png;base64,${data}`
-   }
- });
- </script>
 
 > _"[...] the most important part of [...] research [is] being able to successfully communicate [...] results to clinicians"_
 >
 > -- Dr. Matthias Stahl [^1]
+
+## Warning
+
+You will not be able to see your plotting outputs on Dodona. You will need to set up a local development
+environment, or contact the instructors to help you set up an alternative.
+
+## Plotting
 
 This will be your first taste of the enormous "ecosystem" of Python third-party libraries outside of
 the standard library that comes packaged with Python itself. We will start out introducing how to
@@ -48,9 +39,7 @@ the current subplot.
 What we first have to do is importing the library of course.
 
 ```python
-# You can do this in the console above
 import matplotlib.pyplot as plt
-
 ```
 
 [^1]: [Matthias Stahl's personal website](https://www.higsch.com/about/)

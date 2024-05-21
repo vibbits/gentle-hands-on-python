@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "en": "Labeling plots"
+    }
+  },
+  "labels": [
+    "real-world programming"
+  ],
+  "internals": {
+    "token": "qw7KY-Ts_aCj_nEbPBYygjntICMV7RMD5az6Ra8wQtmzfIAMeukeddWdk3P8re2I",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

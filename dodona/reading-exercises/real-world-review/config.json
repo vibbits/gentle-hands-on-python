@@ -4,9 +4,11 @@
       "en": "Real-world programming - Review"
     }
   },
-  "labels": ["real-world programming"],
+  "labels": [
+    "real-world programming"
+  ],
   "internals": {
-    "token": "U6wFZWHGt5JA6XXwHmsptNbubtzNZbNe2cEDWRSj7ASG86iTCcCiyn-q4tJSVr8f",
+    "token": "m-zHze8Ki9qPQk8YTZYX2EBEgmdcNTKiYTZzTD6YVNQw8e-3S-3dkDvkRHKp_qw2",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

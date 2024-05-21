@@ -4,9 +4,11 @@
       "en": "A bar plot"
     }
   },
-  "labels": ["real-world programming"],
+  "labels": [
+    "real-world programming"
+  ],
   "internals": {
-    "token": "2GryaiX5UdM_DmEXChIvbPwFutwvdbqw6UvkDYNMurZRGHxPzFc4KYhi5XXDGjxw",
+    "token": "rgJzWgiS5FYVHgTxesPeCX5DS6zB8mtzgbYhBDcdeJNaKcDQCveCiBnsHDPUFr9c",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

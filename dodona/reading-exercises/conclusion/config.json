@@ -4,9 +4,11 @@
       "en": "Conclusion"
     }
   },
-  "labels": ["conclusion"],
+  "labels": [
+    "conclusion"
+  ],
   "internals": {
-    "token": "U6wFZWHGt5JA6XXwHmsptNbubtzNZbNe2cEDWRSj7ASG86iTCcCiyn-q4tJSVr8f",
+    "token": "eSpUVIZmd7VZVkz6Yrb7FSySUi6vjMgIqkPK2TIpCF8ePfHYgTGvcFn2JUzDIj4F",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

@@ -4,9 +4,11 @@
       "en": "Scatter plot"
     }
   },
-  "labels": ["real-world programming"],
+  "labels": [
+    "real-world programming"
+  ],
   "internals": {
-    "token": "TiMzKKMD7EMh_TwDXKFXUJJPeQ7UsJmQpQGaw3QUstzRMPeuSD2rN7_Mj_ixqFq9",
+    "token": "3RRJESFGhUHzD47HuBEpPjbsBHyk3G_GsbDasnneBm28DESgu_jhKRnFicvMch7z",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

@@ -1,0 +1,12 @@
+{
+  "description": {
+    "names": {
+      "en": "A bar plot"
+    }
+  },
+  "labels": ["real-world programming"],
+  "internals": {
+    "token": "2GryaiX5UdM_DmEXChIvbPwFutwvdbqw6UvkDYNMurZRGHxPzFc4KYhi5XXDGjxw",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

@@ -1,3 +1,6 @@
+** YOU CANNOT SUBMIT THIS EXERCISE ON DODONA**
+This exercide is not used to score you. Feel welcome to complete it on your own.
+
 Write a function called `scatter_plot_global_data` that takes a single argument: a list of global data
 observations. It should not return anything. In this function you should use `matplotlib` draw a scatter
 plot from the input data.

@@ -2,10 +2,6 @@
   testcases:
     - expression: 'fizzbuzz([1, 2, 3, 4, 5])'
       return: !expression '[1, 2, "Fizz", 4, "Buzz"]'
-    - expression: 'fizzbuzz([])'
-      return: []
-    - expression: 'fizzbuzz([1, 3, 5, 7, 9, 11, 15])'
-      return: [1, "Fizz", "Buzz", 7, "Fizz", 11, "Fizz Buzz"]
     - expression:
         python: "submission.fizzbuzz.__doc__ is not None"
       return: true

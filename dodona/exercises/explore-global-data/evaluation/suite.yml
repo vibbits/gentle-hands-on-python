@@ -1,6 +1,10 @@
 - tab: "parse_csv"
   testcases:
     - expression:
+        python: "getattr(submission, 'csv', None) is None"
+      return: True
+      description: "Do not use the csv module for this exercise."
+    - expression:
         python: "submission.parse_csv('HadCRUT.5.0.1.0.analysis.summary_series.global.monthly.csv')"
       return: {"Time": "1901-01", "Anomaly (deg C)": "-0.28059345", "Lower confidence limit (2.5%)": "-0.43856356", "Upper confidence limit (97.5%)\n": "-0.122623324\n"}
       files:

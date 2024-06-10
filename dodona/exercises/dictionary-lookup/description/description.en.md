@@ -1,9 +1,9 @@
-Write a function called `lookup_three_letter_code` that accepts a single-letter amino-acid code as
+Write a function called `lookup_three_letter_codes` that accepts a single-letter amino-acid code as
 an input argument and returns the associated three-letter-code. If your user supplies an invalid
 single-letter-code you should return `None`.
 
 ```python
-def lookup_three_letter_codes(single_letter_code: str) -> str:
+def lookup_three_letter_codes(single_letter_code: str) -> str | None:
     ...
 ```
 
@@ -35,7 +35,7 @@ three_letter_codes = {
 ```
 
 Here are some example executions. Do not forget to include a docstring and a test function
-called `test_lookup_three_letter_code` that returns `"Success"` if the `lookup_three_letter_code`
+called `test_lookup_three_letter_codes` that returns `"Success"` if the `lookup_three_letter_codes`
 function passes all tests.
 
 ## Example

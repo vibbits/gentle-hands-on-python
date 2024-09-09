@@ -1,0 +1,25 @@
+def decrypt(ciphertext: bytes, key: int) -> str:
+    """Decrypt text encoded by a Caesar cipher."""
+    alphabet_start = int.from_bytes(b'A')
+    alphabet_end = int.from_bytes(b'Z')
+    alphabet_size = alphabet_end - alphabet_start + 1
+    space = int.from_bytes(b' ')
+    plaintext = []
+
+    for letter in ciphertext:
+        if letter == space:
+            plaintext += [" "]
+            continue
+
+        index_of_encrypted = letter - alphabet_start
+        index_of_decrypted = (index_of_encrypted - key) % alphabet_size
+        decrypted = index_of_decrypted + alphabet_start
+        plain = decrypted.to_bytes().decode()
+        plaintext += [plain]
+
+    return "".join(plaintext)
+
+with open("secret.txt", mode="rb") as secret:
+    message = secret.read()
+
+print(decrypt(message, 13))

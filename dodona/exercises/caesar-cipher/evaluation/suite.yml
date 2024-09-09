@@ -1,0 +1,17 @@
+- tab: "Caesar Cipher"
+  testcases:
+    - expression: "decrypt(b'HELLO', 26)"
+      return: "HELLO"
+    - expression: "decrypt(b'', 15)"
+      return: ""
+    - expression: "decrypt(b'DOLU PZ AOHA', 7)"
+      return: "WHEN IS THAT"
+    - expression: "decrypt(b'QBUN CM SIOL HUGY', 6)"
+      return: "WHAT IS YOUR NAME"
+- tab: "My secret message"
+  testcases:
+    - stdin: ""
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
+      files:
+        - name: "secret.txt"
+          url: "media/secret.txt"

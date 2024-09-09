@@ -106,12 +106,15 @@
         );
         namespace.destroy();
 
-        // Set up networking
+        // Set up networking and a file
         await pyodide.loadPackage("pyodide-http")
         pyodide.runPython(
           `
           import pyodide_http
           pyodide_http.patch_all()
+
+          with open("example.txt", mode="w") as f:
+            f.write("Welcome to the Gentle Hands-On Programming course.")
           `,
         );
 

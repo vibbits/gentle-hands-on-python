@@ -38,6 +38,26 @@ I first re-interpreted the binary integer as raw (uninterpreted) binary data, th
 re-interpreted those raw bytes again as a string. So whenever you see 😊 you'll know that these
 bits are being used to represent that emoji 😊.
 
+```python
+int.from_bytes('😊'.encode())
+```
+
+If you want to find out what number is used to represent a character you can turn it into raw,
+uninterpreted bytes with `'A'.encode()`. Then turn those bytes into an integer with
+`int.from_bytes()`.
+
+What's the emoji after '😊'?
+
+```python
+(int.from_bytes('😊'.encode()) + 1).to_bytes(4).decode()
+```
+
+Or perhaps, what's the letter after `'A'`?
+
+```python
+(int.from_bytes('A'.encode()) + 1).to_bytes().decode()
+```
+
 ## Text encoding
 
 Earlier in the course we described strings as strings of characters and character as simply numbers

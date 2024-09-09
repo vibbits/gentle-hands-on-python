@@ -1,6 +1,8 @@
-- tab: "Scripting"
+- tab: "Importing"
   testcases:
     - expression: "what_am_i()"
       return: "submission"
+- tab: "Scripting"
+  testcases:
     - stdin: ""
       stdout: "I am a script"

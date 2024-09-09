@@ -1,14 +1,21 @@
 # Development environment
 
-So far during this course you have been using a simple editing window in Dodona (and Hedy) to edit and
+During this course so far, you have been using a simple editing window in Dodona (and Hedy) to edit and
 run your programs. This is what programmers call a development environment. It provides all of the
 tools necessary to edit, run, and debug your code.
 
 After this course however, you will need to edit, run, and debug code without using Dodona. So lets
-set up a more "realistic" development environment on your computer now. You will install VSCodium,
+set up a more realistic development environment on your computer now. You will install VSCodium,
 an open-source version of VSCode. This is a professional Integrated Development Environment that is
 very popular at the moment. If you're interested in Notebooks, you can even run and edit notebooks
 in VSCodium.
+
+### A Note on alternatives
+
+All you really need is a way of editing text. You may have heard of tools like [PyCharm](https://www.jetbrains.com/pycharm/),
+[Spyder](https://www.spyder-ide.org/), or even [RStudio](https://support.posit.co/hc/en-us/articles/1500007929061-Using-Python-with-the-RStudio-IDE).
+You're welcome and encouraged to try these tools and others. However if you just want to get going
+quickly then we recommend following the steps below.
 
 ## Warning
 

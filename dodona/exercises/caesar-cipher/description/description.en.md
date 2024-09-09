@@ -24,6 +24,9 @@ the key and this gives the mapping between plaintext letters and ciphertext lett
 
 ![Caesar cipher](https://gkaccess.com/wp-content/uploads/2020/01/Caesar_Cipher_GateKeeper_security_compliance_proximity_authentication_2fa_mfa-768x803.jpg)
 
+The final encryption of the string `"I CAN HAZ CHEESEBURGER"` with a key of `1` is then:
+`"J DBO IBA DIFFTFCVSHFS"`.
+
 Your task is to write a function to decode caesar ciphers called `decrypt`. You can use this template:
 
 ```python

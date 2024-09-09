@@ -107,6 +107,7 @@
         namespace.destroy();
 
         // Set up networking
+        await pyodide.loadPackage("pyodide-http")
         pyodide.runPython(
           `
           import pyodide_http

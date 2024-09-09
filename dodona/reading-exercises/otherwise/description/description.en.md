@@ -1,6 +1,6 @@
 # Otherwise: `else` and `elif` statements
 
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 You may wish to perform a computation based on one of several conditions. An example from everyday
 experience is "What meal will I eat?"

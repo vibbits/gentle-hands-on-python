@@ -1,6 +1,6 @@
 # Operating on lists
 
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 In this section you will use the `operator` library which is part of the Python standard
 library (if you're interested, see the documentation

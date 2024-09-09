@@ -1,6 +1,6 @@
 # A new project
 
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 During the course so far, you wrote a program to play the childrens "Fizz Buzz" game.
 You have outgrown this project. Now that you're more familiar with Python you can write a more

@@ -1,6 +1,6 @@
 # Generating a range of numbers
 
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 You may be justifiably upset with me after that last exercise. I just told you that loops allow you to
 do things repeatedly without having to type out every single case... and yet that's exactly what you

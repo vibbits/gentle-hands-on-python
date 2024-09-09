@@ -5,7 +5,7 @@
   Your browser does not support the video tag.
 </video>
  
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 Using Hedy, you were able to `print` text to the program output area.
 You even discovered a special syntax for writing literal text in your programs: you

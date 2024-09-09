@@ -1,6 +1,6 @@
 # Parsing data formats
 
-<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://pyodide.org/en/stable/console.html"></iframe>
+<iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 You will likely need to work with various data formats; tabular data (e.g. CSV or Excel), image
 data (e.g. PNG or TIFF), structured data (e.g. JSON or YAML), or a multitude of other possibilities.

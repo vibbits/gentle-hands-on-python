@@ -8,10 +8,10 @@ This is quite straightforward. You can simply follow these steps:
 
 There is an important problem when building programs that you should be aware of: any top-level code
 always runs when you run the script **BUT ALSO** at _import_ time. That's right! You can `import`
-your script too.
+your program too.
 
 This is a problem because, you probably don't expect to be running Python code just because you
-`import`ed a script. To avoid this you can use a trick to check if your code is being run as a script
+`import`ed something. To avoid this you can use a trick to check if your code is being run as a script
 or if it's being imported.
 
 There is a special variable that Python gives you called `__name__` which is the name of the current

@@ -9,13 +9,12 @@ def decrypt(ciphertext: bytes, key: int) -> str:
     for letter in ciphertext:
         if letter == space:
             plaintext += [" "]
-            continue
-
-        index_of_encrypted = letter - alphabet_start
-        index_of_decrypted = (index_of_encrypted - key) % alphabet_size
-        decrypted = index_of_decrypted + alphabet_start
-        plain = decrypted.to_bytes().decode()
-        plaintext += [plain]
+        else:
+            index_of_encrypted = letter - alphabet_start
+            index_of_decrypted = (index_of_encrypted - key) % alphabet_size
+            decrypted = index_of_decrypted + alphabet_start
+            plain = decrypted.to_bytes().decode()
+            plaintext += [plain]
 
     return "".join(plaintext)
 

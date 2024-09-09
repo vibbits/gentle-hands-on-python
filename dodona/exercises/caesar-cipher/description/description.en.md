@@ -27,7 +27,15 @@ the key and this gives the mapping between plaintext letters and ciphertext lett
 The final encryption of the string `"I CAN HAZ CHEESEBURGER"` with a key of `1` is then:
 `"J DBO IBA DIFFTFCVSHFS"`.
 
-Your task is to write a function to decode caesar ciphers called `decrypt`. You can use this template:
+Your task is to write a function to decode caesar ciphers called `decrypt`. Your function should accept
+2 arguments:
+
+- The encrypted ciphertext (as uninterpreted binary data type: `bytes`)
+- The key (type: `int`)
+
+Your function should return a `str`.
+
+You can use this template:
 
 ```python
 def decrypt(ciphertext: bytes, key: int) -> str:

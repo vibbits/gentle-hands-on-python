@@ -1,0 +1,6 @@
+- tab: "Scripting"
+  testcases:
+    - expression: "what_am_i()"
+      return: "submission"
+    - stdin: ""
+      stdout: "I am a script"

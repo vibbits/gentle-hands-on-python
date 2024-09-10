@@ -6,3 +6,7 @@
   testcases:
     - stdin: ""
       stdout: "I am a script"
+- tab: "Scripting 2"
+  testcases:
+    - arguments: ["a", "b", "c"]
+      stdout: "I am a script"

@@ -3,15 +3,19 @@
     - expression:
         python: "submission.decrypt(b'HELLO', 26)"
       return: "HELLO"
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
     - expression:
         python: "submission.decrypt(b'', 15)"
       return: ""
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
     - expression:
         python: "submission.decrypt(b'DOLU PZ AOHA', 7)"
       return: "WHEN IS THAT"
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
     - expression:
         python: "submission.decrypt(b'QBUN CM SIOL HUGY', 6)"
       return: "WHAT IS YOUR NAME"
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
 - tab: "My secret message"
   testcases:
     - stdin: ""

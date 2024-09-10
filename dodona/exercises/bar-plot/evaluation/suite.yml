@@ -1,0 +1,10 @@
+- tab: "Bar plot global data"
+  testcases:
+    - expression:
+        python: "submission.bar_plot_global('HadCRUT.5.0.1.0.analysis.summary_series.global.monthly.csv')"
+      return: !oracle
+        value: ""
+        oracle: "custom_check"
+        file: "test.py"
+        name: "Image check"
+        arguments: []

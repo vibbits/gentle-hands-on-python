@@ -18,6 +18,12 @@ def decrypt(ciphertext: bytes, key: int) -> str:
 
     return "".join(plaintext)
 
+def test_decrypt():
+    "Test Caesar cipher decryption."
+    assert decrypt(b'', 1) == ""
+    assert decrypt(b'PGSKY', 6) == "JAMES"
+    return "Success"
+
 with open("secret.txt", mode="rb") as secret:
     message = secret.read()
 

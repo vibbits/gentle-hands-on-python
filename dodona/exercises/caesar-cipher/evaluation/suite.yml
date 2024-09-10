@@ -16,6 +16,16 @@
         python: "submission.decrypt(b'CNGZ OY EUAX TGSK', 6)"
       return: "WHAT IS YOUR NAME"
       stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
+      - expression:
+        python: "submission.decrypt.__doc__ is not None"
+      return: true
+- tab: "Test Caesar Cipher"
+  testcases:
+    - expression: "test_decrypt()"
+      return: "Success"
+    - expression:
+        python: "submission.test_decrypt.__doc__ is not None"
+      return: true
 - tab: "My secret message"
   testcases:
     - stdin: ""

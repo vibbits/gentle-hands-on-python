@@ -19,13 +19,16 @@
     - expression:
         python: "submission.decrypt.__doc__ is not None"
       return: true
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
 - tab: "Test Caesar Cipher"
   testcases:
     - expression: "test_decrypt()"
       return: "Success"
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
     - expression:
         python: "submission.test_decrypt.__doc__ is not None"
       return: true
+      stdout: "TOP SECRET YOU ARE GOING GREAT KEEP GOING BECAUSE YOU ARE UNSTOPPABLE TOP SECRET"
 - tab: "My secret message"
   testcases:
     - stdin: ""

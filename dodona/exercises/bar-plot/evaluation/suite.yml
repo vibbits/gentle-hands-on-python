@@ -1,5 +1,8 @@
 - tab: "Bar plot global data"
   testcases:
+    - statement: "import sys"
+    - statement: "import subprocess"
+    - statement: "subprocess.check_all([sys.executable, '-m', 'pip', 'install', 'matplotlib'])"
     - expression:
         python: "submission.bar_plot_global('HadCRUT.5.0.1.0.analysis.summary_series.global.monthly.csv')"
       return: !oracle

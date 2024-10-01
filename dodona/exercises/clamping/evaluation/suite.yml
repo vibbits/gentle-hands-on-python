@@ -15,12 +15,12 @@
     - expression: 'clamp(104, 5, 55)'
       return: 55
     - expression:
-        python: "submission.clamp.__doc__ is not None"
+        python: "submission.clamp.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_clamp"
   testcases:
     - expression: "test_clamp()"
       return: "Success"
     - expression:
-        python: "submission.test_clamp.__doc__ is not None"
+        python: "submission.test_clamp.__doc__ is not None, "You must write a docstring""
       return: true

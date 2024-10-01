@@ -17,12 +17,12 @@
     - expression: 'truncate("Test", 1)'
       return: '.'
     - expression:
-        python: "submission.truncate.__doc__ is not None"
+        python: "submission.truncate.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_truncate"
   testcases:
     - expression: "test_truncate()"
       return: "Success"
     - expression:
-        python: "submission.test_truncate.__doc__ is not None"
+        python: "submission.test_truncate.__doc__ is not None, "You must write a docstring""
       return: true

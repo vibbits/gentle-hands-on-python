@@ -7,5 +7,5 @@
     - expression: 'identity("A\nstring\nwith\nnewlines")'
       return: "A\nstring\nwith\nnewlines"
     - expression:
-        python: 'submission.identity.__doc__ is not None'
+        python: 'submission.identity.__doc__ is not None, "You must write a docstring"'
       return: true

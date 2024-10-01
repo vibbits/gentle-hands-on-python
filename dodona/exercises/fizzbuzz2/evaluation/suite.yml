@@ -11,12 +11,12 @@
     - expression: 'fizzbuzz(7)'
       return: "7"
     - expression:
-        python: "submission.fizzbuzz.__doc__ is not None"
+        python: "submission.fizzbuzz.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_fizzbuzz"
   testcases:
     - expression: "test_fizzbuzz()"
       return: "Success"
     - expression:
-        python: "submission.test_fizzbuzz.__doc__ is not None"
+        python: "submission.test_fizzbuzz.__doc__ is not None, "You must write a docstring""
       return: true

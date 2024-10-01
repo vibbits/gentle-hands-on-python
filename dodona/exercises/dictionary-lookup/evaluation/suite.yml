@@ -16,12 +16,12 @@
         python: 'submission.lookup_three_letter_codes("Lys") is None'
       return: true
     - expression:
-        python: "submission.lookup_three_letter_codes.__doc__ is not None"
+        python: "submission.lookup_three_letter_codes.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_lookup_three_letter_codes"
   testcases:
     - expression: "test_lookup_three_letter_codes()"
       return: "Success"
     - expression:
-        python: "submission.test_lookup_three_letter_codes.__doc__ is not None"
+        python: "submission.test_lookup_three_letter_codes.__doc__ is not None, "You must write a docstring""
       return: true

@@ -13,12 +13,12 @@
     - expression: 'reverse_second([-1, [11, 22, 33, 44, 55, 66], 77, 88, 99])'
       return: [-1, [66, 55, 44, 33, 22, 11], 77, 88, 99]
     - expression:
-        python: "submission.reverse_second.__doc__ is not None"
+        python: "submission.reverse_second.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_reverse_second"
   testcases:
     - expression: "test_reverse_second()"
       return: "Success"
     - expression:
-        python: "submission.test_reverse_second.__doc__ is not None"
+        python: "submission.test_reverse_second.__doc__ is not None, "You must write a docstring""
       return: true

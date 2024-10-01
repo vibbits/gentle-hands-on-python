@@ -13,13 +13,13 @@
         python: "submission.clean_country_data({'Temperature - (Celsius)': '15.19', 'Year': '1953', 'Statistics': 'Jul Average', 'Country': 'Belgium', 'ISO3': 'BEL'}).get('Temperature')"
       return: 15.19
     - expression:
-        python: "submission.clean_country_data.__doc__ is not None"
+        python: "submission.clean_country_data.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_clean_country_data"
   testcases:
     - expression: "test_clean_country_data()"
       return: "Success"
     - expression:
-        python: "submission.test_clean_country_data.__doc__ is not None"
+        python: "submission.test_clean_country_data.__doc__ is not None, "You must write a docstring""
       return: true
   

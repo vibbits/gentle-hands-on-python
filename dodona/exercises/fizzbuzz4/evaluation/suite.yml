@@ -3,7 +3,7 @@
     - expression: 'fizzbuzz([1, 2, 3, 4, 5])'
       return: !expression '[1, 2, "Fizz", 4, "Buzz"]'
     - expression:
-        python: "submission.fizzbuzz.__doc__ is not None"
+        python: "submission.fizzbuzz.__doc__ is not None, "You must write a docstring""
       return: true
 
 - tab: "test_fizzbuzz"
@@ -11,5 +11,5 @@
     - expression: "test_fizzbuzz()"
       return: "Success"
     - expression:
-        python: "submission.test_fizzbuzz.__doc__ is not None"
+        python: "submission.test_fizzbuzz.__doc__ is not None, "You must write a docstring""
       return: true

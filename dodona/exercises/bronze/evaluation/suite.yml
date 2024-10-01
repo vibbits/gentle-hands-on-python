@@ -11,12 +11,12 @@
     - expression: 'bronze_medal([54,56,2,1,5223,6,23,57,3,7,3344])'
       return: 57
     - expression:
-        python: "submission.bronze_medal.__doc__ is not None"
+        python: "submission.bronze_medal.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_bronze_medal"
   testcases:
     - expression: "test_bronze_medal()"
       return: "Success"
     - expression:
-        python: "submission.test_bronze_medal.__doc__ is not None"
+        python: "submission.test_bronze_medal.__doc__ is not None, "You must write a docstring""
       return: true

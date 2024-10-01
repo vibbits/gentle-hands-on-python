@@ -7,7 +7,7 @@
     - expression: 'fractional_part(-1.5)'
       return: 0.5
     - expression:
-        python: 'submission.fractional_part.__doc__ is not None'
+        python: 'submission.fractional_part.__doc__ is not None, "You must write a docstring"'
       return: true
 
 - tab: "test_fractional_part"
@@ -15,5 +15,5 @@
     - expression: 'test_fractional_part()'
       return: "Success"
     - expression:
-        python: 'submission.test_fractional_part.__doc__ is not None'
+        python: 'submission.test_fractional_part.__doc__ is not None, "You must write a docstring"'
       return: true

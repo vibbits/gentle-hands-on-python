@@ -13,12 +13,12 @@
         python: 'submission.factorial(1)'
       return: 1
     - expression:
-        python: "submission.factorial.__doc__ is not None"
+        python: "submission.factorial.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_factorial"
   testcases:
     - expression: "test_factorial()"
       return: "Success"
     - expression:
-        python: "submission.test_factorial.__doc__ is not None"
+        python: "submission.test_factorial.__doc__ is not None, "You must write a docstring""
       return: true

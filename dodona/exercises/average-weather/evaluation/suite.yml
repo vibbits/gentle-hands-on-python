@@ -16,12 +16,12 @@
         python: 'submission.average_temperature([{}, {"A": 1.5}, {"B": 0.5}, {"A": 2.5}])'
       return: {"A": 2.0, "B": 0.5}
     - expression:
-        python: "submission.average_temperature.__doc__ is not None"
+        python: "submission.average_temperature.__doc__ is not None, "You must write a docstring""
       return: true
 - tab: "test_average_temperature"
   testcases:
     - expression: "test_average_temperature()"
       return: "Success"
     - expression:
-        python: "submission.test_average_temperature.__doc__ is not None"
+        python: "submission.test_average_temperature.__doc__ is not None, "You must write a docstring""
       return: true

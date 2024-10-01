@@ -25,6 +25,6 @@ called `test_factorial` that returns `"Success"` if the `factorial` function pas
 120
 >>> factorial(1)
 1
->>> fizzbuzz(0)
+>>> factorial(0)
 1
 ```

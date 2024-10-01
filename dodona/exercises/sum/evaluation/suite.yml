@@ -16,7 +16,7 @@
         python: 'submission.summing([2, 4, 6])'
       return: 12
     - expression:
-        python: "submission.summing.__doc__ is not None, "You must write a docstring""
+        python: "submission.summing.__doc__ is not None"
       return: true
 - tab: "python_sum"
   testcases:
@@ -28,5 +28,5 @@
     - expression: "test_summing()"
       return: "Success"
     - expression:
-        python: "submission.test_summing.__doc__ is not None, "You must write a docstring""
+        python: "submission.test_summing.__doc__ is not None"
       return: true

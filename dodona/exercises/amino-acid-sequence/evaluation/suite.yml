@@ -19,12 +19,12 @@
         python: 'submission.one_to_three_letter_codes("James")'
       return: []
     - expression:
-        python: "submission.one_to_three_letter_codes.__doc__ is not None, "You must write a docstring""
+        python: "submission.one_to_three_letter_codes.__doc__ is not None"
       return: true
 - tab: "test_one_to_three_letter_codes"
   testcases:
     - expression: "test_one_to_three_letter_codes()"
       return: "Success"
     - expression:
-        python: "submission.test_one_to_three_letter_codes.__doc__ is not None, "You must write a docstring""
+        python: "submission.test_one_to_three_letter_codes.__doc__ is not None"
       return: true

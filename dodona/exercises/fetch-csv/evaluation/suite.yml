@@ -3,12 +3,12 @@
     - expression: "fetch_csv('https://httpbin.org/get')"
       return: 2.5
     - expression:
-        python: "submission.fetch_csv.__doc__ is not None, "You must write a docstring""
+        python: "submission.fetch_csv.__doc__ is not None"
       return: true
 - tab: "test_fetch_csv"
   testcases:
     - expression: "test_fetch_csv()"
       return: "Success"
     - expression:
-        python: "submission.fetch_csv_div.__doc__ is not None, "You must write a docstring""
+        python: "submission.fetch_csv_div.__doc__ is not None"
       return: true

@@ -19,12 +19,12 @@
         python: 'submission.joining(["A", "B", "C", "D"], "")'
       return: 'ABCD'
     - expression:
-        python: "submission.joining.__doc__ is not None, "You must write a docstring""
+        python: "submission.joining.__doc__ is not None"
       return: true
 - tab: "test_joining"
   testcases:
     - expression: "test_joining()"
       return: "Success"
     - expression:
-        python: "submission.test_joining.__doc__ is not None, "You must write a docstring""
+        python: "submission.test_joining.__doc__ is not None"
       return: true

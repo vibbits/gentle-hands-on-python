@@ -15,4 +15,5 @@
       return: "Success"
     - expression:
         python: "submission.test_fizzbuzz.__doc__ is not None"
+        description: "You must write a test case"
       return: true

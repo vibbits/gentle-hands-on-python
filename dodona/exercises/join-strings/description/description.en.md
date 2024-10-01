@@ -16,8 +16,8 @@ called `test_joining` that returns `"Success"` if the `joining` function passes 
 ''
 >>> joining(["Hola"], "++++")
 'Hola'
->>> joining(["Mr", "Burns"], "No wait")
-'MrNo waitBurns'
+>>> joining(["One", "Two", "Three", "Four"], " and ")
+'One and Two and Three and Four'
 ```
 
 You can use this template:

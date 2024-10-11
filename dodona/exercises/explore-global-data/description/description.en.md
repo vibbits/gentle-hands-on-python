@@ -33,7 +33,7 @@ Header1,Header2
 Given this file as input, your function should produce:
 
 ```python
-{"Header1": 123, "Header2": 456}
+{"Header1": "123", "Header2\n": "456"}
 ```
 
 <details>

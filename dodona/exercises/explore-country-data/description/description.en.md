@@ -11,7 +11,8 @@ confident in it's correctness. This time, you will write a better, more testable
 a list of dictionaries keyed by column header and with values from each row of data in the CSV source.
 
 This is a more generic version of `parse_csv`. It can read CSV data from a file, the internet, or
-any resource.
+any resource that it is are provided. If it is provided a `str` then the data is CSV formatted data
+for it to parse directly.
 
 Here is an example CSV file:
 

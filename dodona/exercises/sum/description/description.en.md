@@ -3,7 +3,7 @@ accept a list of numbers (integers or floats) as its input argument. Your output
 number.
 
 Here are some example executions. Do not forget to include a docstring and a test function
-called `test_factorial` that returns `"Success"` if the `factorial` function passes all tests.
+called `test_summing` that returns `"Success"` if the `summing` function passes all tests.
 
 ## Example
 

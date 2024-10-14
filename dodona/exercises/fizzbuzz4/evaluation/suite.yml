@@ -1,7 +1,11 @@
 - tab: "fizzbuzz"
   testcases:
+    - expression: 'fizzbuzz([])'
+      return: !expression '[]'
     - expression: 'fizzbuzz([1, 2, 3, 4, 5])'
       return: !expression '[1, 2, "Fizz", 4, "Buzz"]'
+    - expression: 'fizzbuzz(["a", "b", "c", "d", "e"])'
+      return: !expression '["a", "b", "Fizz", "d", "Buzz"]'
     - expression:
         python: "submission.fizzbuzz.__doc__ is not None"
       return: true

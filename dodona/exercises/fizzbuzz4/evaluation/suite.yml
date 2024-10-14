@@ -6,6 +6,8 @@
       return: !expression '[1, 2, "Fizz", 4, "Buzz"]'
     - expression: 'fizzbuzz(["a", "b", "c", "d", "e"])'
       return: !expression '["a", "b", "Fizz", "d", "Buzz"]'
+    - expression: "fizzbuzz([None, None, None, None, None, None, None, None, None, None])"
+      return: !expression '[None, None, "Fizz", None, "Buzz", "Fizz", None, None, "Fizz", "Buzz"]'
     - expression:
         python: "submission.fizzbuzz.__doc__ is not None"
       return: true

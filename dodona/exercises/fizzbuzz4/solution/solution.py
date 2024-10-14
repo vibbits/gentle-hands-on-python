@@ -10,6 +10,7 @@ def test_fizzbuzz():
     assert fizzbuzz([]) == []
     assert fizzbuzz([1, 2, 3, 4, 5]) == [1, 2, "Fizz", 4, "Buzz"]
     assert fizzbuzz(['a', 'b', 'c', 'd', 'e']) == ['a', 'b', "Fizz", 'd', "Buzz"]
+    assert fizzbuzz([None, None, None, None, None, None, None, None, None, None]) == [None, None, "Fizz", None, "Buzz", "Fizz", None, None, "Fizz", "Buzz"]
     return "Success"
 
 if __name__ == "__main__":

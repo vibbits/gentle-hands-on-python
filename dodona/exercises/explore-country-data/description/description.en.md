@@ -30,9 +30,14 @@ Given this file as input, your function should produce:
 You can use this template:
 
 ```python
+import io
 import csv
 
-def parse_csv(csv_source) -> list[dict[str, str]]:
+def parse_csv(csv_source: io.BufferedIOBase | io.TextIOBase | str) -> list[dict[str, str]]:
+    if type(csv_source) == str:
+        # Parse data in csv_source as if it is CSV data
+    else:
+        csv_source.read()  # This could give you bytes or a str
   ...
 ```
 
@@ -41,10 +46,10 @@ def parse_csv(csv_source) -> list[dict[str, str]]:
     You should be prepared to handle 3 possible types of input:
     <ul>
         <li>
-            A resource that you can read <code>bytes</code> from (which you will need to decode into a <code>str</code>),
+            A resource (<code>io.BufferedIOBase</code>) that you can read <code>bytes</code> from (which you will need to decode into a <code>str</code>),
         </li>
         <li>
-            A resource that you can read <code>str</code> data from, or
+            A resource (<code>io.TextIOBase</code>) that you can read <code>str</code> data from, or
         </li>
         <li>
             A <code>str</code>.

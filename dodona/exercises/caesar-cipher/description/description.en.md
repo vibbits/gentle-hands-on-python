@@ -53,7 +53,7 @@ You can use a key of `13` to decode my message. The message is in a file called,
 "A MESSAGE"
 >>> decrypt(b'', 12)
 ""
->>> decrypt(b'QBUN CM SIOL HUGY', 6)
+>>> decrypt(b'CNGZ OY EUAX TGSK', 6)
 "WHAT IS YOUR NAME"
 >>> decrypt(b'HELLO WORLD', 26)
 "HELLO WORLD"

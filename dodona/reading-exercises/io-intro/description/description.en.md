@@ -156,3 +156,23 @@ print(contents)
 What is printed by this? Is there anything strange about the output? Did you notice
 the `b` at the beginning of the output? Continue to the next lesson to find out what
 that `b` means.
+
+## Convenience: `pathlib`
+
+The Python standard library provides a module called `pathlib` to make dealing specifically with files (and not other types of resources) easier. For example, you can read all of the data as text from a file with:
+
+```python
+from pathlib import Path
+
+file_contents = Path("readfile.txt").read_text()
+```
+
+Writing text to a file is similarly convenient:
+
+```python
+from pathlib import Path
+
+Path("writefile.txt").write_text("Hello from Python")
+```
+
+You should take some time to [explore the pathlib documentation](https://docs.python.org/3/library/pathlib.html) to find out what else it is useful for.

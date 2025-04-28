@@ -32,7 +32,7 @@ need to understand these concepts whether you just want to download and modify a
 to build programs for yourself. We encourage you to organise study groups among yourselves. These can provide you with some external
 motivation to practice. A very effective way of using these is to learn a concept and teach it to your partner.
 
-In order to get the most out of the course, you should plan to dedicate at least 30 minutes a day (or 1-2 hours per week) to
+In order to get the most out of the course, you should plan to dedicate at least one focused hour a day (or 3-4 hours per week) to
 the course. Programming is a skill you can learn and you have taken the first step. But, like any other skill, it requires
 dedicated practice. Unfortunately there are no shortcuts. Also we need to pop the bubble of your own expectations for the course:
 two-thirds of you expect to "know" Python after successfully completing the course. Python is a big, complex language that cannot
@@ -87,6 +87,12 @@ correct exercise answers. While we will not penalise you for doing this we do th
 to learn, not copy and paste answers from an LLM without learning anything. When you feel the urge to ask an LLM we encourage
 you to take a break, do something else, and come back to the problem later when you're feeling refreshed. This feeling of not
 quite "getting" the problem, the feeling of discomfort means you're about to learn something. Please don't sabotage yourself.
+
+
+## Closing thoughts
+
+The most important thing we want you to know is that there's no shame in asking for help. Use the resources (us) that you
+suddenly find available to you.
 
 ## FAQ:
 

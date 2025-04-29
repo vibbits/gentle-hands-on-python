@@ -10,6 +10,14 @@ __pycache__/
 01_Introduction.ipynb
 02_Types.ipynb
 03_Functions.ipynb
-04_Conditions.ipynb
-05_Lists_Tuples.ipynb
+04_Decisions.ipynb
+05_Collections.ipynb
 06_Loops.ipynb
+07_Dictionaries.ipynb
+08_Files.ipynb
+09_Plotting.ipynb
+10_Conclusion.ipynb
+
+
+# Videos
+videos/

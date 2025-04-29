@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "en": "Length of the Highest Quality Subsequence"
+    }
+  },
+  "labels": [
+    "real-world programming"
+  ],
+  "internals": {
+    "token": "n4nH3mpZMfEQVjXPvEApNZIBkjHxy7Nz6GQcZNmuFJ5Hn2YddUIrFPfajyxWH3sY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

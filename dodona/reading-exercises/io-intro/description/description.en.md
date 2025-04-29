@@ -1,10 +1,5 @@
 # Fetching and storing data
 
-
-<div style="display:flex; align-items:center; justify-content:center; width:100%; height: 15rem; background-color:lightsteelblue">
-Video placeholder
-</div>
-
 <iframe style="width: 100%; height:380px; position:sticky; top:30px" src="https://vibbits.github.io/gentle-hands-on-python/"></iframe>
 
 

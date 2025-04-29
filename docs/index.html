@@ -20,19 +20,6 @@
       body {
         background-color: black;
       }
-      #jquery-terminal-logo {
-        color: white;
-        border-color: white;
-        position: absolute;
-        top: 7px;
-        right: 18px;
-        z-index: 2;
-      }
-      #jquery-terminal-logo a {
-        color: gray;
-        text-decoration: none;
-        font-size: 0.7em;
-      }
       #loading {
         display: inline-block;
         width: 50px;
@@ -60,9 +47,6 @@
     </style>
   </head>
   <body>
-    <div id="jquery-terminal-logo">
-      <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>
-    </div>
     <div id="loading"></div>
     <script>
       "use strict";
@@ -72,7 +56,7 @@
       }
 
       async function main() {
-        const { loadPyodide } = await import("https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.mjs");
+        const { loadPyodide } = await import("https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.mjs");
         // to facilitate debugging
         globalThis.loadPyodide = loadPyodide;
 

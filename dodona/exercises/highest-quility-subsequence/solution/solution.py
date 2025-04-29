@@ -35,6 +35,7 @@ def test_best_subsequence_length():
     assert [47, 3] == best_subsequence_length(resource)
     resource = io.StringIO("@SEQ\nATGC\n+\nA2YY")
     assert [89, 2] == best_subsequence_length(resource)
+    return "Success"
 
 if __name__ == "__main__":
     test_best_subsequence_length()

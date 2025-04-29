@@ -54,7 +54,7 @@ So, what topics will you cover? The course is broadly organised into 3 parts:
 3. Real-world programming. This final part of the course builds upon the first 2 parts and sets you loose on a realistic programming
    problem in a realistic environment. You will also be introduced to I/O and plotting in this section.
    
-There are 31 practical exercises for you to complete, and 4 projects. In order to receive a certificate for completing the course
+There are 32 practical exercises for you to complete, and 4 projects. In order to receive a certificate for completing the course
 you must have attempted 75% of the exercises and submitted a completed project by email to the instructors. These must be
 completed/submitted no later than 17u (close-of-business) on 24 June.
    

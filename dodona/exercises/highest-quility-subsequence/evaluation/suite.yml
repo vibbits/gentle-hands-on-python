@@ -5,7 +5,7 @@ tabs:
     - testcases:
       - statement: "import io"
       - expression:
-          python: "submission.best_subsequence_length(io.StringIO('@SEQ\nATGCC\n+\n*///%'))"
+          python: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATGCC\\n+\\n*///%'))"
         return: [47, 3]
         description: "Does your function work on a valid fastq file?"
 
@@ -18,25 +18,26 @@ tabs:
     - testcases:
       - statement: "import io"
       - expression:
-          python: "submission.best_subsequence_length(io.StringIO('@SEQ\nATGCC\n+\n*'))"
+          python: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATGCC\\n+\\n*'))"
         exception: "Quality scores do not match"
 
     - testcases:
       - statement: "import io"
       - expression:
-          python: "submission.best_subsequence_length(io.StringIO('@SEQ\nATGCC\n+\n     '))"
+          python: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATGCC\\n+\\n     '))"
         exception: "Quality score too low"
 
     - testcases:
       - statement: "import io"
       - expression:
-          python: "submission.best_subsequence_length(io.StringIO('@SEQ\nATGCC\n+\n\x7f\x7f\x7f\x7f\x7f'))"
+          python: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATGCC\\n+\\n\\x7f\\x7f\\x7f\\x7f\\x7f'))"
         exception: "Quality score too low"
 
     - testcases:
       - expression:
           python: "submission.clean_global_data.__doc__ is not None"
         return: true
+
 - tab: "test_best_subsequence_length"
   testcases:
     - expression: "test_best_subsequence_length()"

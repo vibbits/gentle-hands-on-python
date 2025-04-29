@@ -21,3 +21,17 @@ __pycache__/
 
 # Videos
 videos/
+
+# Other
+dodona/exercises/explore-global-data/description/media/test1.csv
+dodona/exercises/explore-global-data/description/media/test2.csv
+dodona/exercises/explore-global-data/solution/emma.py
+dodona/exercises/explore-global-data/solution/lore.py
+dodona/exercises/explore-global-data/solution/lore_orig.py
+dodona/exercises/explore-global-data/solution/solution2.py
+dodona/reading-exercises/enumerate-function/
+dodona/reading-exercises/final-plot/description/media/output.png
+dodona/reading-exercises/final-plot/solution/aus-output.png
+dodona/reading-exercises/final-plot/solution/bel-output.png
+dodona/reading-exercises/final-plot/solution/output.png
+dodona/reading-exercises/final-plot/solution/rus-output.png

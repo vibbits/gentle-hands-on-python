@@ -1,4 +1,4 @@
-Slicing presents a possible solution to playing the FizzBuzz game: slice starting at the 3$^{rd}$
+Slicing presents a possible solution to playing the FizzBuzz game: slice starting at the 3<sup>rd</sup>
 element of a list with a `step` of 3, assign an appropriately sized list of `["Fizz"]` strings.
 The same for 5. Write a function, called `fizzbuzz()` that attempts to play the Fizz Buzz game in
 this way. The input will be a list containing the counted numbers, you should use slicing to
@@ -7,7 +7,7 @@ replace the appropriate numbers with `"Fizz"` or `"Buzz"`.
 You can use this template:
 
 ```python
-def fizzbuzz4(counted: list[int]) -> list[str | int]:
+def fizzbuzz(counted: list[int]) -> list[str | int]:
     counted[_:_:3] = ["Fizz"] * (len(counted) // 3)
     counted[_:_:5] = ["Buzz"] * (len(counted) // 5)
     return counted

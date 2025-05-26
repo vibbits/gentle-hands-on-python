@@ -54,7 +54,7 @@ You can use this template for your function:
 ```python
 import typing
 
-def best_subsequence_length(data: typing.BinaryIO) -> list[int]:
+def best_subsequence_length(data: typing.TextIO) -> list[int]:
   ...
 ```
 
@@ -64,9 +64,13 @@ called `test_best_subsequence_length` that returns `"Success"` if the `best_subs
 ## Example
 
 ```python
-import io
+from pathlib import Path
 
 def test_best_subsequence_length():
-  resource = io.BytesIO(b"@SEQ\nATGC\n+\nA2YY")
-  assert [89, 2]
+    path = Path("temporary.fastq")
+    with path.open(mode="w") as setup:
+        setup.write("@SEQ\nATGC\n+\nA2YY")
+
+    with path.open() as resource:
+        assert [89, 2] == best_subsequence_length(resource)
 ```

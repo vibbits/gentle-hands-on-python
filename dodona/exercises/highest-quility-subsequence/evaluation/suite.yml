@@ -11,6 +11,13 @@ tabs:
 
     - testcases:
       - statement: "import io"
+      - expression: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATGC\\n+\\nA2YY'))"
+        return: [89, 2]
+        exception: "Wat?"
+        description: "Does your function work on a valid fastq file?"
+
+    - testcases:
+      - statement: "import io"
       - expression:
           python: "submission.best_subsequence_length(io.StringIO(''))"
         exception: "Invalid FASTQ data"

@@ -10,6 +10,12 @@ tabs:
         description: "Does your function work on a valid fastq file?"
 
     - testcases:
+    - expression:
+        python: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATAATGATTC\\n+\\n*///%%////'))"
+      return: [47, 4]
+      description: "Highest subsequence is not first one encountered."
+
+    - testcases:
       - statement: "import io"
       - expression: "submission.best_subsequence_length(io.StringIO('@SEQ\\nATGC\\n+\\nA2YY'))"
         return: [89, 2]

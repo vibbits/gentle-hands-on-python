@@ -7,12 +7,11 @@
   "labels": [
     "real-world programming"
   ],
-  "evaluation": {
-    "network_enabled": true
-  },
+	"evaluation": {
+		"network_enabled": true
+	},
   "internals": {
     "token": "G4iAJA8szv6ihdYCfAXzZdQH_Zwp9BugYTY2t-YkRGAYBPXDcpU_UHSRE4S6WJ62",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
-  "access": "public"
+  }
 }

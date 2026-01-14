@@ -19,8 +19,8 @@
 Trainers then students introduce themselves:
 
 - name
-- what I do
-- an interesting fact
+- what you do
+- why you're here
 
 ## Organisation
 

@@ -10,7 +10,7 @@ completed 2 projects together during the course: a program to play FizzBuzz and 
 plot climate data. You've also completed a major project on your own! That's a huge achievement,
 one you should not underestimate!
 
-If you're not feeling confident, that's ok. Other the past 2 weeks you've had to take in,
+If you're not feeling confident, that's ok. Over the past 4 weeks you've had to take in,
 understand, and apply an enormous amount of new knowledge. The best thing you can do now is
 try to practice, try to use what you've learned wherever you get an opportunity.
 
@@ -36,7 +36,5 @@ This is actually just step 1. There's no step 2!
 
 ## Where to go next
 * [The Hitchikers Guide to Python](https://docs.python-guide.org/)
-* [VIB Advanced Python Course]()
-* [VIB Data Analysis with Python course](https://training.vib.be/all-trainings/python-downstream-data-analysis)
-* [VIB Introduction to Machine Learning course](https://training.vib.be/all-trainings/tour-machine-learning-classification-1)
-* [VIB Deep Learning in Biology course](https://training.vib.be/all-trainings/deep-learning-biology-0)
+* [VIB Python for Spatial Data Analysis](https://training.vib.be/all-trainings/python-spatial-data-analysis-0)
+* [VIB Machine Learning and Deep Learning Fundamentals](https://training.vib.be/all-trainings/machine-learning-and-deep-learning-fundamentals)
